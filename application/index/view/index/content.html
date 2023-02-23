@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>用户管理|{:config('system.title')}</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+<link rel="stylesheet" type="text/css" href="__STATIC__/layui/css/layui.css"  />
+<script type="text/javascript" src="__JS__/jquery.js"></script>
+<script type="text/javascript" src="__JS__/winpop.js"></script>
+<script type="text/javascript" src="__STATIC__/layui/layui.all.js"></script>
+</head>
+<body style="background-color: #F2F2F2;">
+
+
+<div class="layui-container" style="margin-top:100px;">
+	<div class="layui-row">
+		<div id="tree" class="layui-col-md3 layui-col-md-offset1">
+			<div class="layui-card">
+			  <div class="layui-card-header"><font style="font-size:18px;">志愿者数：</font></div>
+			  <div class="layui-card-body">
+			    <font style="font-weight:bold;font-size:38px;color:blue;">{$member_count}</font>
+			    <hr>
+			    <font style="font-size:18px;">今日新增：{$member_today_count}</font>
+			  </div>
+			</div>
+		</div>
+		<div id="tree" class="layui-col-md3 layui-col-md-offset1">
+			<div class="layui-card">
+			  <div class="layui-card-header"><font style="font-size:18px;">接单总数：</font></div>
+			  <div class="layui-card-body">
+			    <font style="font-weight:bold;font-size:38px;color:red;">{$item_count}</font>
+			    <hr>
+			    <font style="font-size:18px;">今日新增：{$item_today_count}</font>
+			  </div>
+			</div>
+		</div>
+		<div id="tree" class="layui-col-md3 layui-col-md-offset1">
+			<div class="layui-card">
+			  <div class="layui-card-header"><font style="font-size:18px;">活动总数：</font></div>
+			  <div class="layui-card-body">
+			    <font style="font-weight:bold;font-size:38px;color:Orange;">{$activity_count}</font>
+			    <hr>
+			    <font style="font-size:18px;">正在进行中：{$activity_today_count}</font>
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

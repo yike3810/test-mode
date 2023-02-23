@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>组织机构|{:config('system.title')}</title>
+    <link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+    <link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/layui/css/layui.css"  />
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/layui/layui.all.js"></script>
+    <script type="text/javascript" src="__JS__/echarts.min.js"></script>
+</head>
+<body>
+<div class="layui-fluid">
+	<div id="main" style="width: 100%;height:800px;margin-top:20px;"></div>
+</div>
+    <script>
+    var myChart = echarts.init(document.getElementById('main'));
+    option = {
+    	    title: {
+    	        text: '服务队',
+    	        subtext: '',
+    	        left: 'center'
+    	    },
+    	    tooltip: {
+    	        trigger: 'item',
+    	        formatter: '{a} <br/>{b} : {c} ({d}%)'
+    	    },
+    	    legend: {
+    	        orient: 'vertical',
+    	        left: 'left',
+    	        data: ['送温暖志愿服务分队', '牵手关爱志愿服务分队', '家风传习志愿服务分队', '农业技术志愿服务分队', '教育志愿服务分队', '法律志愿服务分队']
+    	    },
+    	    series: [
+    	        {
+    	            name: '服务次数',
+    	            type: 'pie',
+    	            radius: '55%',
+    	            center: ['50%', '60%'],
+    	            data: [
+    	                {value: 335, name: '送温暖志愿服务分队'},
+    	                {value: 310, name: '牵手关爱志愿服务分队'},
+    	                {value: 234, name: '家风传习志愿服务分队'},
+    	                {value: 135, name: '农业技术志愿服务分队'},
+    	                {value: 1548, name: '教育志愿服务分队'},
+    	                {value: 1548, name: '法律志愿服务分队'}
+    	            ],
+    	            emphasis: {
+    	                itemStyle: {
+    	                    shadowBlur: 10,
+    	                    shadowOffsetX: 0,
+    	                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+    	                }
+    	            }
+    	        }
+    	    ]
+    	};
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+    </script>
+</body>
+</html>

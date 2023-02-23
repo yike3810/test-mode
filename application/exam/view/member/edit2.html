@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>修改会员信息{:config('system.title')}</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="__STATIC__/layui/css/layui.css"  media="all">
+  <link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+  <script type="text/javascript" src="__STATIC__/js/common.js"></script>
+</head>
+<body style="margin:18px 18px 0px 0px;">
+	<form class="layui-form" action="{:url('Member/memberedit_do')}" lay-filter="MemberEedit" method="post">
+		<div class="layui-form-item layui-hide">
+			<label class="layui-form-label">会员ID：</label>
+			<div class="layui-input-block">
+				<input type="text" name="member_id" value="{$result['member_id']}" placeholder="{$result['member_id']}" id="member_id" class="layui-input"/>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">会员名：</label>
+			<div class="layui-input-block">
+				<input type="text" name="member_name" value="{$result['member_name']}" placeholder="{$result['member_name']}" id="member_name"  class="layui-input"/>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">真实姓名：</label>
+			<div class="layui-input-block">
+				<input type="text" name="real_name" value="{$result['real_name']}" placeholder="{$result['real_name']}" id="real_name"  class="layui-input"/>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">性别：</label>
+			<div class="layui-input-block">
+				<select lay-filter="sex" name="sex">
+					<option value=" ">请选择</option>
+					<option value="73" {if condition="$result['sex'] eq '73'"}selected="selected"{/if}>男</option>
+					<option value="74" {if condition="$result['sex'] eq '74'"}selected="selected"{/if}>女</option>
+				</select>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">手机号码：</label>
+			<div class="layui-input-block">
+				<input type="tel" name="phone" id="phone" value="{$result['phone']}" placeholder="{$result['phone']}" class="layui-input" />
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">政治面貌：</label>
+			<div class="layui-input-block">
+				<select lay-filter="political_status" name="political_status">
+					<option value=" ">请选择</option>
+					<option value="党员" {if condition="$result['political_status'] eq '党员'"}selected="selected"{/if}>党员</option>
+					<option value="团员" {if condition="$result['political_status'] eq '团员'"}selected="selected"{/if}>团员</option>
+					<option value="群众" {if condition="$result['political_status'] eq '群众'"}selected="selected"{/if}>群众</option>
+				</select>
+			</div>
+		</div>
+		<div class="layui-form-item">
+			<label class="layui-form-label">身份证：</label>
+			<div class="layui-input-block">
+				<input type="text" name="id_number" id="id_number" value="{$result['id_number']}" placeholder="{$result['id_number']}" class="layui-input" />
+			</div>
+		</div>
+
+
+		<div class="layui-form-item">
+			<label class="layui-form-label">选择单位：</label>
+			<div class="layui-input-inline">
+				<select name="department_type" id="department_type" lay-filter="department_type" class="select" >
+					<option value="">请选择</option>
+					{volist name="dmenu_list" id="vo2"}
+					<option value="{$vo2.ID}" {if condition="$vo2.ID eq  $department_type "}selected="selected"{/if} >{$vo2.MenuName}</option>
+					{/volist}
+				</select>
+			</div>
+			<div class="layui-input-inline " id="parent_name_div">
+			<select name="parent_id" id="parent_id" lay-filter="parent_id" class="select" lay-verify="required">
+				<option value="-1">--</option>
+
+				{volist name="parent_id_list" id="vo2"}
+				<option value="{$vo2.id}" {if condition="$vo2.id eq  $result['parent_id'] || $vo2.id eq  $result['department_id']  "}selected="selected"{/if} >{$vo2.department_name}</option>
+				{/volist}
+
+			</select>
+		</div>
+		<div class="layui-input-inline " id="department_div">
+		<select name="department_id" id="department_id" lay-filter="department_id" class="select" lay-verify="required">
+			<option value="-1">--</option>
+
+			{volist name="department_id_list" id="vo2"}
+			<option value="{$vo2.id}" {if condition="$vo2.id eq  $result['department_id'] "}selected="selected"{/if} >{$vo2.department_name}</option>
+			{/volist}
+
+		</select>
+		</div>
+		</div>
+		<div class="layui-form-item">
+		  <div class="layui-input-block">
+		    <button type="submit" class="layui-btn" lay-submit="" lay-filter="member_subit">提交</button>
+		    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+		  </div>
+		</div>
+	</form>
+<script src="__STATIC__/layui/layui.js" charset="utf-8"></script>
+<script src="__JS__/jquery-3.4.1.min.js" charset="utf-8"></script>
+<script>
+
+layui.use(['form', 'layedit', 'laydate'], function(){
+  var form = layui.form
+  ,layer = layui.layer
+  ,layedit = layui.layedit
+  ,laydate = layui.laydate;
+  
+  //日期
+  laydate.render({
+    elem: '#date'
+  });
+  laydate.render({
+    elem: '#date1'
+  });
+  
+  //创建一个编辑器
+  var editIndex = layedit.build('LAY_demo_editor');
+  
+  //监听指定开关
+  form.on('switch(switchTest)', function(data){
+    layer.msg('开关checked：'+ (this.checked ? 'true' : 'false'), {
+      offset: '6px'
+    });
+    layer.tips('温馨提示：请注意开关状态的文字可以随意定义，而不仅仅是ON|OFF', data.othis)
+  });
+  
+  //监听选择部门
+	form.on('select(department_type)', function(data){
+		var id = data.value;
+		$("#parent_id option:not(:eq(0))").remove();
+		$("#department_id option:not(:eq(0))").remove();
+		form.render("select");
+		if('' != id) {
+			$.ajax({
+				type : 'post',
+				url:"{:url('Member/getDptlist')}",
+				data:{id: id},
+				dataType:"json",
+				success : function(data) {
+					if(data.status == 1) {
+						$("#parent_name_div").removeClass("layui-hide");
+						$("#parent_id").append(data.data);
+						form.render("select");
+					}else {
+
+
+					}
+				}
+			});
+		}
+	})
+	form.on('select(parent_id)', function(data){
+		var id = data.value;
+		$("#department_id option:not(:eq(0))").remove();
+		form.render("select");
+		if('' != id) {
+			$.ajax({
+				type : 'post',
+				url:"{:url('Member/getDptlist2')}",
+				data:{id: id},
+				dataType:"json",
+				success : function(data) {
+					if(data.status == 1) {
+						$("#department_div").removeClass("layui-hide");
+						$("#department_id").append(data.data);
+						form.render("select");
+					}else {
+
+
+					}
+				}
+			});
+		}
+	})
+  
+  //监听提交
+  // form.on('submit(member_subit)', function(data){
+	// if(!$('.department_s').is(':checked'))
+	// {
+	// 	alert("请选择县直部门或者乡镇村！");
+	// 	return false;
+	// }
+	// if(data.field.department_s == 110 && data.field.department_id_unit == 0)
+	// {
+	// 	alert("请选择单位！");
+	// 	return false;
+	// }
+	// if(data.field.department_s == 111 && data.field.department_id == 0)
+	// {
+	// 	alert("请选择乡镇！");
+	// 	return false;
+	// }
+  // });
+ 
+  //表单赋值
+  layui.$('#LAY-component-form-setval').on('click', function(){
+    form.val('example', {
+      "username": "贤心" // "name": "value"
+      ,"password": "123456"
+      ,"interest": 1
+      ,"like[write]": true //复选框选中状态
+      ,"close": true //开关状态
+      ,"sex": "女"
+      ,"desc": "我爱 layui"
+    });
+  });
+  
+  //表单取值
+  layui.$('#LAY-component-form-getval').on('click', function(){
+    var data = form.val('example');
+    alert(JSON.stringify(data));
+  });
+  
+});
+</script>
+
+</body>
+</html>

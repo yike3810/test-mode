@@ -1,0 +1,131 @@
+---------------------------------------------------------------
+[ 2022-05-17T15:21:37+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/web.html
+[运行时间：1.282785s] [吞吐率：0.78req/s] [内存消耗：2,237.20kb] [文件加载：88]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'web',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->web[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\public\error.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-17T15:21:40+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/index.html
+[运行时间：0.047235s] [吞吐率：21.17req/s] [内存消耗：2,199.66kb] [文件加载：86]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=b010mop10h3heqmtpvqge38c4b',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-05-17T15:21:40+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.9082955622508473
+[运行时间：0.135685s] [吞吐率：7.37req/s] [内存消耗：1,839.53kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=b010mop10h3heqmtpvqge38c4b',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_9082955622508473' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File

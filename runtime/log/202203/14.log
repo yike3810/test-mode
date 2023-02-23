@@ -1,0 +1,280 @@
+---------------------------------------------------------------
+[ 2022-03-14T17:00:32+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/web.html
+[运行时间：2.003242s] [吞吐率：0.50req/s] [内存消耗：3,469.34kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'web',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=4db31ae32c199665a2e4d0d13491c182',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=system',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->web[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\web.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024562s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.022754s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002831s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.014383s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001789s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1647248431'  WHERE  (  Uid = 1 ) [ RunTime:0.002186s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1647248311' [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.014132s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid = 0 ) ORDER BY `Msort` ASC [ RunTime:0.002204s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001771s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.017721s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001619s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001275s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001309s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '1' ) [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '362' ) LIMIT 1 [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '362' ) [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001224s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.012148s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001674s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001281s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001337s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001099s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '349' ) LIMIT 1 [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '349' ) [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001283s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '29' ) [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '1' ) [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '2' ) [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '3' ) [ RunTime:0.001208s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '62' ) [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '144' ) [ RunTime:0.001268s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '64' ) [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '75' ) [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001303s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1647248431'  WHERE  (  Uid = 1 ) [ RunTime:0.001282s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1647248311' [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1647248431'  WHERE  (  Uid = 1 ) [ RunTime:0.001363s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1647248311' [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001248s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1647248431'  WHERE  (  Uid = 1 ) [ RunTime:0.001272s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1647248311' [ RunTime:0.001264s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+---------------------------------------------------------------
+[ 2022-03-14T17:00:34+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/web.html
+[运行时间：0.229560s] [吞吐率：4.36req/s] [内存消耗：3,469.27kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'web',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=4db31ae32c199665a2e4d0d13491c182',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->web[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\web.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024236s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005681s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002761s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004372s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001676s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1647248434'  WHERE  (  Uid = 1 ) [ RunTime:0.002097s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1647248314' [ RunTime:0.001642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.003063s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid = 0 ) ORDER BY `Msort` ASC [ RunTime:0.001797s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.003531s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001284s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001333s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '1' ) [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '362' ) LIMIT 1 [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '362' ) [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001286s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001309s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.012033s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001959s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001504s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001383s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.012266s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001962s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '349' ) LIMIT 1 [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '349' ) [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.014210s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001810s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '29' ) [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '1' ) [ RunTime:0.001712s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '2' ) [ RunTime:0.001507s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '3' ) [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '62' ) [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '144' ) [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '64' ) [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '75' ) [ RunTime:0.001352s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001504s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001411s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1647248434'  WHERE  (  Uid = 1 ) [ RunTime:0.001578s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1647248314' [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001441s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1647248434'  WHERE  (  Uid = 1 ) [ RunTime:0.001387s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1647248314' [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001296s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1647248434'  WHERE  (  Uid = 1 ) [ RunTime:0.001374s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1647248314' [ RunTime:0.001571s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>导入新客户|{:config('system.title')}</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="__JS__/Public.js"></script>
+<script type="text/javascript" src="__JS__/winpop.js"></script>
+<script type="text/javascript" src="__JS__/check.js"></script>
+<script type="text/javascript" src="__JS__/My97DatePicker/WdatePicker.js"></script>
+<script>
+$(document).ready(function() {
+	var $client = $('#client');
+	$('.submit').click(function() {
+		wintq('正在处理，请稍后...',4,20000,0,'');
+		$('form').submit();
+	});
+});
+</script>
+</head>
+<body>
+<div id="content" style="padding-bottom:20px;">
+    <form action="{:url('Question/questiontenimport_do')}" method="post"  enctype="multipart/form-data">
+    <table id="client"  style="width:600px" border="1" bordercolor="#CCCCCC" cellpadding="0" cellspacing="0">
+    	<tr class="tr">
+        	<td class="left">请选择文件：</td>
+        	<td colspan="3"><input name="question_info" type="file"  size="50" /><font></font></td>
+        </tr>
+        <tr class="tr">
+        	<td colspan="4"><a href="__STATIC__/xls/kaoshiten_template.xlsx" target="_black">导入excel模板下载</a><font>导入题目会覆盖已录入题目，请慎重操作！</font></td>
+        </tr>
+    </table>
+    <input type="submit" class="submit" value="提交" style="margin:20px 0 0 30px;" />
+    <input type="hidden" name="exam_id" value="{$Think.get.exam_id}" />
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>考试题目管理|{:config('system.title')}</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/uploadify.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="__JS__/bootstrap-fileinput-master/css/fileinput.min.css">
+<script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="__JS__/Public.js"></script>
+<script type="text/javascript" src="__JS__/winpop.js"></script>
+<script type="text/javascript" src="__JS__/check.js"></script>
+<script type="text/javascript" src="__JS__/jquery.uploadify.js"></script>
+<script type="text/javascript" src="__JS__/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="__CSS__/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__JS__/bootstrap-fileinput-master/js/fileinput.min.js"></script>
+<script type="text/javascript" src="__JS__/bootstrap-fileinput-master/js/locales/zh.js"></script>
+<script type="text/javascript" src="__STATIC__/js/common.js"></script>
+<script>
+$(document).ready(function() {
+    $('#add').click(function() {
+		popload('新增考题',860,500,"{:url('Question/add')}?exam_id={$Think.get.exam_id}");
+		addDiv($('#iframe_pop'));
+		popclose();
+	});
+    $('#import').click(function() {
+		popload('导入考题',660,300,"{:url('Question/questionimport')}?exam_id={$Think.get.exam_id}");
+		addDiv($('#iframe_pop'));
+		popclose();
+	});
+	$('#content #table .tr .edit').click(function(event) {
+		event.preventDefault();
+		var question_id=$(this).attr('href').replace(/[^0-9]/ig,"");
+		if (question_id=='' || isNaN(question_id)) {
+			wintq('ID参数不正确',3,1000,1,'');
+			return false;
+		}else {
+			popload('修改题目信息',860,500,"{:url('Question/edit')}?question_id="+question_id);
+			addDiv($('#iframe_pop'));
+			popclose();
+		}
+	});
+	$('#content #table .tr .del').click(function(event) {
+		event.preventDefault();
+		if (!confirm('确定要删除该数据吗？')) {
+			return false;
+		}
+		var question_id=$(this).attr('href').replace(/[^0-9]/ig,"");
+		if (question_id=='' || isNaN(question_id)) {
+			wintq('ID参数不正确',3,1000,1,'');
+			return false;
+		}else {
+			wintq('正在删除，请稍后...',4,20000,0,'');
+			$.ajax({
+				url:"{:url('Question/del')}",
+				dataType:'json',
+				type:'POST',
+				data:'post=ok&question_id='+question_id,
+				success: function(data) {
+					if (data.s=='ok') {
+						wintq('删除成功',1,1500,0,'?');
+					}else {
+						wintq(data.s,3,1500,1,'');
+					}
+				}
+			});
+		}
+	});
+});
+</script>
+<style type="text/css">
+#table td.input {
+	border: 1px solid orange;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: absolute;
+	padding: 8px 0;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+#table td.input {
+	padding: 0;
+	position: relative;
+}
+
+#table td.hover {
+	background: #eee;
+}
+</style>
+</head>
+<body>
+<div id="content" style="padding-bottom:20px;">
+    <table id="client" border="1" bordercolor="#CCCCCC" style="width:1000px" align="left" cellpadding="0" cellspacing="0">
+    	<tr class="tr">
+            <td class="left" style="width:136px;">考试名称：</td>
+            <td>{$exam_info['exam_name']}</td>
+        </tr>
+    	<tr class="tr">
+            <td class="left">答题时间：</td>
+            <td>
+				{$answer_info['start_time']}
+				~{$answer_info['submit_time']}
+			<font></font></td>
+        </tr>
+    	<tr class="tr">
+            <td class="left">IP：</td>
+            <td>{$answer_info['ip']}<font></font></td>
+        </tr>    	
+        <tr class="tr">
+            <td class="left">您的得分：</td>
+            <td>{$answer_info['exam_points']}/{$exam_info['sum_exam_points']}<font></font></td>
+        </tr>
+        <tr class="tr">
+            <td class="left">答对题数：</td>
+            <td>{$answer_info['correct_answer_num']}/{$exam_info['sum_question_num']}<font></font></td>
+        </tr>
+    </table>
+    <div style="clear:both;"></div>
+    <h3>
+        <a href="javascript:void(0);" class="h3a">考试答卷</a>
+    </h3>
+    <table id="table" style="width:1000px" border="1" bordercolor="#CCCCCC"  cellpadding="0" cellspacing="0">
+    	<tr class="status_item_list">
+        	<th class="task_list" style="width:70px;">序号</th>
+        	<th class="task_list" style="width:70px;">题型</th>
+            <th class="task_list" style="width:700px;">题目</th>
+            <th class="task_list" style="width:70px;">得分</th>
+        </tr>
+        {empty name="question_list"}<tr class="tr"><td class="tc" colspan="3">暂无数据，等待添加～！</td></tr>{else /}
+        <!--顶级数据-->
+        {volist name="question_list" id="vo"}
+	        <tr class="tr {eq name="mod" value="1"}tr2{/eq} task_list">
+	        	<td class="tc in" title="sort">{$vo.sort}</td>
+	        	<td class="tc se">{$question->question_type_array[$vo.question_type]}</td>
+	            <td class=" in" title="question_title" style="padding-left:20px;">{$vo.question_title}</td>
+	            <td class="tc in" title="question_points">{$vo.question_points}</td>
+	        </tr>
+       	 	{volist name="vo.detail_list" id="dvalue"}
+		        <tr class="tr">
+		        	<td class=" " title="sort"></td>
+		        	<td class=" "></td>
+		            <td class=" " title="question_title" style="padding-left:50px;color:#efa030;">
+		            	{if condition="$vo.question_type eq 1 || $vo.question_type eq 3 "}
+			            	<label><input type="radio" name="question_options_flag{$vo.question_id}[]" class="status" value="1" {if condition="$vo.correct_answer eq $dvalue.question_options_flag"}checked="checked"{/if} disabled="disabled"/>
+			            		{$dvalue.question_options_flag}、{$dvalue.question_options_content}{if condition="$vo.correct_answer eq $dvalue.question_options_flag"}（正确答案）{/if}
+			            	</label>
+		            	{elseif condition="$vo.question_type eq 2 " /}
+			            	<label><input type="checkbox" name="question_options_flag{$vo.question_id}[]" class="comp" value="1" {if condition="strpos($vo.correct_answer,$dvalue.question_options_flag) !== false"}checked{/if} disabled="disabled"/>
+			            		{$dvalue.question_options_flag}、{$dvalue.question_options_content}{if condition="strpos($vo.correct_answer,$dvalue.question_options_flag) !== false"}（正确答案）{/if}
+			            	</label>
+		            	{/if}
+		            </td>
+		            <td class=" " title="question_points"></td>
+		        </tr>
+	        {/volist}
+	        {if condition="$vo.question_type eq 1 || $vo.question_type eq 2 || $vo.question_type eq 3 "}
+	        	<tr class="tr">
+		        	<td class=" " title="sort"></td>
+		        	<td class=" "></td>
+		            <td class=" " title="question_title" style="padding-left:50px;">您的答案：{$vo['answer_detail_info']['detail_content']}{if condition="$vo['answer_detail_info']['answer'] eq 1"} <img src="__STATIC__/image/yes.png">{else /} <img src="__STATIC__/image/no.png">{/if}</td>
+		            <td class=" " title="question_points"></td>
+		        </tr>
+	        {/if}
+	        {if condition="$vo.question_type eq 4 "}
+	        	<tr class="tr">
+		        	<td class=" " title="sort"></td>
+		        	<td class=" "></td>
+		            <td class=" " title="question_title" style="padding-left:50px;"><input name="" value="" type="text" class="ctext" style="width:600px;" /></td>
+		            <td class=" " title="question_points"></td>
+		        </tr>
+		        <tr class="tr">
+		        	<td class=" " title="sort"></td>
+		        	<td class=" "></td>
+		            <td class=" " title="question_title" style="padding-left:50px;">您的答案：{$vo['answer_detail_info']['detail_content']}{if condition="$vo['answer_detail_info']['answer'] eq 1"} <img src="__STATIC__/image/yes.png">{else /} <img src="__STATIC__/image/no.png">{/if}</td>
+		            <td class=" " title="question_points"></td>
+		        </tr>
+	        {/if}
+	        {if condition="$vo.question_type eq 5 "}
+	        	<tr class="tr">
+		        	<td class=" " title="sort"></td>
+		        	<td class=" "></td>
+		            <td class=" " title="question_title" style="padding-left:50px;"><textarea name="notes" class="textarea" style="width:600px; height:60px; margin:6px 0px;"></textarea></td>
+		            <td class=" " title="question_points"></td>
+		        </tr>
+	        	<tr class="tr">
+		        	<td class=" " title="sort"></td>
+		        	<td class=" "></td>
+		            <td class=" " title="question_title" style="padding-left:50px;">您的答案：{$vo['answer_detail_info']['detail_content']}{if condition="$vo['answer_detail_info']['answer'] eq 1"} <img src="__STATIC__/image/yes.png">{else /} <img src="__STATIC__/image/no.png">{/if}</td>
+		            <td class=" " title="question_points"></td>
+		        </tr>
+	        {/if}
+        {/volist}
+        {/empty}
+    </table>
+    <div style="clear:both;margin-bottom:20px;"></div>
+</div>
+</body>
+</html>

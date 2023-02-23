@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>修改活动信息</title>
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="__STATIC__/layui/css/layui.css" media="all">
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__STATIC__/ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__STATIC__/ueditor/ueditor.all.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var ue = UE.getEditor('container', {
+                initialFrameWidth: '100%',
+                initialFrameHeight: 400
+            });
+            //获取内容
+            function getContent() {
+                return UE.getEditor('editor').getContent();
+            }
+        });
+    </script>
+</head>
+<body>
+<form class="layui-form layui-col-md11" id="activity" enctype="multipart/form-data" style="margin-top:25px;">
+    <div class="layui-form-item">
+        <label class="layui-form-label">下拉分类：</label>
+        <div class="layui-input-inline" style="z-index: 99999">
+            <select name="sid" lay-verify="required">
+                <option value="">请选择</option>
+                {volist name='list' id='vo'}
+                <option value="{$vo.ID}" {if condition="$vo['ID'] eq $result['Sid']"}selected{/if}>{$vo.MenuName}</option>
+                {/volist}
+            </select>
+        </div>
+        <div class="layui-form-mid layui-word-aux">* 选下拉分类</div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label ">菜单名称：</label>
+        <div class="layui-input-inline ">
+            <input type="text" name="menuname" id="menuname" required lay-verify="required"  autocomplete="off" class="layui-input"  value="{$result.MenuName}">
+        </div>
+        <div class="layui-form-mid layui-word-aux">* 输入如：客户级别</div>
+    </div>
+    <div class="layui-form-item layui-form-text layui-col-md5">
+        <label class="layui-form-label">菜单说明：</label>
+        <div class="layui-input-block">
+            <textarea name="description" placeholder="请输入内容" maxlength="30" class="layui-textarea">{$result.Description}</textarea>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">排序ID：</label>
+        <div class="layui-input-inline">
+            <input type="text" name="sortid" required  lay-verify="required" autocomplete="off" class="layui-input" value="{$result.Sortid}">
+        </div>
+        <div class="layui-form-mid layui-word-aux">* 排序ID</div>
+        <div class="layui-form-mid layui-word-aux">*（可选）</div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="sub">提交</button>
+            <input type="hidden" name="id" id="id" value="{$result.ID}">
+        </div>
+    </div>
+</form>
+<script src="__STATIC__/layui/layui.all.js"></script>
+<script>
+    layui.use('form', function () {
+        var form = layui.form;
+        form.render();
+        //监听提交
+        form.on('submit(sub)', function (data) {
+            console.log(data.field);
+            $.ajax({
+                url: "{:url('Dmenu/dmenuedit_do')}",
+                dataType: 'json',
+                type: 'POST',
+                data: data.field,
+                success: function (data)
+                {
+                    if (data.s=='ok') {
+                        layer.msg("修改成功",{},function(){
+                        });
+                    } else {
+                        layer.msg("修改失败");
+                    }
+                }
+
+            });
+            return false;
+        });
+    });
+    // layui.use( 'form', function() {
+    //         var form = layui.form;
+    //         form.on('submit(sub)', function(data) {
+    //                 // var formData = data.field;
+    //                 console.log(data);
+    //                 $.ajax({
+    //                     type : 'post',
+    //                     url : "{:url('Dmenu/dmenuedit_do')}", //数据传输的控制器方法
+    //                     data : data.field,
+    //                     success : function(data) {
+    //                         if (data.s == "ok") {
+    //                             layer.msg("修改成功", {}, function () {
+    //                             });
+    //                         } else {
+    //                                 layer.msg("修改失败");
+    //                             }
+    //                         }
+    //                 });
+    //                 return false;
+    //             });
+    //     });
+</script>
+</body>
+</html>

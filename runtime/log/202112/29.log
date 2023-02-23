@@ -1,0 +1,2207 @@
+---------------------------------------------------------------
+[ 2021-12-29T09:33:24+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.336158s] [吞吐率：2.97req/s] [内存消耗：2,521.16kb] [文件加载：90]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:20+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.027296s] [吞吐率：36.64req/s] [内存消耗：2,269.93kb] [文件加载：88]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\public\error.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:21+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/index.html
+[运行时间：0.033131s] [吞吐率：30.18req/s] [内存消耗：2,201.12kb] [文件加载：86]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:22+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.9906358482872835
+[运行时间：0.038274s] [吞吐率：26.13req/s] [内存消耗：1,840.49kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_9906358482872835' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:23+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/index.html
+[运行时间：0.014396s] [吞吐率：69.46req/s] [内存消耗：2,201.14kb] [文件加载：86]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:23+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.9360368182880874
+[运行时间：0.014246s] [吞吐率：70.20req/s] [内存消耗：1,840.65kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_9360368182880874' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:31+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.9035877305591284
+[运行时间：0.016613s] [吞吐率：60.19req/s] [内存消耗：1,840.65kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_9035877305591284' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:40+08:00 ] 0.0.0.0 POST localhost:5601/index.php/admin/index/login.html
+[运行时间：0.119452s] [吞吐率：8.37req/s] [内存消耗：3,285.88kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'content-length' => '43',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'jsl123456',
+  'code' => 'z5xe',
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012631s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_ip` [ RunTime:0.016750s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_ip` WHERE  `Ip` = '0.0.0.0' LIMIT 1 [ RunTime:0.003351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004237s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin' LIMIT 1 [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0 LIMIT 1 [ RunTime:0.001695s ]
+[ sql ] [ SQL ] SELECT `ID`,`Username`,`Password`,`Roleid`,`Status`,`Competence`,`Loginarea`,`Logincount` FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '7ce941df3801dcef196852e7022d6490f3eef071' LIMIT 1 [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_loginlog` [ RunTime:0.003589s ]
+[ sql ] [ SQL ] INSERT INTO `jsl_loginlog` (`Uid` , `User` , `Description` , `Area` , `Loginip` , `Dtime`) VALUES (NULL , 'admin' , '<div class=\"de2\">登录密码错误</div>' , 'IANA保留地址.' , '0.0.0.0' , '2021-12-29 09:36:40') [ RunTime:0.002209s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:36:40+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.8344425994139228
+[运行时间：0.016532s] [吞吐率：60.49req/s] [内存消耗：1,840.49kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_8344425994139228' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:48+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.5413458013685719
+[运行时间：0.013041s] [吞吐率：76.68req/s] [内存消耗：1,840.65kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_5413458013685719' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:49+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.7471772284707943
+[运行时间：0.016942s] [吞吐率：59.02req/s] [内存消耗：1,840.65kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_7471772284707943' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-12-29T09:36:55+08:00 ] 0.0.0.0 POST localhost:5601/index.php/admin/index/login.html
+[运行时间：0.073979s] [吞吐率：13.52req/s] [内存消耗：3,322.70kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => '68qn',
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013193s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_ip` [ RunTime:0.017174s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_ip` WHERE  `Ip` = '0.0.0.0' LIMIT 1 [ RunTime:0.002974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003190s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin' LIMIT 1 [ RunTime:0.001492s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0 LIMIT 1 [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT `ID`,`Username`,`Password`,`Roleid`,`Status`,`Competence`,`Loginarea`,`Logincount` FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.001813s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Loginarea`='IANA保留地址.',`Loginip`='0.0.0.0',`Logintime`='2021-12-29 09:36:55'  WHERE  (  ID = 1 ) [ RunTime:0.002215s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Logincount`=`Logincount`+1  WHERE  (  ID = 1 ) [ RunTime:0.001613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_loginlog` [ RunTime:0.003699s ]
+[ sql ] [ SQL ] INSERT INTO `jsl_loginlog` (`Uid` , `User` , `Description` , `Area` , `Loginip` , `Dtime`) VALUES (1 , 'admin' , '<div class=\"de1\">登录成功</div>' , 'IANA保留地址.' , '0.0.0.0' , '2021-12-29 09:36:55') [ RunTime:0.001615s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_user` WHERE  (  leader_id = 1 ) [ RunTime:0.001416s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:36:57+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/web.html
+[运行时间：0.256093s] [吞吐率：3.90req/s] [内存消耗：3,488.98kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'web',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->web[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\web.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021692s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005469s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004767s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.002056s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741817'  WHERE  (  Uid = 1 ) [ RunTime:0.002248s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741697' [ RunTime:0.001701s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.004504s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid = 0 ) ORDER BY `Msort` ASC [ RunTime:0.001800s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001877s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.003088s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001630s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001603s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001661s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001356s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001586s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001474s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001532s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001585s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001674s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001543s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001610s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001522s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001414s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001416s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001645s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001641s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001657s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '29' ) [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '1' ) [ RunTime:0.001662s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '2' ) [ RunTime:0.001490s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '3' ) [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '62' ) [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001446s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001566s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '144' ) [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '64' ) [ RunTime:0.001574s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '75' ) [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741817'  WHERE  (  Uid = 1 ) [ RunTime:0.001540s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741697' [ RunTime:0.001721s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.014326s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741817'  WHERE  (  Uid = 1 ) [ RunTime:0.002041s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741697' [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001850s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741817'  WHERE  (  Uid = 1 ) [ RunTime:0.001851s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741697' [ RunTime:0.001750s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+---------------------------------------------------------------
+[ 2021-12-29T09:36:59+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=goods
+[运行时间：0.185669s] [吞吐率：5.39req/s] [内存消耗：3,472.59kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013048s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002555s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003287s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001413s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741819'  WHERE  (  Uid = 1 ) [ RunTime:0.002082s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741699' [ RunTime:0.001688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.003414s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (112,137,141)  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.001799s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 )  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.001736s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.003453s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001689s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001286s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001546s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001352s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001353s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001754s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001477s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001542s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001586s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001576s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001608s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001635s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001554s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001569s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001616s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741819'  WHERE  (  Uid = 1 ) [ RunTime:0.001466s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741699' [ RunTime:0.001628s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001459s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741819'  WHERE  (  Uid = 1 ) [ RunTime:0.001586s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741699' [ RunTime:0.001538s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001613s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741819'  WHERE  (  Uid = 1 ) [ RunTime:0.001821s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741699' [ RunTime:0.001632s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2021-12-29T09:36:59+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.070960s] [吞吐率：14.09req/s] [内存消耗：3,338.70kb] [文件加载：98]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->tree[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\tree.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015774s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005267s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004269s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001698s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741819'  WHERE  (  Uid = 1 ) [ RunTime:0.001492s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741699' [ RunTime:0.001490s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:00+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.141405s] [吞吐率：7.07req/s] [内存消耗：3,530.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018006s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004288s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003353s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001587s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741820'  WHERE  (  Uid = 1 ) [ RunTime:0.003302s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741700' [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003578s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002914s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001238s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.011558s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001887s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:04+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=2&limit=15
+[运行时间：0.092161s] [吞吐率：10.85req/s] [内存消耗：3,527.55kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015099s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006879s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.003288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004818s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001952s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741824'  WHERE  (  Uid = 1 ) [ RunTime:0.001949s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741704' [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.004433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001651s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 15,15 [ RunTime:0.002005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003962s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001492s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001414s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='40' ) LIMIT 1 [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001397s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:13+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.291058s] [吞吐率：3.44req/s] [内存消耗：3,530.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018545s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005867s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003391s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001451s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741833'  WHERE  (  Uid = 1 ) [ RunTime:0.001681s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741713' [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.002986s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.202284s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.002026s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002891s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001884s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001563s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001499s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:37+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/edit.html?goods_id=45
+[运行时间：0.085010s] [吞吐率：11.76req/s] [内存消耗：3,512.12kb] [文件加载：104]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '45',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\edit.html [ array (
+  0 => 'volist',
+  1 => 'clist',
+  2 => 'result',
+  3 => 'image_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004235s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004747s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003188s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001409s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741857'  WHERE  (  Uid = 1 ) [ RunTime:0.001583s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741737' [ RunTime:0.001453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003815s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_category` WHERE  (  is_enable=1 ) [ RunTime:0.001595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003858s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` WHERE  (  goods_id =45 ) LIMIT 1 [ RunTime:0.001762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_image` [ RunTime:0.003362s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_image` WHERE  `goods_id` = 45 [ RunTime:0.001409s ]
+[ error ] [8]未定义数组索引: sort[F:\project\pointsmall\runtime\temp\07a604b7ceee65786a17198ffd9780fc.php:117]
+[ error ] [8]未定义数组索引: sort[F:\project\pointsmall\runtime\temp\07a604b7ceee65786a17198ffd9780fc.php:117]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:40+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.096903s] [吞吐率：10.32req/s] [内存消耗：3,530.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027146s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006249s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003421s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001527s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741860'  WHERE  (  Uid = 1 ) [ RunTime:0.001637s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741740' [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.002960s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001590s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002621s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001506s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001488s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:42+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/edit.html?goods_id=51
+[运行时间：0.085548s] [吞吐率：11.69req/s] [内存消耗：3,473.02kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '51',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\edit.html [ array (
+  0 => 'volist',
+  1 => 'clist',
+  2 => 'result',
+  3 => 'image_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018438s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006657s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.003042s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003592s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.013026s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741862'  WHERE  (  Uid = 1 ) [ RunTime:0.001824s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741742' [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002881s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_category` WHERE  (  is_enable=1 ) [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003052s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` WHERE  (  goods_id =51 ) LIMIT 1 [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_image` [ RunTime:0.002505s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_image` WHERE  `goods_id` = 51 [ RunTime:0.001357s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:45+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.086246s] [吞吐率：11.59req/s] [内存消耗：3,530.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013177s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005338s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.003249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.005011s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001625s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741865'  WHERE  (  Uid = 1 ) [ RunTime:0.002198s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741745' [ RunTime:0.001640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003638s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002853s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001246s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001483s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:47+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/edit.html?goods_id=49
+[运行时间：0.073439s] [吞吐率：13.62req/s] [内存消耗：3,473.18kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '49',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\edit.html [ array (
+  0 => 'volist',
+  1 => 'clist',
+  2 => 'result',
+  3 => 'image_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016927s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006237s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003615s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001397s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741867'  WHERE  (  Uid = 1 ) [ RunTime:0.001757s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741747' [ RunTime:0.001616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.004107s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_category` WHERE  (  is_enable=1 ) [ RunTime:0.001666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.004265s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` WHERE  (  goods_id =49 ) LIMIT 1 [ RunTime:0.001754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_image` [ RunTime:0.003918s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_image` WHERE  `goods_id` = 49 [ RunTime:0.001510s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:52+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.098237s] [吞吐率：10.18req/s] [内存消耗：3,530.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026808s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005527s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003602s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001496s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741872'  WHERE  (  Uid = 1 ) [ RunTime:0.001732s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741752' [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003149s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003837s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001587s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001224s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:37:56+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/edit.html?goods_id=46
+[运行时间：0.078082s] [吞吐率：12.81req/s] [内存消耗：3,473.25kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '46',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\edit.html [ array (
+  0 => 'volist',
+  1 => 'clist',
+  2 => 'result',
+  3 => 'image_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027001s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004844s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003286s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001357s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741876'  WHERE  (  Uid = 1 ) [ RunTime:0.003200s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741756' [ RunTime:0.001637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002832s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_category` WHERE  (  is_enable=1 ) [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` WHERE  (  goods_id =46 ) LIMIT 1 [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_image` [ RunTime:0.002449s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_image` WHERE  `goods_id` = 46 [ RunTime:0.001378s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:38:01+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.102147s] [吞吐率：9.79req/s] [内存消耗：3,530.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016787s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005583s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003336s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001495s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741881'  WHERE  (  Uid = 1 ) [ RunTime:0.001489s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741761' [ RunTime:0.014010s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.004359s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001510s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001916s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003489s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001749s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001474s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001208s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001492s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001379s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:38:03+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/edit.html?goods_id=44
+[运行时间：0.074094s] [吞吐率：13.50req/s] [内存消耗：3,473.17kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '44',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\edit.html [ array (
+  0 => 'volist',
+  1 => 'clist',
+  2 => 'result',
+  3 => 'image_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019413s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006168s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003992s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001826s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741883'  WHERE  (  Uid = 1 ) [ RunTime:0.002134s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741763' [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003242s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_category` WHERE  (  is_enable=1 ) [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003645s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` WHERE  (  goods_id =44 ) LIMIT 1 [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_image` [ RunTime:0.002519s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_image` WHERE  `goods_id` = 44 [ RunTime:0.001375s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:38:07+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.090746s] [吞吐率：11.02req/s] [内存消耗：3,530.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023355s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004851s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003901s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001522s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741887'  WHERE  (  Uid = 1 ) [ RunTime:0.001858s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741767' [ RunTime:0.001561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003344s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003110s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001591s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001163s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:38:10+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=2&limit=15
+[运行时间：0.091136s] [吞吐率：10.97req/s] [内存消耗：3,527.55kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025936s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004753s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003294s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001418s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741890'  WHERE  (  Uid = 1 ) [ RunTime:0.001998s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741770' [ RunTime:0.001710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003797s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 15,15 [ RunTime:0.001987s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003503s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001208s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='40' ) LIMIT 1 [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001488s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:38:12+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/edit.html?goods_id=39
+[运行时间：0.069690s] [吞吐率：14.35req/s] [内存消耗：3,473.06kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '39',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\edit.html [ array (
+  0 => 'volist',
+  1 => 'clist',
+  2 => 'result',
+  3 => 'image_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017235s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006071s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003542s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001274s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741892'  WHERE  (  Uid = 1 ) [ RunTime:0.001700s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741772' [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002927s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_category` WHERE  (  is_enable=1 ) [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003211s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` WHERE  (  goods_id =39 ) LIMIT 1 [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_image` [ RunTime:0.002943s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_image` WHERE  `goods_id` = 39 [ RunTime:0.001332s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:38:17+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=2&limit=15
+[运行时间：0.079058s] [吞吐率：12.65req/s] [内存消耗：3,527.55kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014518s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005603s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003348s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001498s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741897'  WHERE  (  Uid = 1 ) [ RunTime:0.001720s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741777' [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003531s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 15,15 [ RunTime:0.001741s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002708s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001234s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='40' ) LIMIT 1 [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001313s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:38:48+08:00 ] 0.0.0.0 POST localhost:5601/index.php/admin/goods/reject.html
+[运行时间：0.084191s] [吞吐率：11.88req/s] [内存消耗：3,323.06kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'reject',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'content-length' => '11',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '39',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->reject[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014923s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005779s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003342s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001411s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741927'  WHERE  (  Uid = 1 ) [ RunTime:0.001745s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741807' [ RunTime:0.012456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003172s ]
+[ sql ] [ SQL ] UPDATE `jsl_points_goods`  SET `goods_state`=0  WHERE  (  goods_id=39 ) [ RunTime:0.003127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_operating` [ RunTime:0.003551s ]
+[ sql ] [ SQL ] INSERT INTO `jsl_operating` (`Uid` , `Url` , `Description` , `Ip` , `Status` , `Dtime`) VALUES (1 , 'admin/goods/reject' , '驳回成功' , '0.0.0.0' , 0 , '2021-12-29 09:38:47') [ RunTime:0.002122s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:38:48+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=2&limit=15
+[运行时间：0.086469s] [吞吐率：11.56req/s] [内存消耗：3,527.55kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019775s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004639s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003403s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001451s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640741928'  WHERE  (  Uid = 1 ) [ RunTime:0.001790s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640741808' [ RunTime:0.001585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003034s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001636s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 15,15 [ RunTime:0.002131s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003641s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001548s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001447s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='0' ) LIMIT 1 [ RunTime:0.001241s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='40' ) LIMIT 1 [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='43' ) LIMIT 1 [ RunTime:0.001152s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:44:49+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.098668s] [吞吐率：10.13req/s] [内存消耗：3,496.06kb] [文件加载：100]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->tree[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\tree.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003933s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005300s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002691s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001364s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640742289'  WHERE  (  Uid = 1 ) [ RunTime:0.001716s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640742169' [ RunTime:0.001787s ]
+---------------------------------------------------------------
+[ 2021-12-29T09:44:49+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.091966s] [吞吐率：10.87req/s] [内存消耗：3,530.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=395; jsl_key=f85c410debc5ef31d639a00fd559ca80; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025409s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004361s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003448s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001527s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1640742289'  WHERE  (  Uid = 1 ) [ RunTime:0.001413s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1640742169' [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003094s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001629s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003311s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001672s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001600s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001172s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001166s ]

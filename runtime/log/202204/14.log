@@ -1,0 +1,445 @@
+---------------------------------------------------------------
+[ 2022-04-14T11:14:50+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/web.html
+[运行时间：0.973546s] [吞吐率：1.03req/s] [内存消耗：2,240.44kb] [文件加载：88]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'web',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->web[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\public\error.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-14T11:14:53+08:00 ] 0.0.0.0 GET localhost:5601/index.php/index/index/index.html
+[运行时间：0.385185s] [吞吐率：2.60req/s] [内存消耗：3,357.69kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\project\pointsmall\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/index\view\index\index.html [ array (
+  0 => 'client_status',
+  1 => 'goods_list',
+  2 => 'points',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039756s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member_token` [ RunTime:0.005480s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member_token` WHERE  (  token = 'eca87144cf5eeeb0a3847427cc015973' ) LIMIT 1 [ RunTime:0.003141s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.003795s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member` WHERE  `member_id` = 699 LIMIT 1 [ RunTime:0.001731s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003955s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` WHERE  `goods_state` = 2  AND `goods_show` = 1 ORDER BY `goods_sort` ASC LIMIT 6 [ RunTime:0.002090s ]
+[ error ] [8]未定义数组索引: HTTP_X_REQUESTED_WITH[F:\project\pointsmall\application\index\controller\Admin.php:43]
+---------------------------------------------------------------
+[ 2022-04-14T11:14:53+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/index.html
+[运行时间：0.034613s] [吞吐率：28.89req/s] [内存消耗：2,201.03kb] [文件加载：86]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-14T11:14:54+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.8040221562061689
+[运行时间：0.072294s] [吞吐率：13.83req/s] [内存消耗：1,840.72kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_8040221562061689' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-14T15:28:21+08:00 ] 0.0.0.0 GET localhost:5601/index.php/index/orderlist/index.html
+[运行时间：1.044221s] [吞吐率：0.96req/s] [内存消耗：3,705.48kb] [文件加载：108]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'orderlist',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/index/index/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Orderlist->index[ F:\project\pointsmall\application\index\controller\Orderlist.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/index\view\orderlist\index.html [ array (
+  0 => 'client_status',
+  1 => 'ios_status',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023659s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member_token` [ RunTime:0.004597s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member_token` WHERE  (  token = 'eca87144cf5eeeb0a3847427cc015973' ) LIMIT 1 [ RunTime:0.003210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.003522s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member` WHERE  `member_id` = 699 LIMIT 1 [ RunTime:0.001880s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.005390s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  (  order_status=1 AND shipping_status=1 ) [ RunTime:0.001580s ]
+[ sql ] [ SQL ] UPDATE `jsl_order`  SET `order_status`=10  WHERE  `order_id` = 28 [ RunTime:0.002267s ]
+[ error ] [8]未定义数组索引: HTTP_X_REQUESTED_WITH[F:\project\pointsmall\application\index\controller\Admin.php:43]
+---------------------------------------------------------------
+[ 2022-04-14T15:28:22+08:00 ] 0.0.0.0 POST localhost:5601/index.php/index/orderlist/getrecordlist.html
+[运行时间：0.073007s] [吞吐率：13.70req/s] [内存消耗：3,439.29kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'orderlist',
+    2 => 'getrecordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/index/orderlist/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '27',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'activeName' => 'a',
+  'page' => 1,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Orderlist->getrecordlist[ F:\project\pointsmall\application\index\controller\Orderlist.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013713s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member_token` [ RunTime:0.004319s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member_token` WHERE  (  token = 'eca87144cf5eeeb0a3847427cc015973' ) LIMIT 1 [ RunTime:0.003431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.002739s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member` WHERE  `member_id` = 699 LIMIT 1 [ RunTime:0.001790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.003460s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `member_id` = 699  AND `order_status` IN (0,1,2,10) ORDER BY `add_time` DESC LIMIT 0,5 [ RunTime:0.001676s ]
+[ error ] [8]未定义数组索引: HTTP_X_REQUESTED_WITH[F:\project\pointsmall\application\index\controller\Admin.php:43]
+---------------------------------------------------------------
+[ 2022-04-14T15:28:23+08:00 ] 0.0.0.0 POST localhost:5601/index.php/index/orderlist/getrecordlist.html
+[运行时间：0.086571s] [吞吐率：11.55req/s] [内存消耗：3,436.76kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'orderlist',
+    2 => 'getrecordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/index/orderlist/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '27',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'activeName' => 'b',
+  'page' => 1,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Orderlist->getrecordlist[ F:\project\pointsmall\application\index\controller\Orderlist.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019009s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member_token` [ RunTime:0.017843s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member_token` WHERE  (  token = 'eca87144cf5eeeb0a3847427cc015973' ) LIMIT 1 [ RunTime:0.015608s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.003616s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member` WHERE  `member_id` = 699 LIMIT 1 [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002719s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `member_id` = 699  AND (  shipping_status= 0 AND order_status = 1 or order_status = 0 ) ORDER BY `add_time` DESC LIMIT 0,5 [ RunTime:0.001762s ]
+[ error ] [8]未定义数组索引: HTTP_X_REQUESTED_WITH[F:\project\pointsmall\application\index\controller\Admin.php:43]
+---------------------------------------------------------------
+[ 2022-04-14T15:28:25+08:00 ] 0.0.0.0 POST localhost:5601/index.php/index/orderlist/getrecordlist.html
+[运行时间：0.046168s] [吞吐率：21.66req/s] [内存消耗：3,436.63kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'orderlist',
+    2 => 'getrecordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/index/orderlist/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '27',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'activeName' => 'c',
+  'page' => 1,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Orderlist->getrecordlist[ F:\project\pointsmall\application\index\controller\Orderlist.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004205s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member_token` [ RunTime:0.004398s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member_token` WHERE  (  token = 'eca87144cf5eeeb0a3847427cc015973' ) LIMIT 1 [ RunTime:0.003456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.003249s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member` WHERE  `member_id` = 699 LIMIT 1 [ RunTime:0.001830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002125s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `member_id` = 699  AND (  shipping_status = 1 AND order_status =1  ) ORDER BY `add_time` DESC LIMIT 0,5 [ RunTime:0.001575s ]
+[ error ] [8]未定义数组索引: HTTP_X_REQUESTED_WITH[F:\project\pointsmall\application\index\controller\Admin.php:43]
+---------------------------------------------------------------
+[ 2022-04-14T15:28:25+08:00 ] 0.0.0.0 POST localhost:5601/index.php/index/orderlist/getrecordlist.html
+[运行时间：0.054373s] [吞吐率：18.39req/s] [内存消耗：3,436.41kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'orderlist',
+    2 => 'getrecordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/index/orderlist/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '27',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'activeName' => 'd',
+  'page' => 1,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Orderlist->getrecordlist[ F:\project\pointsmall\application\index\controller\Orderlist.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003401s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member_token` [ RunTime:0.014997s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member_token` WHERE  (  token = 'eca87144cf5eeeb0a3847427cc015973' ) LIMIT 1 [ RunTime:0.002880s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.003306s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member` WHERE  `member_id` = 699 LIMIT 1 [ RunTime:0.001903s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002917s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `member_id` = 699  AND (  order_status = 10  ) ORDER BY `add_time` DESC LIMIT 0,5 [ RunTime:0.001431s ]
+[ error ] [8]未定义数组索引: HTTP_X_REQUESTED_WITH[F:\project\pointsmall\application\index\controller\Admin.php:43]
+---------------------------------------------------------------
+[ 2022-04-14T15:28:27+08:00 ] 0.0.0.0 POST localhost:5601/index.php/index/orderlist/getrecordlist.html
+[运行时间：0.046562s] [吞吐率：21.48req/s] [内存消耗：3,439.29kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'orderlist',
+    2 => 'getrecordlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=699; jsl_key=eca87144cf5eeeb0a3847427cc015973; jsl_phone=18302247559',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/index/orderlist/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '27',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'activeName' => 'a',
+  'page' => 1,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Orderlist->getrecordlist[ F:\project\pointsmall\application\index\controller\Orderlist.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004350s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member_token` [ RunTime:0.004191s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member_token` WHERE  (  token = 'eca87144cf5eeeb0a3847427cc015973' ) LIMIT 1 [ RunTime:0.003434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.003208s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_member` WHERE  `member_id` = 699 LIMIT 1 [ RunTime:0.001676s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.003582s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `member_id` = 699  AND `order_status` IN (0,1,2,10) ORDER BY `add_time` DESC LIMIT 0,5 [ RunTime:0.002037s ]
+[ error ] [8]未定义数组索引: HTTP_X_REQUESTED_WITH[F:\project\pointsmall\application\index\controller\Admin.php:43]

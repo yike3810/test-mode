@@ -1,0 +1,2789 @@
+---------------------------------------------------------------
+[ 2021-11-19T09:02:06+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=goods
+[运行时间：0.039102s] [吞吐率：25.57req/s] [内存消耗：2,612.70kb] [文件加载：92]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\public\error.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T09:02:09+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/index.html
+[运行时间：0.028184s] [吞吐率：35.48req/s] [内存消耗：2,199.99kb] [文件加载：86]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T09:02:09+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.9761534771387603
+[运行时间：0.025851s] [吞吐率：38.68req/s] [内存消耗：1,840.34kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_9761534771387603' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T09:02:24+08:00 ] 0.0.0.0 POST localhost:5601/index.php/admin/index/login.html
+[运行时间：0.134969s] [吞吐率：7.41req/s] [内存消耗：3,321.65kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'ivhc',
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005848s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_ip` [ RunTime:0.030951s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_ip` WHERE  `Ip` = '0.0.0.0' LIMIT 1 [ RunTime:0.004262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.007776s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin' LIMIT 1 [ RunTime:0.002964s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0 LIMIT 1 [ RunTime:0.016312s ]
+[ sql ] [ SQL ] SELECT `ID`,`Username`,`Password`,`Roleid`,`Status`,`Competence`,`Loginarea`,`Logincount` FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.003108s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.003500s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Loginarea`='IANA保留地址.',`Loginip`='0.0.0.0',`Logintime`='2021-11-19 09:02:24'  WHERE  (  ID = 1 ) [ RunTime:0.005395s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Logincount`=`Logincount`+1  WHERE  (  ID = 1 ) [ RunTime:0.002229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_loginlog` [ RunTime:0.004434s ]
+[ sql ] [ SQL ] INSERT INTO `jsl_loginlog` (`Uid` , `User` , `Description` , `Area` , `Loginip` , `Dtime`) VALUES (1 , 'admin' , '<div class=\"de1\">登录成功</div>' , 'IANA保留地址.' , '0.0.0.0' , '2021-11-19 09:02:24') [ RunTime:0.001854s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_user` WHERE  (  leader_id = 1 ) [ RunTime:0.001715s ]
+---------------------------------------------------------------
+[ 2021-11-19T09:02:26+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/web.html
+[运行时间：0.235299s] [吞吐率：4.25req/s] [内存消耗：3,493.28kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'web',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->web[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\web.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022294s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006354s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004726s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001347s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637283746'  WHERE  (  Uid = 1 ) [ RunTime:0.001708s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637283626' [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.004276s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid = 0 ) ORDER BY `Msort` ASC [ RunTime:0.001631s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.004048s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001309s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001517s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001494s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001584s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001446s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001541s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001563s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001474s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001536s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001510s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001522s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001554s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001663s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001611s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001569s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001532s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001682s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001782s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '29' ) [ RunTime:0.001576s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '1' ) [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '2' ) [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '3' ) [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '62' ) [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001524s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001549s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '144' ) [ RunTime:0.001525s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '64' ) [ RunTime:0.001585s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '75' ) [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001492s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637283746'  WHERE  (  Uid = 1 ) [ RunTime:0.001691s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637283626' [ RunTime:0.001730s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001382s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637283746'  WHERE  (  Uid = 1 ) [ RunTime:0.001605s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637283626' [ RunTime:0.001583s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.012271s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.011946s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637283746'  WHERE  (  Uid = 1 ) [ RunTime:0.002577s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637283626' [ RunTime:0.001759s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+---------------------------------------------------------------
+[ 2021-11-19T09:02:27+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=goods
+[运行时间：0.181741s] [吞吐率：5.50req/s] [内存消耗：3,478.82kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025139s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.009130s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004391s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001483s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637283747'  WHERE  (  Uid = 1 ) [ RunTime:0.001827s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637283627' [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.004681s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (112,137,141) ORDER BY `Msort` ASC [ RunTime:0.001932s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001643s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.003819s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001140s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001087s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001093s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637283747'  WHERE  (  Uid = 1 ) [ RunTime:0.001138s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637283627' [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637283747'  WHERE  (  Uid = 1 ) [ RunTime:0.001285s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637283627' [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001042s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637283747'  WHERE  (  Uid = 1 ) [ RunTime:0.001303s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637283627' [ RunTime:0.001306s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2021-11-19T09:02:28+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026403s] [吞吐率：37.87req/s] [内存消耗：1,888.88kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T09:02:39+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goodsclass/index.html
+[运行时间：0.030262s] [吞吐率：33.04req/s] [内存消耗：1,889.17kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goodsclass',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T09:02:42+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/recommend.html
+[运行时间：0.033226s] [吞吐率：30.10req/s] [内存消耗：1,889.14kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'recommend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T09:02:45+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/recommend.html
+[运行时间：0.026783s] [吞吐率：37.34req/s] [内存消耗：1,889.14kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'recommend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T09:02:46+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goodsclass/index.html
+[运行时间：0.027051s] [吞吐率：36.97req/s] [内存消耗：1,889.17kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goodsclass',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T09:02:47+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026402s] [吞吐率：37.88req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T09:02:48+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026416s] [吞吐率：37.86req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T10:36:08+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.031007s] [吞吐率：32.25req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T10:36:09+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.025951s] [吞吐率：38.53req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T10:36:10+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026563s] [吞吐率：37.65req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T10:38:34+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=goods
+[运行时间：0.197521s] [吞吐率：5.06req/s] [内存消耗：3,479.65kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003968s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006707s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.005167s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001529s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637289514'  WHERE  (  Uid = 1 ) [ RunTime:0.001839s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637289394' [ RunTime:0.001638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.004634s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (112,137,141) ORDER BY `Msort` ASC [ RunTime:0.001648s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.004511s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001444s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001495s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001610s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001576s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001527s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001446s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001523s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001622s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001447s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001561s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001592s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.011940s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001941s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001610s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001613s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001561s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001592s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001446s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637289514'  WHERE  (  Uid = 1 ) [ RunTime:0.001518s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637289394' [ RunTime:0.001624s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001442s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637289514'  WHERE  (  Uid = 1 ) [ RunTime:0.001433s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637289394' [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001497s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001403s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637289514'  WHERE  (  Uid = 1 ) [ RunTime:0.001410s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637289394' [ RunTime:0.001452s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2021-11-19T10:38:34+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.029125s] [吞吐率：34.33req/s] [内存消耗：1,888.88kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T10:38:35+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=goods
+[运行时间：0.196203s] [吞吐率：5.10req/s] [内存消耗：3,479.65kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015611s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.007420s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004531s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001249s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637289515'  WHERE  (  Uid = 1 ) [ RunTime:0.001498s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637289395' [ RunTime:0.001522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.004110s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (112,137,141) ORDER BY `Msort` ASC [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001964s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.004506s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001567s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001549s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001578s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001714s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001549s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001548s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001719s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001566s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001527s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001626s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001611s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001641s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001604s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001619s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001670s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001659s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001652s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001668s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001615s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001575s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001643s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001586s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637289515'  WHERE  (  Uid = 1 ) [ RunTime:0.001539s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637289395' [ RunTime:0.001721s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637289515'  WHERE  (  Uid = 1 ) [ RunTime:0.001716s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637289395' [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001536s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637289515'  WHERE  (  Uid = 1 ) [ RunTime:0.001482s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637289395' [ RunTime:0.001681s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2021-11-19T10:38:35+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.027296s] [吞吐率：36.64req/s] [内存消耗：1,888.88kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T10:38:36+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026634s] [吞吐率：37.55req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T10:38:36+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.027388s] [吞吐率：36.51req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:17+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=goods
+[运行时间：0.037783s] [吞吐率：26.47req/s] [内存消耗：2,511.46kb] [文件加载：91]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\public\error.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:19+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/index.html
+[运行时间：0.030843s] [吞吐率：32.42req/s] [内存消耗：2,200.17kb] [文件加载：86]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:19+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.32505618176511364
+[运行时间：0.026069s] [吞吐率：38.36req/s] [内存消耗：1,840.34kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_32505618176511364' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:29+08:00 ] 0.0.0.0 POST localhost:5601/index.php/admin/index/login.html
+[运行时间：0.092609s] [吞吐率：10.80req/s] [内存消耗：3,321.65kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'ubrc',
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003399s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_ip` [ RunTime:0.015897s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_ip` WHERE  `Ip` = '0.0.0.0' LIMIT 1 [ RunTime:0.003870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003909s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin' LIMIT 1 [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0 LIMIT 1 [ RunTime:0.001575s ]
+[ sql ] [ SQL ] SELECT `ID`,`Username`,`Password`,`Roleid`,`Status`,`Competence`,`Loginarea`,`Logincount` FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.001384s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Loginarea`='IANA保留地址.',`Loginip`='0.0.0.0',`Logintime`='2021-11-19 17:45:29'  WHERE  (  ID = 1 ) [ RunTime:0.001929s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Logincount`=`Logincount`+1  WHERE  (  ID = 1 ) [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_loginlog` [ RunTime:0.003576s ]
+[ sql ] [ SQL ] INSERT INTO `jsl_loginlog` (`Uid` , `User` , `Description` , `Area` , `Loginip` , `Dtime`) VALUES (1 , 'admin' , '<div class=\"de1\">登录成功</div>' , 'IANA保留地址.' , '0.0.0.0' , '2021-11-19 17:45:29') [ RunTime:0.001514s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_user` WHERE  (  leader_id = 1 ) [ RunTime:0.001346s ]
+---------------------------------------------------------------
+[ 2021-11-19T17:45:31+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/web.html
+[运行时间：0.232781s] [吞吐率：4.30req/s] [内存消耗：3,493.28kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'web',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->web[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\web.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022014s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.008438s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004366s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001507s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315131'  WHERE  (  Uid = 1 ) [ RunTime:0.001676s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315011' [ RunTime:0.001679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.004994s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid = 0 ) ORDER BY `Msort` ASC [ RunTime:0.001660s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.003890s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001353s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001514s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.012009s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.002269s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.002367s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.002326s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.002389s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.002125s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.002546s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001749s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001733s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001635s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001741s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001543s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001453s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001546s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001619s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001536s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001579s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001352s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001566s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001648s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001353s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '29' ) [ RunTime:0.001669s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '1' ) [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '2' ) [ RunTime:0.001595s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '3' ) [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '62' ) [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001628s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001538s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '144' ) [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '64' ) [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '75' ) [ RunTime:0.001644s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001434s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315131'  WHERE  (  Uid = 1 ) [ RunTime:0.001518s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315011' [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001567s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315131'  WHERE  (  Uid = 1 ) [ RunTime:0.001539s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315011' [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001441s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315131'  WHERE  (  Uid = 1 ) [ RunTime:0.001569s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315011' [ RunTime:0.001672s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+---------------------------------------------------------------
+[ 2021-11-19T17:45:32+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=goods
+[运行时间：0.227134s] [吞吐率：4.40req/s] [内存消耗：3,478.82kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021383s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.008531s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004607s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001492s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315132'  WHERE  (  Uid = 1 ) [ RunTime:0.002056s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315012' [ RunTime:0.001759s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.004900s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (112,137,141) ORDER BY `Msort` ASC [ RunTime:0.001701s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.004171s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001301s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.013512s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001775s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001562s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001634s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001546s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001709s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001675s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001558s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001670s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001579s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.013970s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001718s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001715s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001517s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001559s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315132'  WHERE  (  Uid = 1 ) [ RunTime:0.001528s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315012' [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001542s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001745s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315132'  WHERE  (  Uid = 1 ) [ RunTime:0.001801s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315012' [ RunTime:0.001795s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001647s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315132'  WHERE  (  Uid = 1 ) [ RunTime:0.001773s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315012' [ RunTime:0.001569s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2021-11-19T17:45:32+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.027717s] [吞吐率：36.08req/s] [内存消耗：1,888.88kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:35+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026741s] [吞吐率：37.40req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:36+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026081s] [吞吐率：38.34req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:37+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026255s] [吞吐率：38.09req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:40+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.025659s] [吞吐率：38.97req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:40+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.028980s] [吞吐率：34.51req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:42+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goodsclass/index.html
+[运行时间：0.028261s] [吞吐率：35.38req/s] [内存消耗：1,889.17kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goodsclass',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:43+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.025645s] [吞吐率：38.99req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:44+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.025935s] [吞吐率：38.56req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:45+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026340s] [吞吐率：37.97req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:45+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.025966s] [吞吐率：38.51req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:46+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.025206s] [吞吐率：39.67req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:45:46+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026182s] [吞吐率：38.19req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:46:00+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=order
+[运行时间：0.167802s] [吞吐率：5.96req/s] [内存消耗：3,477.06kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'order',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003630s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006135s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004487s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001560s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315160'  WHERE  (  Uid = 1 ) [ RunTime:0.001690s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315040' [ RunTime:0.001492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.004098s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (62,144) ORDER BY `Msort` ASC [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.004053s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001482s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001359s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001187s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001309s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001377s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001309s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '62' ) [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '144' ) [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001405s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315160'  WHERE  (  Uid = 1 ) [ RunTime:0.001370s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315040' [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001372s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315160'  WHERE  (  Uid = 1 ) [ RunTime:0.001470s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315040' [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001273s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315160'  WHERE  (  Uid = 1 ) [ RunTime:0.001465s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315040' [ RunTime:0.001396s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2021-11-19T17:46:00+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/index.html
+[运行时间：0.026719s] [吞吐率：37.43req/s] [内存消耗：1,888.88kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=order',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:46:03+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/index.html
+[运行时间：0.026306s] [吞吐率：38.01req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=order',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:46:04+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/index.html
+[运行时间：0.025048s] [吞吐率：39.92req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=order',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:46:06+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=goods
+[运行时间：0.202868s] [吞吐率：4.93req/s] [内存消耗：3,478.87kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=order',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022820s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.008734s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004714s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001487s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315166'  WHERE  (  Uid = 1 ) [ RunTime:0.001881s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315046' [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.004527s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (112,137,141) ORDER BY `Msort` ASC [ RunTime:0.001684s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.004239s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001548s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001584s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001628s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001416s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001691s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001567s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001424s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001603s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001522s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001737s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001485s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001576s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001590s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001536s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001554s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001485s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001545s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315166'  WHERE  (  Uid = 1 ) [ RunTime:0.001546s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315046' [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001560s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001559s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315166'  WHERE  (  Uid = 1 ) [ RunTime:0.001545s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315046' [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001454s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1637315166'  WHERE  (  Uid = 1 ) [ RunTime:0.001610s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1637315046' [ RunTime:0.001548s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2021-11-19T17:46:06+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.029408s] [吞吐率：34.00req/s] [内存消耗：1,888.88kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:46:07+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026505s] [吞吐率：37.73req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:46:08+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.025356s] [吞吐率：39.44req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:46:15+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.027024s] [吞吐率：37.00req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:46:16+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.025121s] [吞吐率：39.81req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:46:17+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026225s] [吞吐率：38.13req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:47:11+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026634s] [吞吐率：37.55req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:47:11+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.025369s] [吞吐率：39.42req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-19T17:47:12+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.026831s] [吞吐率：37.27req/s] [内存消耗：1,889.05kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=a8eadc1547a65ebc9d5b7807d5cfd1a4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>消费券-首页</title>
+  <!-- 引入样式文件 -->
+  <link rel="stylesheet" href="__CSS__/vant.css">
+  <link rel="stylesheet" href="__STATIC__/css/common.css"/>
+  <link rel="stylesheet" href="__STATIC__/layui/css/layui.css"/>
+  <link rel="stylesheet" href="__STATIC__/css/wap/index.css"/>
+  <!-- 引入jquery-->
+  <script type="text/javascript" src="__STATIC__/js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="__STATIC__/layui/layui.js"></script>
+  <!-- 引入 Vue 和 Vant 的 JS 文件 -->
+  <script src="__STATIC__/js/vue.min.js"></script>
+  <script src="__STATIC__/js/vant.min.js"></script>
+  <script src="__STATIC__/js/axios.min.js"></script>
+</head>
+
+<body ontouchstart>
+<!--头部-->
+<div id="titlebar">
+  <div class="jsl-nav-bar__back" @click="onClickLeft()">
+    <i class="van-icon van-icon-arrow-left"></i>
+  </div>
+  <div class="jsl-nav-bar__name">
+    消费券
+
+  </div>
+  <div class="jsl-nav-bar__other"></div>
+</div>
+
+
+<div id="index">
+<div class="nav">
+  <div class="nav-button">
+    <img src="__STATIC__/image/wap/index/jb.png" alt="">
+    <van-button round type="success" >查看我的消费券</van-button>
+  </div>
+
+</div>
+  <div class="main">
+
+    <van-pull-refresh v-model="uploading" success-text="刷新成功" @refresh="onRefresh"
+                      :disabled="refreshDisabled"
+
+
+    >
+      <van-list
+              v-model="loading"
+              :finished="finished"
+              finished-text="没有更多了"
+              @load="onLoad()"
+
+      >
+        <div  style="min-height: 1vh" >
+        <template v-for="list in coupon_list"  >
+
+<!--未领取-->
+          <template  >
+            <div class="main-first" v-if="list.is_received == 0">
+              <div class="main-first-left" @click="showPopup1=true">
+            <div class="wlq-left">
+              <b style="font-size: 30px;color: #ce3c2c" >{{list.rule.amount}}</b>
+              <span style="color: #db4130">元</span>
+            </div>
+        <div class="wlq-right">
+          <h2>全场满{{list.rule.threshold}}元即可使用</h2>
+          <p>{{list.use_started_at}}——{{list.use_ended_at}}</p>
+          <p>有效期内指定商家可使用</p></div>
+      </div>
+              <div class="main-first-right" @click="showPopup2=true">
+        <div class="main-first-right-right"  >
+          <div class="ljlq">
+          <section>立</section>
+          <section>即</section>
+          <section>领</section>
+          <section>取</section>
+          </div>
+        </div>
+      </div>
+          </div>
+        </template>
+<!--消费券详情弹窗-->
+          <van-popup v-model:show="showPopup1"   closeable
+               class="yhqxq"
+               close-icon="close"
+                 >
+      <div class="zzc">
+            <div class="xfqxq">
+              <div class="xfqxq-bt"> <span>的感受如何</span></div>
+              <div class="xfqxq-main">
+                <div class="xfqxq-main-flex">
+
+                <div class="mjgz">
+                     <div class="mjgz-bt">
+                       <img src="__STATIC__/image/wap/index/jd.png" alt="">
+                       <span>满减规则</span>
+                       <img src="__STATIC__/image/wap/index/jd.png" alt="">
+                     </div>
+                     <div class="mjgz-gz">
+                       <section>全场满消费满10元即可使用，的是广东富豪</section>
+                       <section> 每个账号只限领取一张优惠券，的公司的这个</section>
+                       <section>可与其他优惠共享，但是公司</section>
+
+                     </div>
+
+                </div>
+                <van-divider
+                        dashed
+                        :style="{ color: '#1989fa', borderColor: '#1989fa',  }"
+                >
+
+                </van-divider>
+
+                <div class="sysj">
+                  <div class="sysj-bt">
+                    <img src="__STATIC__/image/wap/index/jd.png" alt="">
+                    <span>使用时间</span>
+                    <img src="__STATIC__/image/wap/index/jd.png" alt="">
+                  </div>
+                  <div class="sysj-sj">
+                    <span>2023.02.03—2023.02.26</span>
+                  </div>
+
+                </div>
+
+                <van-divider
+                        dashed
+                        :style="{ color: '#1989fa', borderColor: '#1989fa', }"
+                >
+
+                </van-divider>
+
+
+
+                <div class="sysj1">
+                  <div class="sysj1-bt">
+                    <img src="__STATIC__/image/wap/index/jd.png" alt="">
+                    <span>适用商家</span>
+                    <img src="__STATIC__/image/wap/index/jd.png" alt="">
+
+                  </div>
+                  <div class="sysj1-sj">
+                    <span>所有商家都适用</span>
+                    <span>所有商家都适用</span>
+                    <span>所有商家都适用</span>
+                    <span>所有商家都适用</span> <span>所有商家都适用</span>
+                    <span>所有商家都适用</span>
+                    <span>所有商家都适用</span> <span>所有商家都适用</span>
+                  </div>
+
+                </div>
+
+                <van-divider
+                        dashed
+                        :style="{ color: '#1989fa', borderColor: '#1989fa', }"
+                >
+                </van-divider>
+              </div>
+              </div>
+            </div>
+      </div>
+    </van-popup>
+
+<!--    立即领取弹框-->
+         <van-popup v-model:show="showPopup2" closeable
+               class="lqyhq"
+               close-icon="close">
+      <div class="zzc1">
+        <div class="xfq">
+          <div class="xfq-main">
+            <div class="titlt">
+
+            </div>
+            <div class="huode">
+              <img src="__STATIC__/image/wap/index/ljt.png" alt="">
+              <b>恭喜您获得</b>
+              <img src="__STATIC__/image/wap/index/rjt.png" alt="">
+            </div>
+            <div class="button">
+              <van-button type="primary">100元消费券</van-button>
+            </div>
+            <div class="dashed">
+             <section>····················</section>
+            </div>
+            <div class="chakan">
+              <section>可在“我的消费券”中查看</section>
+            </div>
+            <div class="bottom"></div>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </van-popup>
+
+<!--    已领取-->
+        <div class="main-second" v-if="list.is_received == 1">
+      <div class="main-first-left"  @click="showPopup1=true">
+        <div class="wlq-left">
+          <b style="font-size: 30px;color: #ce3c2c" >{{list.rule.amount}}</b>
+          <span style="color: #db4130">元</span>
+        </div>
+        <div class="wlq-right">
+          <h2>全场满{{list.rule.threshold}}元即可使用</h2>
+          <p>{{list.use_started_at}}——{{list.use_ended_at}}</p>
+          <p>有效期内指定商家可使用</p>
+        </div>
+      </div>
+      <div class="main-first-right">
+        <div class="main-first-right-right"  @click="()=>{return false}" >
+          <div class="ljlq">
+            <section>去</section>
+            <section>使</section>
+            <section>用</section>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--已抢光-->
+          <div class="main-third" v-if="list.is_have == 0">
+      <div class="main-first-left"  @click="showPopup1=true">
+        <div class="wlq-left">
+          <b style="font-size: 30px;color: #ce3c2c" >{{list.rule.amount}}</b>
+          <span style="color: #db4130">元</span>
+        </div>
+        <div class="wlq-right">
+          <h2>全场满{{list.rule.threshold}}元即可使用</h2>
+          <p>{{list.use_started_at}}——{{list.use_ended_at}}</p>
+          <p>有效期内指定商家可使用</p>
+        </div>
+      </div>
+      <div class="main-first-right" >
+        <div class="main-first-right-right" @click="()=>{return false}">
+          <div class="yqg">
+            <section>已</section>
+            <section>抢</section>
+            <section>光</section>
+
+          </div>
+        </div>
+      </div>
+    </div>
+        </template>
+        </div>
+
+    </van-list>
+  </van-pull-refresh>
+
+  </div>
+</div>
+
+<script>
+  var vant = window.vant;
+  Vue.use(vant);
+  let index1 = new Vue({
+    el: '#titlebar',
+    data() {
+      return {};
+    },
+    mounted() {
+    },
+    methods: {
+      onClickLeft: function () {
+        window.history.go(-1);
+        // window.location.href = '{:url("Myservice/servicelist")}';
+      },
+    },
+  });
+</script>
+<script>
+
+  var vant = window.vant;
+  Vue.use(vant);
+
+  var index = new Vue({
+    el: '#index',
+    data() {
+      return {
+        loading: false,
+        uploading: false,
+        refreshDisabled: false,
+        finished: false,
+        showPopup1:false,
+        showPopup2:false,
+        hairline:true,
+        //阻止点击”已抢光“出现详情弹窗
+        // stopEvent:''
+        coupon_list:[],
+        page: 1,
+
+      };
+    },
+    mounted() {
+    },
+    methods: {
+      // showPopup1:function (event){
+      //   event.stopPropagation()
+      // }
+      clearList: function () {
+        this.onRefresh();
+      },
+      onRefresh: function () {
+        this.uploading = true;
+        // 清空列表数据
+        this.finished = false;
+        this.page = 1;
+        this.coupon_list = [];
+        // 重新加载数据
+        this.loading = true;
+        if (this.loading) {
+          this.onLoad();
+        }
+        this.uploading = false;
+
+      },
+      onLoad: function () {
+        thiss = this;
+
+        let data = {
+          'page': this.page,
+        };
+        axios.post("{:url('Index/getgeneratecouponlist')}", data)
+                .then((res) => {
+                  //参数说明：number:每页获取的条数判断，最好与后台一致，不可大于后台设置值
+                  number = 10;
+                  // console.log(res.data.length);
+                  if (res.data.length < number) {
+
+                    thiss.finished = true;
+                  }
+
+                  thiss.page++;
+                  console.log(res.data)
+                  thiss.coupon_list = thiss.coupon_list.concat(res.data);
+                  thiss.loading = false;
+                });
+      },
+    },
+  });
+</script>
+</body>
+</html>

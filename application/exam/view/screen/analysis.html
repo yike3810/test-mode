@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit" />
+    <title>省级大屏可视化</title>
+    <link rel="stylesheet" type="text/css" href="__CSS__/content.css"/>
+    <link rel="stylesheet" type="text/css" href="__CSS__/public.css"/>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/layui/css/layui.css"/>
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/layui/layui.all.js"></script>
+    <script type="text/javascript" src="__JS__/echarts.min.js"></script>
+    <!-- 引入 Vue 和 axios 的 JS 文件 -->
+    <script src="__STATIC__/js/vue.min.js"></script>
+    <script src="__STATIC__/js/axios.min.js"></script>
+
+</head>
+<style>
+    body {
+        background: #030652 url('__STATIC__/image/screen/bg.png') no-repeat;
+        background-size: 1920px 1080px;
+        background-position: center top;
+    }
+
+    .screen-title {
+        background: url('__STATIC__/image/screen/title-line.png') no-repeat;
+        background-position: center 45px;
+        height: 100px;
+        text-align: center;
+    }
+
+    .screen-title h1 {
+        color: #ffffff;
+        line-height: 100px;
+        font-size: 40px;
+    }
+
+    .screen-data {
+        width: 1800px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 0 30px;
+        line-height: 120px;
+        background: url('__STATIC__/image/screen/data-bg.png') no-repeat;
+        background-size: 100% 120px;
+        background-position: center top;
+        margin-top: 20px;
+    }
+
+    .screen-data div {
+        float: left;
+    }
+
+    .screen-data-text {
+        width: auto;
+        height: 100%;
+        margin: 0 15px;
+        /*background-color: #0baae4;*/
+
+    }
+
+    .screen-data-text-icon {
+        text-align: center;
+        width: 70px;
+        height: 100%;
+        line-height: 120px;
+        background: url('__STATIC__/image/screen/bubble.png') no-repeat;
+        background-size: 70px 70px;
+        background-position: center 30px;
+    }
+
+    .screen-data-text-icon i {
+        font-size: 30px;
+        color: #ffffff;
+        margin-top: 42px;
+        margin-left: -2px;
+    }
+
+    .screen-data-text-number {
+        margin-left: 5px;
+        margin-top: 30px;
+        color: #0baae4;
+        font-size: 40px;
+        line-height: 40px;
+
+    }
+
+    .screen-data-text-title {
+        color: #f0f0f0;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .screen-data-line {
+        background: url('__STATIC__/image/screen/data-line.png') no-repeat;
+        background-position: center 20px;
+        width: 10px;
+        height: 100%;
+    }
+
+    .box-left {
+        position: absolute;
+        width: 450px;
+        margin-left: 1423px;
+    }
+
+    .screen-data-box-small {
+        width: 450px;
+        height: 250px;
+        margin-top: 10px;
+        background: url('__STATIC__/image/screen/box-bg.png') no-repeat;
+        background-size: 100% 100%;
+        color: #f0f0f0;
+        /*background-position: center 20px;*/
+    }
+
+    .box-small-1 {
+
+    }
+
+    .box-small-title {
+        font-size: 20px;
+        line-height: 35px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .screen-data-map {
+        position: absolute;
+        width: 1370px;
+        height: 770px;
+        margin-left: 15px;
+        margin-top: 10px;
+        background: url('__STATIC__/image/screen/map-bg.png') no-repeat;
+        background-size: 100% 100%;
+        color: #f0f0f0;
+    }
+    .screen-data-center{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 10px;
+        width: 400px;
+        height: 770px;
+        /*background: url('__STATIC__/image/screen/map-center.png') no-repeat;*/
+        background-size: 420px 770px;
+        background-position:10px 0;
+        color: #f0f0f0;
+        padding: 10px 0 10px 30px;
+    }
+
+    .screen-data-center-cityname {
+        width: 390px;
+        height: 60px;
+        padding: 15px 15px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .screen-data-center-value{
+        width: 400px;
+        height: 250px;
+        /*background: url('__STATIC__/image/screen/min-data-bg.png') no-repeat;*/
+        background-size: 390px 300px;
+        font-size: 20px;
+        line-height: 40px;
+        padding-left: 20px;
+    }
+    #screen-data-center-sunburst {
+        margin-left: -30px;
+        width: 410px;
+        height: 410px;
+        /*background-color: #0baae4;*/
+        color: #f0f0f0;
+    }
+</style>
+<body>
+
+<div class="layui-fluid">
+    <div class="screen-title">
+        <h1>新时代文明实践中心省级平台</h1>
+    </div>
+</div>
+
+<div class="layui-fluid">
+    <div class="screen-data">
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-user" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                23130
+            </div>
+            <div class="screen-data-text-title">
+                累计用户数
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-website" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                1221020
+            </div>
+            <div class="screen-data-text-title">
+                累计访问量
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-face-smile" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                14619
+            </div>
+            <div class="screen-data-text-title">
+                今日新增用户
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-senior" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                23132
+            </div>
+            <div class="screen-data-text-title">
+                志愿者数
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-template-1" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                1221
+            </div>
+            <div class="screen-data-text-title">
+                服务队数
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-location" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                14619
+            </div>
+            <div class="screen-data-text-title">
+                实践所数
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="layui-fluid">
+    <div class="box-left">
+        <div class="screen-data-box-small box-small-1">
+            <div class="box-small-title">数据分析（文明求助、文明助人）</div>
+            <div id="main-small-1" style="width: 100%;height:215px;margin-top:10px;"></div>
+        </div>
+        <div class="screen-data-box-small box-small-2">
+            <div class="box-small-title">五大平台发布信息排行</div>
+            <div id="main-small-2" style="width: 100%;height:215px;margin-top:10px;"></div>
+        </div>
+        <div class="screen-data-box-small box-small-3">
+            <div class="box-small-title">各县志愿者完成服务top5</div>
+            <div id="main-small-3" style="width: 100%;height:215px;margin-top:10px;"></div>
+        </div>
+    </div>
+    <div class="screen-data-map" id="map"></div>
+    <div class="screen-data-center">
+        <div class="screen-data-center-cityname"><span id="screen-data-center-cityname">甘肃省</span></div>
+<!--        参数：name：区县名|a:累计用户数|b：志愿者数|c：人口数据|d:服务队数|e：实践站数|f：实践所数|g：累计完成服务数|h：正在执行服务数-->
+        <div class="screen-data-center-value">
+            累计用户: <span id="screen-data-center-a"></span><br>
+            志愿者: <span id="screen-data-center-b"></span><br>
+            服务队: <span id="screen-data-center-d"></span><br>
+            实践站: <span id="screen-data-center-e"></span><br>
+            实践所: <span id="screen-data-center-f"></span><br>
+            累计完成服务: <span id="screen-data-center-g"></span><br>
+        </div>
+        <div id="screen-data-center-sunburst"></div>
+    </div>
+
+
+</div>
+<script>
+    /*
+    * 可视化 1
+    * 说明：折线图
+    * */
+    option_box_1 = {
+        legend: {
+            bottom: '8%',
+            data: ['文明求助', '文明助人'],
+            textStyle: {
+                color: '#fff',
+            },
+        },
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'cross',
+                label: {
+                    backgroundColor: '#6a7985'
+                }
+            }
+        },
+        grid: {
+            left: '3%',
+            right: '6%',
+            bottom: '20%',
+            top: '3%',
+            containLabel: true
+        },
+        xAxis: [
+            {
+                type: 'category',
+                boundaryGap: false,
+                data: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
+                axisLine: {
+                    lineStyle: {
+                        color: '#ffffff',
+                    },
+                },
+
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                axisLine: {
+                    lineStyle: {
+                        color: '#ffffff',
+                    },
+                }
+            }
+        ],
+        series: [
+            {
+                name: '文明求助',
+                type: 'line',
+                smooth: true,
+                symbol: "none",
+                stack: '文明求助',
+                areaStyle: {},
+
+                itemStyle: {
+                    color: {
+                        type: 'linear',
+                        x: 0,
+                        y: 0,
+                        x2: 0,
+                        y2: 1,
+                        colorStops: [{
+                            offset: 0, color: '#00b5f9' // 0% 处的颜色
+                        }, {
+                            offset: 1, color: 'rgba(255,255,255,0)',// 100% 处的颜色
+                        }],
+                        global: false // 缺省为 false
+                    }
+                },
+
+                data: [120, 82, 101, 134, 90, 170, 160, 120, 122, 111, 134, 125,]
+                // data: [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111,]
+            },
+            {
+                name: '文明助人',
+                type: 'line',
+                smooth: true,
+                symbol: "none",
+                stack: '文明助人',
+
+                areaStyle: {},
+                itemStyle: {
+                    color: {
+                        type: 'linear',
+                        x: 0,
+                        y: 0,
+                        x2: 0,
+                        y2: 1,
+                        colorStops: [{
+                            offset: 0, color: '#bfaa0b' // 0% 处的颜色
+                        }, {
+                            offset: 1, color: 'rgba(255,255,255,0.2)',// 100% 处的颜色
+                        }],
+                        global: false // 缺省为 false
+                    }
+                },
+                data: [95, 60, 61, 54, 72, 110, 123, 100, 82, 91, 120, 80,]
+            }
+        ]
+    };
+
+    function checkTime_1() {
+        document.getElementById('main-small-1').setAttribute('_echarts_instance_', '');
+        echarts.init(document.getElementById('main-small-1')).setOption(option_box_1);
+    }
+
+    echarts.init(document.getElementById('main-small-1')).setOption(option_box_1);
+    setInterval("checkTime_1()", 8537);
+
+    /*
+    * 可视化 2
+    * 说明：象形柱图
+    * 参数说明：
+    * box_2_bottom_reference_value：图片的高度基准值
+    * */
+    var box_2_bottom_reference_value = 130;
+    option_box_2 = {
+        grid: {
+            left: '8%',
+            right: '8%',
+            bottom: '10%',
+            top: '0%',
+            containLabel: true
+        },
+        xAxis: [{
+            top: '',
+            data: ['文化服务', '健身体育', '科技科普', '理论宣讲', '教育服务'],
+            axisTick: {show: false},
+            axisLine: {show: false},
+            axisLabel: {
+                margin: 20,
+                textStyle: {
+                    color: '#ddd',
+                }
+            }
+        }],
+        yAxis: {
+            splitLine: {show: false},
+            axisTick: {show: false},
+            axisLine: {show: false},
+            axisLabel: {show: false}
+        },
+        markLine: {
+            z: -1
+        },
+        animationEasing: 'elasticOut',//缓动效果，果冻
+        series: [{
+            type: 'pictorialBar',
+            name: 'all',
+            hoverAnimation: true,
+            label: {
+                show: true,
+                position: 'top',
+                formatter: '{c} 篇',
+                fontSize: 16,
+                color: '#ddd'
+            },
+            data: [{
+                value: 8000,
+                // symbol: 'image://' + paperDataURI,
+                symbol: 'image://' + '__STATIC__/image/screen/pic-3.png',
+                symbolSize: box_2_bottom_reference_value * (8000 / 15095),
+                symbolOffset: [0, '10px'],
+                z: 10
+            }, {
+                value: 15095,
+                symbol: 'image://' + '__STATIC__/image/screen/pic-1.png',
+                symbolSize: box_2_bottom_reference_value * (15095 / 15095),
+                symbolOffset: [0, '10px'],
+                z: 10
+            }, {
+                value: 8844,
+                symbol: 'image://' + '__STATIC__/image/screen/pic-2.png',
+                symbolSize: box_2_bottom_reference_value * (8844 / 15095),
+                symbolOffset: [0, '10px'],
+                z: 10
+            }, {
+                value: 5895,
+                symbol: 'image://' + '__STATIC__/image/screen/pic-4.png',
+                symbolSize: box_2_bottom_reference_value * (5895 / 15095),
+                symbolOffset: [0, '10px'],
+                z: 10
+            },            {
+                value: 12095,
+                symbol: 'image://' + '__STATIC__/image/screen/pic-5.png',
+                symbolSize: box_2_bottom_reference_value * (12095 / 15095),
+                symbolOffset: [0, '10px'],
+                z: 10
+            }],
+        }, {
+            name: 'all',
+            type: 'pictorialBar',
+            barGap: '-100%',
+            symbol: 'circle',
+            itemStyle: {
+                // 径向渐变，前三个参数分别是圆心 x, y 和半径，取值同线性渐变
+                color: {
+                    type: 'radial',
+                    x: 0.5,
+                    y: 0.5,
+                    r: 0.6,
+                    colorStops: [{
+                        offset: 0, color: "rgba(200,255,200,.5)" // 0% 处的颜色
+                    }, {
+                        offset: 1, color: 'rgba(5,13,110,0)' // 100% 处的颜色
+                    }],
+                    global: false // 缺省为 false
+                }
+            },
+            silent: true,
+            symbolOffset: ['0', '50%'],
+            z: -10,
+            data: [
+                {
+                    value: 1,
+                    symbolSize: [100, 20],
+                },
+                {
+                    value: 1,
+                    symbolSize: [100, 20]
+                }, {
+                    value: 1,
+                    symbolSize: [100, 20]
+                }, {
+                    value: 1,
+                    symbolSize: [100, 20]
+                }, {
+                    value: 1,
+                    symbolSize: [100, 20]
+                }]
+        }]
+    };
+    function checkTime_2() {
+        document.getElementById('main-small-2').setAttribute('_echarts_instance_', '');
+        echarts.init(document.getElementById('main-small-2')).setOption(option_box_2);
+    }
+    echarts.init(document.getElementById('main-small-2')).setOption(option_box_2);
+    setInterval("checkTime_2()", 4571);
+
+
+    /*
+    * 可视化 3
+    * 说明：堆叠条形图
+    * */
+
+    option_box_3 = {
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+            }
+        },
+        legend: {
+            data: ['活动占比', '服务占比', '时长占比', '参与占比'],
+            textStyle: {
+                color: '#fff',
+            },
+        },
+
+        grid: {
+            left: '10%',
+            right: '3%',
+            bottom: '10%',
+            top: '15%',
+            containLabel: true
+        },
+        xAxis: {
+            type: 'value',
+            show:false,
+            boundaryGap: false,
+            axisLine: {
+                show:false,
+                lineStyle: {
+                    color: 'rgba(0,0,0,0)',
+                },
+            },
+        },
+        yAxis: {
+            type: 'category',
+            data: ['皋兰县', '徽县', '民勤县', '秦安县', '会宁县'],
+            axisLine: {
+                show:false,
+                lineStyle: {
+                    color: '#ffffff',
+                },
+            },
+            axisTick:{length : 0},
+            inverse: true,//是否反向坐标轴
+        },
+        series: [
+            {
+                name: '活动占比',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    show: true,
+                    position: 'insideRight',
+                    color: '#eee',
+                    formatter: '{c} %',
+                },
+                itemStyle: {
+                    color: 'rgba(249,0,127,0.75)',
+                },
+                data: [15.45, 17.56, 11.47, 12.35, 8.68]
+            },
+            {
+                name: '服务占比',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    show: true,
+                    position: 'insideRight',
+                    color: '#eee',
+                    formatter: '{c} %',
+                },
+                itemStyle: {
+                    color: 'rgba(10,180,22,0.65)',
+                },
+                data: [16.44, 15.16, 11.48, 9.71, 11.86]
+            },
+            {
+                name: '时长占比',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    show: true,
+                    position: 'insideRight',
+                    color: '#eee',
+                    formatter: '{c} %',
+                },
+                itemStyle: {
+                    color: 'rgba(229,150,28,0.81)',
+                },
+                data: [17.01, 16.49, 12.64, 7.71, 11.44]
+            },
+            {
+                name: '参与占比',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    show: true,
+                    position: 'insideRight',
+                    color: '#eee',
+                    formatter: '{c} %',
+                },
+                itemStyle: {
+                    color: 'rgba(42,207,208,0.65)',
+                },
+                data: [15.15, 11.72, 13.89, 14.96, 11.01]
+            },
+        ]
+    };
+
+
+    function checkTime_3() {
+        document.getElementById('main-small-3').setAttribute('_echarts_instance_', '');
+        echarts.init(document.getElementById('main-small-3')).setOption(option_box_3);
+    }
+
+    echarts.init(document.getElementById('main-small-3')).setOption(option_box_3);
+    setInterval("checkTime_3()", 6151);
+
+
+//地图json获取
+    function getMapJson(name) {
+        map_index = {
+            'gs': '62.json',
+            'lz': '620100.json', //兰州市
+            'jyg': '620200.json', //市辖区
+            'jc': '620300.json', //金昌市
+            'by': '620400.json', //白银市
+            'ts': '620500.json', //天水市
+            'ww': '620600.json', //武威市
+            'zy': '620700.json', //张掖市
+            'pl': '620800.json', //平凉市
+            'jq': '620900.json', //酒泉市
+            'qy': '621000.json', //庆阳市
+            'dx': '621100.json', //定西市
+            'ln': '621200.json', //陇南市
+            'lx': '622900.json', //临夏回族自治州
+            'gn': '623000.json', //甘南藏族自治州
+        };
+        $.ajaxSettings.async = false; //设为同步
+        let geo_json = null;
+        $.get('__STATIC__/data/echarts-mapJson/' + map_index[name], function (geoJson) {
+            geo_json = geoJson;
+        });
+        $.ajaxSettings.async = true; //设为异步
+        return geo_json;
+    }
+//区县地图位置
+    orientationList = {
+        'gs': {'left': 475, 'right': 'auto', 'top': 410, 'bottom': 50},
+        'lz': {'left': 530, 'right': 525, 'top': 410, 'bottom': 'auto'}, //兰州市
+        'jyg': {'left': 490, 'right': 490, 'top': 440, 'bottom': 'auto'}, //嘉峪关市
+        'jc': {'left': 525, 'right': 525, 'top': 415, 'bottom': 'auto'}, //金昌市
+        'by': {'left': 575, 'right': 'auto', 'top': 410, 'bottom': 50}, //白银市
+        'ts': {'left': 505, 'right': 'auto', 'top': 445, 'bottom': 80}, //天水市
+        'ww': {'left': 580, 'right': 'auto', 'top': 410, 'bottom': 50}, //武威市
+        'zy': {'left': 495, 'right': 490, 'top': 450, 'bottom': 'auto'}, //张掖市
+        'pl': {'left': 495, 'right': 490, 'top': 480, 'bottom': 'auto'}, //平凉市
+        'jq': {'left': 495, 'right': 490, 'top': 420, 'bottom': 'auto'}, //酒泉市
+        'qy': {'left': 550, 'right': 'auto', 'top': 410, 'bottom': 50}, //庆阳市
+        'dx': {'left': 565, 'right': 'auto', 'top': 410, 'bottom': 50}, //定西市
+        'ln': {'left': 535, 'right': 'auto', 'top': 410, 'bottom': 50}, //陇南市
+        'lx': {'left': 580, 'right': 'auto', 'top': 410, 'bottom': 50}, //临夏回族自治州
+        'gn': {'left': 500, 'right': 500, 'top': 410, 'bottom': 'auto'}, //甘南藏族自治州
+    };
+    //缩写和名称映射
+    city_map={
+        'gs':'甘肃省',
+        'lz': '兰州市',
+        'jyg': '嘉峪关市',
+        'jc': '金昌市',
+        'by': '白银市',
+        'ts': '天水市',
+        'ww': '武威市',
+        'zy': '张掖市',
+        'pl': '平凉市',
+        'jq': '酒泉市',
+        'qy': '庆阳市',
+        'dx': '定西市',
+        'ln': '陇南市',
+        'lx': '临夏回族自治州',
+        'gn': '甘南藏族自治州',
+    };
+
+    echarts.registerMap('GS', getMapJson('gs'));
+    echarts.registerMap('gs', getMapJson('gs'));
+    echarts.registerMap('lz', getMapJson('lz'));
+    echarts.registerMap('jyg', getMapJson('jyg'));
+    echarts.registerMap('jc', getMapJson('jc'));
+    echarts.registerMap('by', getMapJson('by'));
+    echarts.registerMap('ts', getMapJson('ts'));
+    echarts.registerMap('ww', getMapJson('ww'));
+    echarts.registerMap('zy', getMapJson('zy'));
+    echarts.registerMap('pl', getMapJson('pl'));
+    echarts.registerMap('jq', getMapJson('jq'));
+    echarts.registerMap('qy', getMapJson('qy'));
+    echarts.registerMap('dx', getMapJson('dx'));
+    echarts.registerMap('ln', getMapJson('ln'));
+    echarts.registerMap('lx', getMapJson('lx'));
+    echarts.registerMap('gn', getMapJson('gn'));
+
+    active_city = 'lz';
+    option_map_max = {
+        visualMap: {
+            min: 0,
+            max: 50000,
+            textGap:5,
+            text:'',
+            zlevel:10,
+            realtime: false,
+            calculable: false,
+            itemHeight:420,
+            itemWidth:0,//宽度设0  不显示
+            width:490,
+            left:484,
+            top:728,
+            orient:'horizontal',
+            inRange: {
+                color: ['rgba(4,192,255,0.13)','rgb(255,245,5)']
+            },
+            textStyle:{
+                color : '#ffffff',
+                fontSize:12,
+
+            },
+        },
+        series: [
+            {
+                name: '甘肃地图',
+                type: 'map',
+                mapType: 'GS', // 自定义扩展图表类型
+                zlevel: 1,
+                label: {
+                    show: true,
+                    rotate: 45,
+                    color: "#ddd",
+                    fontSize: 14,
+                },
+                left: 490,
+                top: 30,
+                bottom: 30,
+                itemStyle: {
+                    areaColor: 'rgba(8,32,255,0.1)',//背景色
+                    borderColor: '#39BCFC',//地图边框
+                    borderWidth: 1,
+                    shadowColor: 'rgba(13,176,249,0.86)',//边框阴影
+                    shadowBlur: 5,
+                    shadowOffsetY: 3,
+                },
+                emphasis: {
+                    label: {
+                        color: "rgb(255,255,255)",
+                        fontSize: 14,
+                    },
+                    itemStyle: {
+                        borderColor: '#299f21',//选中边框
+                        borderWidth: 1,
+                        shadowColor: 'rgba(75,249,133,0.86)',//选中阴影
+                        shadowBlur: 5,
+                        shadowOffsetY: 3,
+                    },
+                },
+                selectedMode: 'single',//单选
+                data: [
+                    {name:'', selected:true},
+                ],
+            },
+        ]
+    };
+
+    cityIndex = 0;//计次
+    checkTime_map_code=null;//地图区域定时刷新
+
+    mapChart = echarts.init(document.getElementById('map'));
+    mapChart.setOption(option_map_max);
+
+    //设置点击事件
+    mapChart.on('click', function (params) {
+        var city = params.name;
+        //查找符合名称的对应缩写
+        for(key in city_map) {
+            if (city == city_map[key]){
+                return checkTime_map(key);
+            }
+        }
+    });
+    function getcolor() {
+        r = Math.floor(Math.random()*150)+50;
+        g = Math.floor(Math.random()*150)+50;
+        b = Math.floor(Math.random()*150)+50;
+        a = Math.random()*0.2+0.8;
+        rgba = "rgba("+r+','+g+','+b+','+a+')';
+        return rgba;
+    }
+    function sunburst_data() {
+
+
+    var option_sunburst_data = [{
+        name: '永登县',
+        valur:1,
+        itemStyle: {
+            color: getcolor()
+        },
+        children: [{
+            name: '服务队',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '送温暖服务队',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '家风传习',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '县科协实践点',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        },{
+            name: '志愿者',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '黄亚宁',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },]
+        }]
+    }, {
+        name: '皋兰县',
+        valur:1,
+        itemStyle: {
+            color: getcolor()
+        },
+        children: [{
+        name: '服务队',
+            itemStyle: {
+                color: getcolor()
+            },
+        children: [{
+            name: '送温暖服务队',
+            value: 1,
+            itemStyle: {
+                color: getcolor()
+            },
+        },{
+            name: '家风传习',
+            value: 1,
+            itemStyle: {
+                color: getcolor()
+            },
+        },{
+            name: '县科协实践点',
+            value: 1,
+            itemStyle: {
+                color: getcolor()
+            },
+        }]
+    },{
+        name: '志愿者',
+
+            itemStyle: {
+                color: getcolor()
+            },
+        children: [{
+            name: '黄亚宁',
+            value: 1,
+            itemStyle: {
+                color: getcolor()
+            },
+        },{
+            name: '王伟',
+            value: 1,
+            itemStyle: {
+                color: getcolor()
+            },
+        },{
+            name: '张昊',
+            value: 1,
+            itemStyle: {
+                color: getcolor()
+            },
+        }]
+    }]
+    }, {
+        name: '红古区',
+        valur:1,
+
+        itemStyle: {
+            color: getcolor()
+        },
+        children: [{
+            name: '服务队',
+
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '送温暖服务队',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '县科协实践点',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        },{
+            name: '志愿者',
+
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '吕邦让',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '王伟',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '张昊',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        }]
+        }, {
+        name: '城关区',
+        valur:1,
+
+        itemStyle: {
+            color: getcolor()
+        },
+        children: [{
+            name: '服务队',
+
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '送温暖服务队',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        },{
+            name: '志愿者',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '黄亚宁',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '吕邦让',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        }]
+    }, {
+        name: '七里河区',
+        valur:1,
+        itemStyle: {
+            color: getcolor()
+        },
+        children: [{
+            name: '服务队',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '送温暖服务队',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '家风传习',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        },{
+            name: '志愿者',
+
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '黄亚宁',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '吕邦让',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '杨晓瑞',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        }]
+    }, {
+        name: '西固区',
+        valur:1,
+        itemStyle: {
+            color: getcolor()
+        },
+        children: [{
+            name: '服务队',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '送温暖服务队',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '县科协实践点',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        },{
+            name: '志愿者',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '黄亚宁',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '吕邦让',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '杨晓瑞',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        }]
+    }, {
+        name: '安宁区',
+        valur:1,
+        itemStyle: {
+            color: getcolor()
+        },
+        children: [{
+            name: '服务队',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '送温暖服务队',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        },{
+            name: '志愿者',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '黄亚宁',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '张昊',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        }]
+    } , {
+        name: '榆中县',
+        valur:1,
+        itemStyle: {
+            color: getcolor()
+        },
+        children: [{
+            name: '服务队',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '送温暖服务队',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '家风传习',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        },{
+            name: '志愿者',
+            itemStyle: {
+                color: getcolor()
+            },
+            children: [{
+                name: '黄亚宁',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '杨晓瑞',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            },{
+                name: '王伟',
+                value: 1,
+                itemStyle: {
+                    color: getcolor()
+                },
+            }]
+        }]
+    } ];
+    return option_sunburst_data;
+    }
+    function get_option_sunburst(){
+        option_sunburst = {
+            series: {
+                type: 'sunburst',
+                highlightPolicy: 'ancestor',
+                data: sunburst_data(),
+                radius: [0, '100%'],
+                center: ['50%', '50%'],
+                sort: null,
+                levels: [{}, {
+                    r0: '15%',
+                    r: '48%',
+                    itemStyle: {
+                        borderWidth: 1
+                    },
+                    label: {
+                        rotate: 'radial',
+                        align: 'right',
+                    }
+                }, {
+                    r0: '48%',
+                    r: '70%',
+                    label: {
+                        align: 'right'
+                    }
+                }, {
+                    r0: '70%',
+                    r: '72%',
+                    label: {
+                        position: 'outside',
+                        padding: 3,
+                        silent: false,
+                        minAngle:1
+                    },
+                    itemStyle: {
+                        borderWidth: 2
+                    }
+                }]
+            }
+        };
+        return option_sunburst
+    }
+    function checkTime_sunburst() {
+        document.getElementById('screen-data-center-sunburst').setAttribute('_echarts_instance_', '');
+        echarts.init(document.getElementById('screen-data-center-sunburst')).setOption(get_option_sunburst());
+    }
+    /*
+    * 方法名：updata_screen_center
+    * 参数：name：区县名|a:累计用户数|b：志愿者数|c：人口数据|d:服务队数|e：实践站数|f：实践所数|g：累计完成服务数|h：正在执行服务数
+    * */
+    function updata_screen_center(cityname='',a=0,b=0,c=0,d=0,e=0,f=0,g=0,h=0){
+        $('#screen-data-center-cityname').empty().append(cityname).hide().show(500);
+        $('#screen-data-center-a').empty().append(a);
+        $('#screen-data-center-b').empty().append(b);
+        $('#screen-data-center-c').empty().append(c);
+        $('#screen-data-center-d').empty().append(d);
+        $('#screen-data-center-e').empty().append(e);
+        $('#screen-data-center-f').empty().append(f);
+        $('#screen-data-center-g').empty().append(g);
+        $('#screen-data-center-h').empty().append(h);
+    }
+    checkTime_map()
+
+    function checkTime_map(active_city=null) {
+        if(checkTime_map_code!=null){
+            clearInterval(checkTime_map_code);
+        }
+        checkTime_map_code = setInterval("checkTime_map()", 5000);
+        cityList = ['lz', 'jyg', 'jc', 'by', 'ts', 'ww', 'zy', 'pl', 'jq', 'qy', 'dx', 'ln', 'lx', 'gn'];
+        active_city = active_city==null?cityList[cityIndex % (cityList.length)]:active_city;
+        cityIndex++;
+        option_map_max['series'][0]['data'][0]['name']=city_map[active_city];
+        option_map_max['series'][5] = {
+            name: '区县地图',
+            type: 'map',
+            mapType: active_city, // 自定义扩展图表类型
+            zlevel: 3,
+
+            label: {
+                show: true,
+                rotate: 45,
+                color: "#ddd",
+                fontSize: 12,
+            },
+            left: orientationList[active_city].left,
+            right: orientationList[active_city].right,
+            top: orientationList[active_city].top,
+            bottom: orientationList[active_city].bottom,
+            itemStyle: {
+                areaColor: 'rgba(8,32,255,0.1)',
+                borderColor: 'rgba(32,217,252,0.54)',
+                borderWidth: 0.5,
+                shadowColor: 'rgba(13,176,249,0.86)',
+                shadowBlur: 4,
+                shadowOffsetY: 2,
+            },
+            emphasis: {
+                label: {
+                    color: "rgb(221,221,221)",
+                    fontSize: 12,
+                },
+
+            },
+            data: [
+                {name: '永登县', value: 20057.34},
+                {name: '红古区', value: 15477.48},
+                {name: '西固区', value: 31686.1},
+                {name: '安宁区', value: 6992.6},
+                {name: '城关区', value: 44045.49},
+                {name: '七里河区', value: 40689.64},
+                {name: '榆中县', value: 37659.78},
+                {name: '皋兰县', value: 45180.97},
+            ],
+        };
+        //组织左侧显示数据
+        cityname =city_map[active_city];
+        function random(a) {
+            return Math.floor(Math.random()*a)+1;
+        }
+        updata_screen_center(cityname=cityname,a=random(10000) ,b=random(1000),c=random(100000),d=random(1000),e=random(10000),f=random(10000),g=random(10000),h=random(1000));
+        option_sunburst_data = sunburst_data();
+        checkTime_sunburst();
+        document.getElementById('map').setAttribute('_echarts_instance_', '');
+        mapChart.setOption(option_map_max);
+    }
+
+
+</script>
+</body>
+</html>

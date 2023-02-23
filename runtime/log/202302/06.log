@@ -1,0 +1,999 @@
+---------------------------------------------------------------
+[ 2023-02-06T10:17:24+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/index/main.html?module=goods
+[运行时间：0.027300s] [吞吐率：36.63req/s] [内存消耗：2,540.66kb] [文件加载：90]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\consumer-coupon\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ VIEW ] F:\project\consumer-coupon\public/../application/admin\view\public\error.html [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:17:25+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/index/index.html
+[运行时间：0.021111s] [吞吐率：47.37req/s] [内存消耗：2,218.86kb] [文件加载：86]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\project\consumer-coupon\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\project\consumer-coupon\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:17:25+08:00 ] 0.0.0.0 GET localhost:1564/index.php/captcha.html?0.051351337654639506
+[运行时间：0.017721s] [吞吐率：56.43req/s] [内存消耗：1,844.27kb] [文件加载：78]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+  '0_051351337654639506' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\consumer-coupon\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:17:32+08:00 ] 0.0.0.0 POST localhost:1564/index.php/admin/index/login.html
+[运行时间：0.073303s] [吞吐率：13.64req/s] [内存消耗：3,406.66kb] [文件加载：102]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:1564',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'content-length' => '49',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'newGScloud@1234',
+  'code' => 'npud',
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\project\consumer-coupon\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016599s ] mysql:host=172.17.2.135;port=3306;dbname=consumer-coupon-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_ip` [ RunTime:0.002819s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_ip` WHERE  `Ip` = '0.0.0.0' LIMIT 1 [ RunTime:0.002355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.002894s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE  `Username` = 'admin' LIMIT 1 [ RunTime:0.002449s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE  `Username` = 'admin'  AND `Status` = 0 LIMIT 1 [ RunTime:0.002211s ]
+[ sql ] [ SQL ] SELECT `ID`,`Username`,`Password`,`Roleid`,`Status`,`Competence`,`Loginarea`,`Logincount` FROM `tp_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '45ead7c9c0d94e428b7fe01d4ea4e8374d396321' LIMIT 1 [ RunTime:0.001951s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '45ead7c9c0d94e428b7fe01d4ea4e8374d396321' LIMIT 1 [ RunTime:0.001947s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `Loginarea`='IANA保留地址.',`Loginip`='0.0.0.0',`Logintime`='2023-02-06 10:17:32'  WHERE  `ID` = 1 [ RunTime:0.002081s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `Logincount`=`Logincount`+1  WHERE  `ID` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_loginlog` [ RunTime:0.002522s ]
+[ sql ] [ SQL ] INSERT INTO `tp_loginlog` (`Uid` , `User` , `Description` , `Area` , `Loginip` , `Dtime`) VALUES (1 , 'admin' , '<div class=\"de1\">登录成功</div>' , 'IANA保留地址.' , '0.0.0.0' , '2023-02-06 10:17:32') [ RunTime:0.002498s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_user` WHERE  `leader_id` = 1 [ RunTime:0.001755s ]
+---------------------------------------------------------------
+[ 2023-02-06T10:17:35+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/index/main.html
+[运行时间：0.212773s] [吞吐率：4.70req/s] [内存消耗：3,484.72kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\consumer-coupon\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\consumer-coupon\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026333s ] mysql:host=172.17.2.135;port=3306;dbname=consumer-coupon-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.004127s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE  `ID` = 1 LIMIT 1 [ RunTime:0.003124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_statis` [ RunTime:0.002930s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statis` WHERE  `Uid` = 1 LIMIT 1 [ RunTime:0.001916s ]
+[ sql ] [ SQL ] UPDATE `tp_statis`  SET `Dtime`='1675649855'  WHERE  `Uid` = 1 [ RunTime:0.001765s ]
+[ sql ] [ SQL ] DELETE FROM `tp_statis`    WHERE  `Dtime` < '1675649735' [ RunTime:0.001883s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_module` [ RunTime:0.003192s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  `Sid` = 0  AND `ID` IN (0)  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.001987s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_module` WHERE  (  Sid > 0 )  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_competence` [ RunTime:0.003360s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 112 LIMIT 1 [ RunTime:0.001716s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.002115s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 107 LIMIT 1 [ RunTime:0.001854s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 107 [ RunTime:0.001883s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 113 LIMIT 1 [ RunTime:0.001901s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001967s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 120 LIMIT 1 [ RunTime:0.002024s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001769s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 364 LIMIT 1 [ RunTime:0.001887s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 364 [ RunTime:0.001777s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 126 LIMIT 1 [ RunTime:0.002290s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 322 LIMIT 1 [ RunTime:0.002132s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001640s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 1 LIMIT 1 [ RunTime:0.001665s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 1 [ RunTime:0.001765s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 354 LIMIT 1 [ RunTime:0.001797s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 354 [ RunTime:0.001936s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 362 LIMIT 1 [ RunTime:0.001663s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 362 [ RunTime:0.001769s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 311 LIMIT 1 [ RunTime:0.001646s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.002056s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 316 LIMIT 1 [ RunTime:0.001875s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001820s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 44 LIMIT 1 [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001776s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 108 LIMIT 1 [ RunTime:0.001818s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 108 [ RunTime:0.001815s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 322 LIMIT 1 [ RunTime:0.001865s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001745s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 11 LIMIT 1 [ RunTime:0.001939s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 11 [ RunTime:0.002003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 44 LIMIT 1 [ RunTime:0.001698s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001746s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 111 LIMIT 1 [ RunTime:0.001998s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 111 [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 114 LIMIT 1 [ RunTime:0.001909s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001957s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 59 LIMIT 1 [ RunTime:0.001934s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 59 [ RunTime:0.001598s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 323 LIMIT 1 [ RunTime:0.001950s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001788s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 349 LIMIT 1 [ RunTime:0.001939s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 349 [ RunTime:0.001806s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 364 LIMIT 1 [ RunTime:0.001651s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 364 [ RunTime:0.002674s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 131 LIMIT 1 [ RunTime:0.002639s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.002547s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 364 LIMIT 1 [ RunTime:0.001978s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 364 [ RunTime:0.002006s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 354 LIMIT 1 [ RunTime:0.001825s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` = 354 [ RunTime:0.001846s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_competence` WHERE  `ID` = 109 LIMIT 1 [ RunTime:0.001728s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `tp_competence` WHERE  `Sid` IS NULL [ RunTime:0.001618s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE  `ID` = 1 LIMIT 1 [ RunTime:0.001849s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statis` WHERE  `Uid` = 1 LIMIT 1 [ RunTime:0.001782s ]
+[ sql ] [ SQL ] UPDATE `tp_statis`  SET `Dtime`='1675649855'  WHERE  `Uid` = 1 [ RunTime:0.001553s ]
+[ sql ] [ SQL ] DELETE FROM `tp_statis`    WHERE  `Dtime` < '1675649735' [ RunTime:0.001875s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE  `ID` = 1 LIMIT 1 [ RunTime:0.001916s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statis` WHERE  `Uid` = 1 LIMIT 1 [ RunTime:0.001776s ]
+[ sql ] [ SQL ] UPDATE `tp_statis`  SET `Dtime`='1675649855'  WHERE  `Uid` = 1 [ RunTime:0.002157s ]
+[ sql ] [ SQL ] DELETE FROM `tp_statis`    WHERE  `Dtime` < '1675649735' [ RunTime:0.001858s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE  `ID` = 1 LIMIT 1 [ RunTime:0.003012s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_statis` WHERE  `Uid` = 1 LIMIT 1 [ RunTime:0.002171s ]
+[ sql ] [ SQL ] UPDATE `tp_statis`  SET `Dtime`='1675649855'  WHERE  `Uid` = 1 [ RunTime:0.001831s ]
+[ sql ] [ SQL ] DELETE FROM `tp_statis`    WHERE  `Dtime` < '1675649735' [ RunTime:0.001981s ]
+[ error ] [8]未定义数组索引: [F:\project\consumer-coupon\application\admin\controller\Index.php:91]
+[ error ] [8]未定义变量: app_name[F:\project\consumer-coupon\runtime\temp\8a0aad5f3ee4557272b15774bc8e97a4.php:27]
+---------------------------------------------------------------
+[ 2023-02-06T10:17:35+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/item/unassigned.html
+[运行时间：0.019257s] [吞吐率：51.93req/s] [内存消耗：1,892.36kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'item',
+    2 => 'unassigned',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:18:05+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/received.html
+[运行时间：0.019531s] [吞吐率：51.20req/s] [内存消耗：2,144.65kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'received',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:18:05+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/used.html
+[运行时间：0.019926s] [吞吐率：50.19req/s] [内存消耗：2,144.56kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'used',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:18:06+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/expired.html
+[运行时间：0.019770s] [吞吐率：50.58req/s] [内存消耗：2,144.63kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'expired',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:18:06+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/used.html
+[运行时间：0.019647s] [吞吐率：50.90req/s] [内存消耗：2,144.56kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'used',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:18:06+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/received.html
+[运行时间：0.019581s] [吞吐率：51.07req/s] [内存消耗：2,144.65kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'received',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:18:07+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/index.html
+[运行时间：0.018891s] [吞吐率：52.93req/s] [内存消耗：2,168.50kb] [文件加载：86]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Coupon->index[ F:\project\consumer-coupon\application\admin\controller\Coupon.php ]
+[ info ] [ VIEW ] F:\project\consumer-coupon\public/../application/admin\view\coupon\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:18:07+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/getcouponlist.html?page=1&limit=15
+[运行时间：0.050616s] [吞吐率：19.76req/s] [内存消耗：3,242.61kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'getcouponlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/coupon/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ RUN ] app\admin\controller\Coupon->getCouponList[ F:\project\consumer-coupon\application\admin\controller\Coupon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017583s ] mysql:host=172.17.2.135;port=3306;dbname=consumer-coupon-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_coupon` [ RunTime:0.002684s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_coupon` LIMIT 1 [ RunTime:0.001902s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_coupon` ORDER BY `ID` DESC LIMIT 0,15 [ RunTime:0.001963s ]
+[ error ] [8]未定义数组索引: sex[F:\project\consumer-coupon\application\admin\controller\Coupon.php:25]
+---------------------------------------------------------------
+[ 2023-02-06T10:19:00+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/received.html
+[运行时间：0.019885s] [吞吐率：50.29req/s] [内存消耗：2,144.65kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'received',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:19:00+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/used.html
+[运行时间：0.019670s] [吞吐率：50.84req/s] [内存消耗：2,144.56kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'used',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:19:01+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/expired.html
+[运行时间：0.019234s] [吞吐率：51.99req/s] [内存消耗：2,144.63kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'expired',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:19:02+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/used.html
+[运行时间：0.018775s] [吞吐率：53.26req/s] [内存消耗：2,144.56kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'used',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:19:02+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/received.html
+[运行时间：0.019416s] [吞吐率：51.50req/s] [内存消耗：2,144.65kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'received',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:19:43+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/index.html
+[运行时间：0.021941s] [吞吐率：45.58req/s] [内存消耗：2,168.50kb] [文件加载：86]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Coupon->index[ F:\project\consumer-coupon\application\admin\controller\Coupon.php ]
+[ info ] [ VIEW ] F:\project\consumer-coupon\public/../application/admin\view\coupon\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:19:43+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/getcouponlist.html?page=1&limit=15
+[运行时间：0.047199s] [吞吐率：21.19req/s] [内存消耗：3,242.61kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'getcouponlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/coupon/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ RUN ] app\admin\controller\Coupon->getCouponList[ F:\project\consumer-coupon\application\admin\controller\Coupon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013761s ] mysql:host=172.17.2.135;port=3306;dbname=consumer-coupon-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_coupon` [ RunTime:0.002743s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_coupon` LIMIT 1 [ RunTime:0.001823s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_coupon` ORDER BY `ID` DESC LIMIT 0,15 [ RunTime:0.001921s ]
+[ error ] [8]未定义数组索引: sex[F:\project\consumer-coupon\application\admin\controller\Coupon.php:25]
+---------------------------------------------------------------
+[ 2023-02-06T10:20:15+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/item/view2.html?id=0
+[运行时间：0.020552s] [吞吐率：48.66req/s] [内存消耗：1,892.63kb] [文件加载：81]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'item',
+    2 => 'view2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/coupon/index.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:20:32+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/getcouponlist.html?page=1&limit=15
+[运行时间：0.044689s] [吞吐率：22.38req/s] [内存消耗：3,242.61kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'getcouponlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/coupon/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ RUN ] app\admin\controller\Coupon->getCouponList[ F:\project\consumer-coupon\application\admin\controller\Coupon.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011487s ] mysql:host=172.17.2.135;port=3306;dbname=consumer-coupon-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_coupon` [ RunTime:0.002807s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_coupon` LIMIT 1 [ RunTime:0.002072s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_coupon` ORDER BY `ID` DESC LIMIT 0,15 [ RunTime:0.001948s ]
+[ error ] [8]未定义数组索引: sex[F:\project\consumer-coupon\application\admin\controller\Coupon.php:25]
+---------------------------------------------------------------
+[ 2023-02-06T10:20:33+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/received.html
+[运行时间：0.019588s] [吞吐率：51.05req/s] [内存消耗：2,144.65kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'received',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-02-06T10:20:34+08:00 ] 0.0.0.0 GET localhost:1564/index.php/admin/coupon/used.html
+[运行时间：0.023461s] [吞吐率：42.62req/s] [内存消耗：2,144.56kb] [文件加载：87]
+[ info ] [ LANG ] F:\project\consumer-coupon\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'coupon',
+    2 => 'used',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi; thinkphp_show_page_trace=0|0; jsl_userinfo=think%3A%7B%22department_id%22%3A%221%22%2C%22department_name%22%3A%22admin%22%2C%22department_type%22%3A%22100%22%7D; jsl_key=9c0796e25da3fc283907c011ccdb73ce; jsl_type=department',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:1564/index.php/admin/index/main.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"',
+  'connection' => 'close',
+  'host' => 'localhost:1564',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,2692 @@
+---------------------------------------------------------------
+[ 2022-04-01T16:26:36+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.09215032299401948
+[运行时间：0.552345s] [吞吐率：1.81req/s] [内存消耗：2,169.47kb] [文件加载：80]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_09215032299401948' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-01T16:26:36+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.8285446525927929
+[运行时间：0.084712s] [吞吐率：11.80req/s] [内存消耗：2,169.94kb] [文件加载：80]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_8285446525927929' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-01T16:26:37+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.6943622167699481
+[运行时间：0.014787s] [吞吐率：67.63req/s] [内存消耗：2,169.94kb] [文件加载：80]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_6943622167699481' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-04-01T16:26:42+08:00 ] 0.0.0.0 POST localhost:5601/index.php/admin/index/login.html
+[运行时间：0.220762s] [吞吐率：4.53req/s] [内存消耗：3,327.62kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'v4ik',
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021305s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_ip` [ RunTime:0.016643s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_ip` WHERE  `Ip` = '0.0.0.0' LIMIT 1 [ RunTime:0.003099s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004168s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin' LIMIT 1 [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0 LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `ID`,`Username`,`Password`,`Roleid`,`Status`,`Competence`,`Loginarea`,`Logincount` FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.001598s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Loginarea`='IANA保留地址.',`Loginip`='0.0.0.0',`Logintime`='2022-04-01 16:26:42'  WHERE  (  ID = 1 ) [ RunTime:0.001584s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Logincount`=`Logincount`+1  WHERE  (  ID = 1 ) [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_loginlog` [ RunTime:0.002696s ]
+[ sql ] [ SQL ] INSERT INTO `jsl_loginlog` (`Uid` , `User` , `Description` , `Area` , `Loginip` , `Dtime`) VALUES (1 , 'admin' , '<div class=\"de1\">登录成功</div>' , 'IANA保留地址.' , '0.0.0.0' , '2022-04-01 16:26:42') [ RunTime:0.002227s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_user` WHERE  (  leader_id = 1 ) [ RunTime:0.001505s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:26:44+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/web.html
+[运行时间：0.262819s] [吞吐率：3.80req/s] [内存消耗：3,488.11kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'web',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/index.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->web[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\web.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024654s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003758s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002753s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003835s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801604'  WHERE  (  Uid = 1 ) [ RunTime:0.001639s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801484' [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.002988s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid = 0 ) ORDER BY `Msort` ASC [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.004189s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '1' ) [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '362' ) LIMIT 1 [ RunTime:0.001168s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '362' ) [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001447s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001156s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001410s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001383s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '349' ) LIMIT 1 [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '349' ) [ RunTime:0.001383s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001316s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '29' ) [ RunTime:0.001246s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '1' ) [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '2' ) [ RunTime:0.001476s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '3' ) [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '62' ) [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '144' ) [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '64' ) [ RunTime:0.001068s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '75' ) [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001334s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801604'  WHERE  (  Uid = 1 ) [ RunTime:0.001295s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801484' [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001322s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801604'  WHERE  (  Uid = 1 ) [ RunTime:0.001329s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801484' [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.010775s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001696s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801604'  WHERE  (  Uid = 1 ) [ RunTime:0.001389s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801484' [ RunTime:0.001310s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+---------------------------------------------------------------
+[ 2022-04-01T16:26:45+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=goods
+[运行时间：0.209072s] [吞吐率：4.78req/s] [内存消耗：3,476.58kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'goods',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023828s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004048s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002522s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001673s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801605'  WHERE  (  Uid = 1 ) [ RunTime:0.001875s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801485' [ RunTime:0.001575s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.002922s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (112,137,141)  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 )  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.002063s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001716s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001588s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.002283s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001110s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '1' ) [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '362' ) LIMIT 1 [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '362' ) [ RunTime:0.014774s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001643s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001571s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001818s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001356s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001474s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001416s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '349' ) LIMIT 1 [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '349' ) [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.002042s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001542s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001477s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801605'  WHERE  (  Uid = 1 ) [ RunTime:0.001471s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801485' [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001434s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801605'  WHERE  (  Uid = 1 ) [ RunTime:0.001362s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801485' [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001367s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001472s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801605'  WHERE  (  Uid = 1 ) [ RunTime:0.001412s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801485' [ RunTime:0.001546s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2022-04-01T16:26:46+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.082053s] [吞吐率：12.19req/s] [内存消耗：3,350.95kb] [文件加载：98]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->tree[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\tree.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012858s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004041s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003075s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001726s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801606'  WHERE  (  Uid = 1 ) [ RunTime:0.001927s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801486' [ RunTime:0.001631s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:26:46+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.140136s] [吞吐率：7.14req/s] [内存消耗：3,542.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027198s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002066s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002460s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001249s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801606'  WHERE  (  Uid = 1 ) [ RunTime:0.001443s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801486' [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.003966s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001588s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.003122s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001497s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001538s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:26:50+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/edit.html?goods_id=45
+[运行时间：0.102492s] [吞吐率：9.76req/s] [内存消耗：3,528.55kb] [文件加载：104]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '45',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->edit[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\edit.html [ array (
+  0 => 'volist',
+  1 => 'clist',
+  2 => 'result',
+  3 => 'image_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025060s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004145s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002773s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001441s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801610'  WHERE  (  Uid = 1 ) [ RunTime:0.001654s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801490' [ RunTime:0.001581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002444s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_category` WHERE  (  is_enable=1 ) [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.002636s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` WHERE  (  goods_id =45 ) LIMIT 1 [ RunTime:0.001811s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_image` [ RunTime:0.002431s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_image` WHERE  `goods_id` = 45 [ RunTime:0.001314s ]
+[ error ] [8]未定义数组索引: sort[F:\project\pointsmall\runtime\temp\07a604b7ceee65786a17198ffd9780fc.php:117]
+[ error ] [8]未定义数组索引: sort[F:\project\pointsmall\runtime\temp\07a604b7ceee65786a17198ffd9780fc.php:117]
+[ error ] [8]未定义数组索引: sort[F:\project\pointsmall\runtime\temp\07a604b7ceee65786a17198ffd9780fc.php:117]
+---------------------------------------------------------------
+[ 2022-04-01T16:27:03+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.088073s] [吞吐率：11.35req/s] [内存消耗：3,542.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019262s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004946s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003078s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001547s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801623'  WHERE  (  Uid = 1 ) [ RunTime:0.001551s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801503' [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.002678s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001527s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001776s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002136s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001362s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001495s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001485s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001518s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001122s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:27:04+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goodsclass/index.html
+[运行时间：0.097764s] [吞吐率：10.23req/s] [内存消耗：3,545.20kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goodsclass',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goodsclass->index[ F:\project\pointsmall\application\admin\controller\Goodsclass.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goodsclass\index.html [ array (
+  0 => 'department_list',
+  1 => 'list',
+  2 => 'pointsgoodscategory',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018869s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004831s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002680s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001644s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801624'  WHERE  (  Uid = 1 ) [ RunTime:0.002092s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801504' [ RunTime:0.001736s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002178s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods_category` LIMIT 1 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_category` ORDER BY `sort` ASC LIMIT 0,15 [ RunTime:0.001454s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:27:04+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goodsclass/getgoodsclasslist.html?page=1&limit=15
+[运行时间：0.060698s] [吞吐率：16.47req/s] [内存消耗：3,325.45kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goodsclass',
+    2 => 'getgoodsclasslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goodsclass/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goodsclass->getGoodsclassList[ F:\project\pointsmall\application\admin\controller\Goodsclass.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022811s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004394s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002450s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001496s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801624'  WHERE  (  Uid = 1 ) [ RunTime:0.001370s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801504' [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT count(*) AS t FROM ( SELECT 1 FROM jsl_points_goods_category AS ps 
+    	 WHERE 1    GROUP BY ps.category_id) AS temp [ RunTime:0.001673s ]
+[ sql ] [ SQL ] SELECT ps.*
+    	FROM jsl_points_goods_category AS ps 
+    	 WHERE 1    GROUP BY ps.category_id ORDER BY  ps.sort ASC ,ps.category_id ASC  LIMIT 0,15 [ RunTime:0.001727s ]
+[ error ] [8]未定义数组索引: category_name[F:\project\pointsmall\application\common\model\Pointsgoodscategory.php:12]
+---------------------------------------------------------------
+[ 2022-04-01T16:27:06+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goodsclass/index.html
+[运行时间：0.063099s] [吞吐率：15.85req/s] [内存消耗：3,545.20kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goodsclass',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goodsclass->index[ F:\project\pointsmall\application\admin\controller\Goodsclass.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goodsclass\index.html [ array (
+  0 => 'department_list',
+  1 => 'list',
+  2 => 'pointsgoodscategory',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019448s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004495s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003403s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001790s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801626'  WHERE  (  Uid = 1 ) [ RunTime:0.001995s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801506' [ RunTime:0.001745s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.002685s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods_category` LIMIT 1 [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods_category` ORDER BY `sort` ASC LIMIT 0,15 [ RunTime:0.001681s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:27:06+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goodsclass/getgoodsclasslist.html?page=1&limit=15
+[运行时间：0.052319s] [吞吐率：19.11req/s] [内存消耗：3,325.45kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goodsclass',
+    2 => 'getgoodsclasslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goodsclass/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goodsclass->getGoodsclassList[ F:\project\pointsmall\application\admin\controller\Goodsclass.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014398s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003712s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002916s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801626'  WHERE  (  Uid = 1 ) [ RunTime:0.001377s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801506' [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT count(*) AS t FROM ( SELECT 1 FROM jsl_points_goods_category AS ps 
+    	 WHERE 1    GROUP BY ps.category_id) AS temp [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT ps.*
+    	FROM jsl_points_goods_category AS ps 
+    	 WHERE 1    GROUP BY ps.category_id ORDER BY  ps.sort ASC ,ps.category_id ASC  LIMIT 0,15 [ RunTime:0.001754s ]
+[ error ] [8]未定义数组索引: category_name[F:\project\pointsmall\application\common\model\Pointsgoodscategory.php:12]
+---------------------------------------------------------------
+[ 2022-04-01T16:27:07+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/recommend.html
+[运行时间：0.086217s] [吞吐率：11.60req/s] [内存消耗：3,322.96kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'recommend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013380s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004257s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002536s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001310s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801626'  WHERE  (  Uid = 1 ) [ RunTime:0.001427s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801506' [ RunTime:0.001431s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:27:08+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/recommend.html
+[运行时间：0.061434s] [吞吐率：16.28req/s] [内存消耗：3,322.96kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'recommend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024105s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004464s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003445s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001721s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801628'  WHERE  (  Uid = 1 ) [ RunTime:0.001764s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801508' [ RunTime:0.001408s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:28:38+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/tree.html
+[运行时间：0.055826s] [吞吐率：17.91req/s] [内存消耗：3,351.13kb] [文件加载：98]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->tree[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\goods\tree.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016311s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004010s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002823s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003103s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001634s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801718'  WHERE  (  Uid = 1 ) [ RunTime:0.002125s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801598' [ RunTime:0.001842s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:28:38+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/goods/getdfhgoodslist.html?page=1&limit=15
+[运行时间：0.067080s] [吞吐率：14.91req/s] [内存消耗：3,542.70kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'getdfhgoodslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/goods/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Goods->getdfhgoodslist[ F:\project\pointsmall\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003984s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003750s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002516s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001356s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801718'  WHERE  (  Uid = 1 ) [ RunTime:0.001445s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801598' [ RunTime:0.001477s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods` [ RunTime:0.002457s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_points_goods` LIMIT 1 [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_points_goods` ORDER BY `add_time` DESC LIMIT 0,15 [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_points_goods_category` [ RunTime:0.001979s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='28' ) LIMIT 1 [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001171s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='2' ) LIMIT 1 [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001344s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='36' ) LIMIT 1 [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT `category_name` FROM `jsl_points_goods_category` WHERE  (  category_id='44' ) LIMIT 1 [ RunTime:0.001299s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:28:39+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=order
+[运行时间：0.176412s] [吞吐率：5.67req/s] [内存消耗：3,472.91kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=goods',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'order',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015722s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004616s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002659s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001461s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801719'  WHERE  (  Uid = 1 ) [ RunTime:0.002465s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801599' [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.002087s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (62,144)  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 )  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.001857s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.002752s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.012482s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001793s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001558s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001672s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001619s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001506s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '1' ) [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '362' ) LIMIT 1 [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '362' ) [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001255s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001286s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001495s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001110s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '349' ) LIMIT 1 [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '349' ) [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001538s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001477s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001539s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001660s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '62' ) [ RunTime:0.001668s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001459s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801719'  WHERE  (  Uid = 1 ) [ RunTime:0.001662s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801599' [ RunTime:0.001593s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001450s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801719'  WHERE  (  Uid = 1 ) [ RunTime:0.001522s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801599' [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001545s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001446s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801719'  WHERE  (  Uid = 1 ) [ RunTime:0.001512s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801599' [ RunTime:0.001389s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2022-04-01T16:28:39+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/index.html
+[运行时间：0.097918s] [吞吐率：10.21req/s] [内存消耗：3,391.02kb] [文件加载：98]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=order',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->index[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\order\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027348s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004353s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002755s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001680s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801719'  WHERE  (  Uid = 1 ) [ RunTime:0.001536s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801599' [ RunTime:0.001500s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:28:40+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/getorderlist.html?page=1&limit=15
+[运行时间：0.237100s] [吞吐率：4.22req/s] [内存消耗：3,779.05kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'getorderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->getorderlist[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020264s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004589s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002559s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001363s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801719'  WHERE  (  Uid = 1 ) [ RunTime:0.001439s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801599' [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.003968s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_order` LIMIT 1 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` ORDER BY `order_id` ASC LIMIT 0,15 [ RunTime:0.002046s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order_goods` [ RunTime:0.002719s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '28' ) LIMIT 1 [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '28' ) LIMIT 1 [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.002688s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_region` [ RunTime:0.002640s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '29' ) LIMIT 1 [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '29' ) LIMIT 1 [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001344s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '32' ) LIMIT 1 [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '32' ) LIMIT 1 [ RunTime:0.001301s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '46' ) LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '46' ) LIMIT 1 [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001700s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001478s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '47' ) LIMIT 1 [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '47' ) LIMIT 1 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001634s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '48' ) LIMIT 1 [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '48' ) LIMIT 1 [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001523s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001471s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '111' ) LIMIT 1 [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '111' ) LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001281s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001495s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001617s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001286s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001316s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001268s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001382s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:20+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/index.html
+[运行时间：0.052743s] [吞吐率：18.96req/s] [内存消耗：3,391.20kb] [文件加载：98]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=order',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->index[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\order\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015209s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004694s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003079s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001287s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801760'  WHERE  (  Uid = 1 ) [ RunTime:0.002043s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801640' [ RunTime:0.001267s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:20+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/getorderlist.html?page=1&limit=15
+[运行时间：0.201112s] [吞吐率：4.97req/s] [内存消耗：3,779.05kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'getorderlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->getorderlist[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019289s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004103s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002862s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001399s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801760'  WHERE  (  Uid = 1 ) [ RunTime:0.001518s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801640' [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002619s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_order` LIMIT 1 [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` ORDER BY `order_id` ASC LIMIT 0,15 [ RunTime:0.001724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order_goods` [ RunTime:0.002145s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '28' ) LIMIT 1 [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '28' ) LIMIT 1 [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.002955s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_region` [ RunTime:0.002640s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001690s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '29' ) LIMIT 1 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '29' ) LIMIT 1 [ RunTime:0.001238s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '32' ) LIMIT 1 [ RunTime:0.001631s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '32' ) LIMIT 1 [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001561s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001633s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001692s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001665s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.001482s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001709s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001635s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001546s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001513s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.001498s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001495s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '46' ) LIMIT 1 [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '46' ) LIMIT 1 [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001383s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '47' ) LIMIT 1 [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '47' ) LIMIT 1 [ RunTime:0.001514s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001750s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '48' ) LIMIT 1 [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '48' ) LIMIT 1 [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001302s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '111' ) LIMIT 1 [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '111' ) LIMIT 1 [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001485s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001362s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001283s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001136s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001187s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001541s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001538s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001094s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:21+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/pending.html
+[运行时间：0.080099s] [吞吐率：12.48req/s] [内存消耗：3,391.44kb] [文件加载：98]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'pending',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=order',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->pending[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\order\pending.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015923s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003546s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002300s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001281s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801761'  WHERE  (  Uid = 1 ) [ RunTime:0.001702s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801641' [ RunTime:0.014143s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:22+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/getpendinglist.html?page=1&limit=15
+[运行时间：0.210268s] [吞吐率：4.76req/s] [内存消耗：3,779.61kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'getpendinglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/pending.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->getpendinglist[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024618s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003832s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002650s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001221s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801762'  WHERE  (  Uid = 1 ) [ RunTime:0.001505s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801642' [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002203s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_order` WHERE  `order_status` = 0 LIMIT 1 [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `order_status` = 0 ORDER BY `order_id` ASC LIMIT 0,15 [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order_goods` [ RunTime:0.001924s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '28' ) LIMIT 1 [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '28' ) LIMIT 1 [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.002604s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001541s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_region` [ RunTime:0.002323s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '32' ) LIMIT 1 [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '32' ) LIMIT 1 [ RunTime:0.001517s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.001352s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001330s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.001698s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.001224s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001224s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001255s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.013817s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001447s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001344s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001376s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001244s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '116' ) LIMIT 1 [ RunTime:0.001330s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '116' ) LIMIT 1 [ RunTime:0.001488s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '117' ) LIMIT 1 [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '117' ) LIMIT 1 [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '118' ) LIMIT 1 [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '118' ) LIMIT 1 [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001216s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '119' ) LIMIT 1 [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '119' ) LIMIT 1 [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001246s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001238s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '120' ) LIMIT 1 [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '120' ) LIMIT 1 [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001247s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:29+08:00 ] 0.0.0.0 POST localhost:5601/index.php/admin/order/examine_do.html
+[运行时间：0.083598s] [吞吐率：11.96req/s] [内存消耗：3,479.86kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'examine_do',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/pending.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'content-length' => '11',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '28',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->examine_do[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027480s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003863s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002603s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001501s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801769'  WHERE  (  Uid = 1 ) [ RunTime:0.002464s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801649' [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002976s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  (  order_id=28 ) LIMIT 1 [ RunTime:0.001547s ]
+[ sql ] [ SQL ] UPDATE `jsl_order`  SET `order_status`=1,`confirm_time`='2022-04-01 04:29:29'  WHERE  (  order_id = '28' ) [ RunTime:0.001758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_operating` [ RunTime:0.003718s ]
+[ sql ] [ SQL ] INSERT INTO `jsl_operating` (`Uid` , `Url` , `Description` , `Ip` , `Status` , `Dtime`) VALUES (1 , 'admin/order/examine_do' , '订单审核成功：20211206628616' , '0.0.0.0' , 0 , '2022-04-01 16:29:29') [ RunTime:0.001596s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:30+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/pending.html
+[运行时间：0.048486s] [吞吐率：20.62req/s] [内存消耗：3,392.27kb] [文件加载：98]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'pending',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/pending.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->pending[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\order\pending.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014132s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004018s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002651s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002717s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801770'  WHERE  (  Uid = 1 ) [ RunTime:0.001873s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801650' [ RunTime:0.001375s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:31+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/getpendinglist.html?page=1&limit=15
+[运行时间：0.226813s] [吞吐率：4.41req/s] [内存消耗：3,779.58kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'getpendinglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/pending.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->getpendinglist[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017174s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004014s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002618s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001480s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801771'  WHERE  (  Uid = 1 ) [ RunTime:0.001703s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801651' [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002178s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_order` WHERE  `order_status` = 0 LIMIT 1 [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `order_status` = 0 ORDER BY `order_id` ASC LIMIT 0,15 [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order_goods` [ RunTime:0.001812s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '32' ) LIMIT 1 [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '32' ) LIMIT 1 [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.002060s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_region` [ RunTime:0.001962s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001246s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.014130s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.002872s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.001767s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001738s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001617s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001513s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001477s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001711s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.002546s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001474s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001542s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '116' ) LIMIT 1 [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '116' ) LIMIT 1 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001389s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '117' ) LIMIT 1 [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '117' ) LIMIT 1 [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.011742s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001352s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '118' ) LIMIT 1 [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '118' ) LIMIT 1 [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.012943s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '119' ) LIMIT 1 [ RunTime:0.001549s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '119' ) LIMIT 1 [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '120' ) LIMIT 1 [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '120' ) LIMIT 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001152s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '121' ) LIMIT 1 [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '121' ) LIMIT 1 [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001175s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:35+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/delivery.html
+[运行时间：0.071485s] [吞吐率：13.99req/s] [内存消耗：3,390.09kb] [文件加载：98]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'delivery',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=order',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->delivery[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\order\delivery.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019284s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004019s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002324s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001186s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801775'  WHERE  (  Uid = 1 ) [ RunTime:0.001512s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801655' [ RunTime:0.001225s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:35+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/getdeliverylist.html?page=1&limit=15
+[运行时间：0.100607s] [吞吐率：9.94req/s] [内存消耗：3,709.20kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'getdeliverylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/delivery.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->getdeliverylist[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005530s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003371s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.014785s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002942s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.012530s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801775'  WHERE  (  Uid = 1 ) [ RunTime:0.001956s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801655' [ RunTime:0.001646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_order` WHERE  `order_status` = 1  AND `pay_status` = 1  AND `shipping_status` = 0 LIMIT 1 [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `order_status` = 1  AND `pay_status` = 1  AND `shipping_status` = 0 ORDER BY `order_id` ASC LIMIT 0,15 [ RunTime:0.001762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order_goods` [ RunTime:0.002556s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '29' ) LIMIT 1 [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '29' ) LIMIT 1 [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.002726s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001152s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_region` [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '124' ) LIMIT 1 [ RunTime:0.001083s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '124' ) LIMIT 1 [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '125' ) LIMIT 1 [ RunTime:0.001065s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '125' ) LIMIT 1 [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001080s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:38+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/order_fahuo.html?order_id=29
+[运行时间：0.106839s] [吞吐率：9.36req/s] [内存消耗：3,548.04kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'order_fahuo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/delivery.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '29',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->order_fahuo[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\order\order_fahuo.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022724s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004258s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003187s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001653s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801778'  WHERE  (  Uid = 1 ) [ RunTime:0.002206s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801658' [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002628s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  (  order_id = '29' ) LIMIT 1 [ RunTime:0.001491s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:29:43+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/getdeliverylist.html?page=1&limit=15
+[运行时间：0.092576s] [吞吐率：10.80req/s] [内存消耗：3,709.20kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'getdeliverylist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/delivery.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->getdeliverylist[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018588s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003664s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002417s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001269s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801783'  WHERE  (  Uid = 1 ) [ RunTime:0.001993s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801663' [ RunTime:0.001585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.002766s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_order` WHERE  `order_status` = 1  AND `pay_status` = 1  AND `shipping_status` = 0 LIMIT 1 [ RunTime:0.001595s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `order_status` = 1  AND `pay_status` = 1  AND `shipping_status` = 0 ORDER BY `order_id` ASC LIMIT 0,15 [ RunTime:0.002188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order_goods` [ RunTime:0.002352s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '29' ) LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '29' ) LIMIT 1 [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.002340s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_region` [ RunTime:0.002087s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001362s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '124' ) LIMIT 1 [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '124' ) LIMIT 1 [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001116s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '125' ) LIMIT 1 [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '125' ) LIMIT 1 [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001435s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001458s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:30:32+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=system
+[运行时间：0.156700s] [吞吐率：6.38req/s] [内存消耗：3,476.81kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=order',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'system',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017079s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004024s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002743s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002582s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001362s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801832'  WHERE  (  Uid = 1 ) [ RunTime:0.002308s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801712' [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.002362s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (1,2,3)  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.001640s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 )  AND `Status` = 0 ORDER BY `Msort` ASC [ RunTime:0.001587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.002028s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001238s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001234s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '1' ) [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '362' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '362' ) [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001286s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001333s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001273s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001301s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001180s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '349' ) LIMIT 1 [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '349' ) [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '364' ) LIMIT 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '364' ) [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '354' ) LIMIT 1 [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '354' ) [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '1' ) [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '2' ) [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '3' ) [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801832'  WHERE  (  Uid = 1 ) [ RunTime:0.001373s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801712' [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001223s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801832'  WHERE  (  Uid = 1 ) [ RunTime:0.001384s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801712' [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001363s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801832'  WHERE  (  Uid = 1 ) [ RunTime:0.001643s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801712' [ RunTime:0.001342s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2022-04-01T16:30:32+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/user/index.html
+[运行时间：0.085645s] [吞吐率：11.68req/s] [内存消耗：3,313.85kb] [文件加载：98]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=system',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->index[ F:\project\pointsmall\application\admin\controller\User.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\user\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018997s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004582s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002647s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003021s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001502s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801832'  WHERE  (  Uid = 1 ) [ RunTime:0.001506s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801712' [ RunTime:0.001466s ]
+---------------------------------------------------------------
+[ 2022-04-01T16:30:33+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/user/getuser_list.html?page=1&limit=15
+[运行时间：0.077057s] [吞吐率：12.98req/s] [内存消耗：3,414.46kb] [文件加载：100]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'getuser_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/user/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->getUser_list[ F:\project\pointsmall\application\admin\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022823s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003456s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002116s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002451s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001421s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648801833'  WHERE  (  Uid = 1 ) [ RunTime:0.001403s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648801712' [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` LIMIT 1 [ RunTime:0.001821s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_user` LIMIT 0,15 [ RunTime:0.001756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_role` [ RunTime:0.004329s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='1' ) LIMIT 1 [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='1' ) LIMIT 1 [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='1' ) LIMIT 1 [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='17' ) LIMIT 1 [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='17' ) LIMIT 1 [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='17' ) LIMIT 1 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='17' ) LIMIT 1 [ RunTime:0.001136s ]

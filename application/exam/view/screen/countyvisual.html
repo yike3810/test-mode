@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit" />
+    <title>区县大屏可视化</title>
+    <link rel="stylesheet" type="text/css" href="__CSS__/content.css"/>
+    <link rel="stylesheet" type="text/css" href="__CSS__/public.css"/>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/layui/css/layui.css"/>
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/layui/layui.all.js"></script>
+    <script type="text/javascript" src="__JS__/echarts.min.js"></script>
+    <!-- 引入 Vue 和 axios 的 JS 文件 -->
+    <script src="__STATIC__/js/vue.min.js"></script>
+    <script src="__STATIC__/js/axios.min.js"></script>
+
+    <script type="text/javascript"
+            src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=FnbS0ykd8irp8WdBTTrwt1Ib0fLFxLQl"></script>
+
+</head>
+<style>
+    body {
+        background: #030652 url('__STATIC__/image/screen/bg.png') no-repeat;
+        background-size: 1920px 1080px;
+        background-position: center top;
+    }
+
+    .screen-title {
+        background: url('__STATIC__/image/screen/title-line.png') no-repeat;
+        background-position: center 45px;
+        height: 100px;
+        text-align: center;
+    }
+
+    .screen-title h1 {
+        color: #ffffff;
+        line-height: 100px;
+        font-size: 40px;
+    }
+
+    .screen-data {
+        width: 1800px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding: 0 30px;
+        line-height: 120px;
+        background: url('__STATIC__/image/screen/data-bg.png') no-repeat;
+        background-size: 100% 120px;
+        background-position: center top;
+        margin-top: 20px;
+    }
+
+    .screen-data div {
+        float: left;
+    }
+
+    .screen-data-text {
+        width: auto;
+        height: 100%;
+        margin: 0 15px;
+        /*background-color: #0baae4;*/
+
+    }
+
+    .screen-data-text-icon {
+        text-align: center;
+        width: 70px;
+        height: 100%;
+        line-height: 120px;
+        background: url('__STATIC__/image/screen/bubble.png') no-repeat;
+        background-size: 70px 70px;
+        background-position: center 30px;
+    }
+
+    .screen-data-text-icon i {
+        font-size: 30px;
+        color: #ffffff;
+        margin-top: 42px;
+        margin-left: -2px;
+    }
+
+    .screen-data-text-number {
+        margin-left: 5px;
+        margin-top: 30px;
+        width: 160px;
+        color: #0baae4;
+        font-size: 40px;
+        line-height: 40px;
+
+    }
+
+    .screen-data-text-title {
+        color: #f0f0f0;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .screen-data-line {
+        background: url('__STATIC__/image/screen/data-line.png') no-repeat;
+        background-position: center 20px;
+        width: 10px;
+        height: 100%;
+    }
+
+    .box-left {
+        position: absolute;
+        width: 450px;
+        margin-left: 1423px;
+    }
+
+    .screen-data-box-small {
+        width: 450px;
+        height: 250px;
+        margin-top: 10px;
+        background: url('__STATIC__/image/screen/box-bg.png') no-repeat;
+        background-size: 100% 100%;
+        color: #f0f0f0;
+        /*background-position: center 20px;*/
+    }
+
+    .box-small-1 {
+
+    }
+
+    .box-small-title {
+        font-size: 20px;
+        line-height: 35px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .screen-data-map {
+        position: absolute;
+        width: 1370px;
+        height: 770px;
+        margin-left: 15px;
+        margin-top: 10px;
+        background: url('__STATIC__/image/screen/map-bg.png') no-repeat;
+        background-size: 100% 100%;
+        color: #f0f0f0;
+    }
+
+    .screen-data-center {
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 10px;
+        width: 400px;
+        height: 770px;
+        /*background: url('__STATIC__/image/screen/map-center.png') no-repeat;*/
+        background-size: 420px 770px;
+        background-position: 10px 0;
+        color: #f0f0f0;
+        padding: 10px 0 10px 30px;
+    }
+
+    .screen-data-center-cityname {
+        width: 390px;
+        height: 60px;
+        padding: 15px 15px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .screen-data-center-value {
+        width: 400px;
+        height: 250px;
+        /*background: url('__STATIC__/image/screen/min-data-bg.png') no-repeat;*/
+        background-size: 390px 300px;
+        font-size: 20px;
+        line-height: 40px;
+        padding-left: 20px;
+    }
+
+    #screen-data-center-sunburst {
+        margin-left: -30px;
+        width: 410px;
+        height: 410px;
+        /*background-color: #0baae4;*/
+        color: #f0f0f0;
+    }
+
+    .anchorBL {
+        display: none;
+    }
+</style>
+<body>
+
+<div class="layui-fluid">
+    <div class="screen-title">
+        <h1>{$county_name}新时代文明实践中心</h1>
+    </div>
+</div>
+
+<div class="layui-fluid">
+    <div class="screen-data">
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-user" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                {$cumulative_users_num}
+            </div>
+            <div class="screen-data-text-title">
+                累计用户数
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-website" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                {$cumulative_visitor_num}
+            </div>
+            <div class="screen-data-text-title">
+                累计访问量
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-face-smile" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                {$today_new_num}
+            </div>
+            <div class="screen-data-text-title">
+                今日新增用户
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-senior" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                {$volunteer_num}
+            </div>
+            <div class="screen-data-text-title">
+                志愿者数
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-template-1" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                {$service_num}
+            </div>
+            <div class="screen-data-text-title">
+                服务队数
+            </div>
+        </div>
+        <div class="screen-data-line"></div>
+        <div class="screen-data-text">
+            <div class="screen-data-text-icon">
+                <i class="layui-icon layui-icon-location" style="font-size: 30px; color: #ffffff;"></i>
+            </div>
+            <div class="screen-data-text-number">
+                {$service_burg_num}
+            </div>
+            <div class="screen-data-text-title">
+                实践所站
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="layui-fluid">
+    <div class="box-left">
+        <div class="screen-data-box-small box-small-1">
+            <div class="box-small-title">数据分析（服务、活动）</div>
+            <div id="main-small-1" style="width: 100%;height:215px;margin-top:10px;"></div>
+        </div>
+        <div class="screen-data-box-small box-small-2">
+            <div class="box-small-title">五大平台发布信息排行</div>
+            <div id="main-small-2" style="width: 100%;height:215px;margin-top:10px;"></div>
+        </div>
+        <div class="screen-data-box-small box-small-3">
+            <div class="box-small-title">志愿服务队 TOP5</div>
+            <div id="main-small-3" style="width: 100%;height:215px;margin-top:10px;"></div>
+        </div>
+    </div>
+    <div class="screen-data-map" id="map"></div>
+
+
+</div>
+<script>
+    /*
+    * 可视化 1
+    * 说明：折线图
+    * */
+    option_box_1 = {
+        legend: {
+            bottom: '8%',
+            data: ['服务', '活动'],
+            textStyle: {
+                color: '#fff',
+            },
+        },
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'cross',
+                label: {
+                    backgroundColor: '#6a7985'
+                }
+            }
+        },
+        grid: {
+            left: '3%',
+            right: '6%',
+            bottom: '20%',
+            top: '3%',
+            containLabel: true
+        },
+        xAxis: [
+            {
+                type: 'category',
+                boundaryGap: false,
+                axisLabel :{
+                    interval:0
+                },
+                data: {$xAxis_arr},
+                axisLine: {
+                    lineStyle: {
+                        color: '#ffffff',
+                    },
+                },
+
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value',
+                axisLine: {
+                    lineStyle: {
+                        color: '#ffffff',
+                    },
+                }
+            }
+        ],
+        series: [
+            {
+                name: '活动',
+                type: 'line',
+                smooth: true,
+                symbol: "none",
+                stack: '活动',
+                areaStyle: {},
+
+                itemStyle: {
+                    color: {
+                        type: 'linear',
+                        x: 0,
+                        y: 0,
+                        x2: 0,
+                        y2: 1,
+                        colorStops: [{
+                            offset: 0, color: '#00b5f9' // 0% 处的颜色
+                        }, {
+                            offset: 1, color: 'rgba(255,255,255,0)',// 100% 处的颜色
+                        }],
+                        global: false // 缺省为 false
+                    }
+                },
+
+                data: {$activity_arr},
+                // data: [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111,]
+            },
+            {
+                name: '服务',
+                type: 'line',
+                smooth: true,
+                symbol: "none",
+                stack: '服务',
+
+                areaStyle: {},
+                itemStyle: {
+                    color: {
+                        type: 'linear',
+                        x: 0,
+                        y: 0,
+                        x2: 0,
+                        y2: 1,
+                        colorStops: [{
+                            offset: 0, color: '#bfaa0b' // 0% 处的颜色
+                        }, {
+                            offset: 1, color: 'rgba(255,255,255,0.2)',// 100% 处的颜色
+                        }],
+                        global: false // 缺省为 false
+                    }
+                },
+                data: {$service_arr},
+            }
+        ]
+    };
+
+    function checkTime_1() {
+        document.getElementById('main-small-1').setAttribute('_echarts_instance_', '');
+        echarts.init(document.getElementById('main-small-1')).setOption(option_box_1);
+    }
+
+    echarts.init(document.getElementById('main-small-1')).setOption(option_box_1);
+    setInterval("checkTime_1()", 8537);
+
+    /*
+    * 可视化 2
+    * 说明：象形柱图
+    * 参数说明：
+    * box_2_bottom_reference_value：图片的高度基准值
+    * */
+    var box_2_bottom_reference_value = 130;
+    option_box_2 = {
+        grid: {
+            left: '8%',
+            right: '8%',
+            bottom: '10%',
+            top: '0%',
+            containLabel: true
+        },
+        xAxis: [{
+            top: '',
+            data: {$opt2_xAxis_arr},
+            axisTick: {show: false},
+            axisLine: {show: false},
+            axisLabel: {
+                margin: 20,
+                textStyle: {
+                    color: '#ddd',
+                }
+            }
+        }],
+        yAxis: {
+            splitLine: {show: false},
+            axisTick: {show: false},
+            axisLine: {show: false},
+            axisLabel: {show: false}
+        },
+        markLine: {
+            z: -1
+        },
+        animationEasing: 'elasticOut',//缓动效果，果冻
+        series: [{
+            type: 'pictorialBar',
+            name: 'all',
+            hoverAnimation: true,
+            label: {
+                show: true,
+                position: 'top',
+                formatter: '{c} 篇',
+                fontSize: 16,
+                color: '#ddd'
+            },
+            data: [{
+                value: {$opt2_whfw},
+                // symbol: 'image://' + paperDataURI,
+                symbol: 'image://' + '__STATIC__/image/screen/pic-3.png',
+                symbolSize: (box_2_bottom_reference_value *  {$opt2_whfw})/{$opt2_sum},
+                symbolOffset: [0, '10px'],
+                z: 10
+            }, {
+                value: {$opt2_jsty},
+                symbol: 'image://' + '__STATIC__/image/screen/pic-1.png',
+                symbolSize:  (box_2_bottom_reference_value *  {$opt2_jsty})/{$opt2_sum},
+                symbolOffset: [0, '10px'],
+                z: 10
+            }, {
+                value:{$opt2_kjkp},
+                symbol: 'image://' + '__STATIC__/image/screen/pic-2.png',
+                symbolSize:  (box_2_bottom_reference_value *  {$opt2_kjkp})/{$opt2_sum},
+                symbolOffset: [0, '10px'],
+                z: 10
+            }, {
+                value: {$opt2_llxj},
+                symbol: 'image://' + '__STATIC__/image/screen/pic-4.png',
+                symbolSize: (box_2_bottom_reference_value *  {$opt2_llxj})/{$opt2_sum},
+                symbolOffset: [0, '10px'],
+                z: 10
+            }, {
+                value: {$opt2_jyfw},
+                symbol: 'image://' + '__STATIC__/image/screen/pic-5.png',
+                symbolSize: (box_2_bottom_reference_value *  {$opt2_jyfw})/{$opt2_sum},
+                symbolOffset: [0, '10px'],
+                z: 10
+            }],
+        }, {
+            name: 'all',
+            type: 'pictorialBar',
+            barGap: '-100%',
+            symbol: 'circle',
+            itemStyle: {
+                // 径向渐变，前三个参数分别是圆心 x, y 和半径，取值同线性渐变
+                color: {
+                    type: 'radial',
+                    x: 0.5,
+                    y: 0.5,
+                    r: 0.6,
+                    colorStops: [{
+                        offset: 0, color: "rgba(200,255,200,.5)" // 0% 处的颜色
+                    }, {
+                        offset: 1, color: 'rgba(5,13,110,0)' // 100% 处的颜色
+                    }],
+                    global: false // 缺省为 false
+                }
+            },
+            silent: true,
+            symbolOffset: ['0', '50%'],
+            z: -10,
+            data: [
+                {
+                    value: 1,
+                    symbolSize: [100, 20],
+                },
+                {
+                    value: 1,
+                    symbolSize: [100, 20]
+                }, {
+                    value: 1,
+                    symbolSize: [100, 20]
+                }, {
+                    value: 1,
+                    symbolSize: [100, 20]
+                }, {
+                    value: 1,
+                    symbolSize: [100, 20]
+                }]
+        }]
+    };
+
+    function checkTime_2() {
+        document.getElementById('main-small-2').setAttribute('_echarts_instance_', '');
+        echarts.init(document.getElementById('main-small-2')).setOption(option_box_2);
+    }
+
+    echarts.init(document.getElementById('main-small-2')).setOption(option_box_2);
+    setInterval("checkTime_2()", 4571);
+
+
+    /*
+    * 可视化 3
+    * 说明：堆叠条形图
+    * */
+
+    option_box_3 = {
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {            // 坐标轴指示器，坐标轴触发有效
+                type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+            }
+        },
+        legend: {
+            data: ['活动占比', '服务占比', '时长占比', '志愿者占比'],
+            textStyle: {
+                color: '#fff',
+            },
+        },
+
+        grid: {
+            left: '4%',
+            right: '3%',
+            bottom: '3%',
+            top: '15%',
+            containLabel: true
+        },
+        xAxis: {
+            type: 'value',
+            show: false,
+            boundaryGap: false,
+            axisLine: {
+                show: false,
+                lineStyle: {
+                    color: 'rgba(0,0,0,0)',
+                },
+            },
+        },
+        yAxis: {
+            type: 'category',
+            data: {$opt3_yAxis},
+            axisLine: {
+                show: false,
+                lineStyle: {
+                    color: '#ffffff',
+                },
+            },
+            axisTick: {length: 0},
+            inverse: true,//是否反向坐标轴
+        },
+        series: [
+            {
+                name: '活动占比',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    show: true,
+                    position: 'insideRight',
+                    color: '#eee',
+                    formatter: '{c} %',
+                },
+                itemStyle: {
+                    color: 'rgba(249,0,127,0.75)',
+                },
+                data: {$opt3_ratio_activity},
+            },
+            {
+                name: '服务占比',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    show: true,
+                    position: 'insideRight',
+                    color: '#eee',
+                    formatter: '{c} %',
+                },
+                itemStyle: {
+                    color: 'rgba(10,180,22,0.65)',
+                },
+                data: {$opt3_ratio_service},
+            },
+            {
+                name: '时长占比',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    show: true,
+                    position: 'insideRight',
+                    color: '#eee',
+                    formatter: '{c} %',
+                },
+                itemStyle: {
+                    color: 'rgba(229,150,28,0.81)',
+                },
+                data: {$opt3_ratio_duration},
+            },
+            {
+                name: '志愿者占比',
+                type: 'bar',
+                stack: '总量',
+                label: {
+                    show: true,
+                    position: 'insideRight',
+                    color: '#eee',
+                    formatter: '{c} %',
+                },
+                itemStyle: {
+                    color: 'rgba(42,207,208,0.65)',
+                },
+                data: {$opt3_ratio_volunteer},
+            },
+        ]
+    };
+
+
+    function checkTime_3() {
+        document.getElementById('main-small-3').setAttribute('_echarts_instance_', '');
+        echarts.init(document.getElementById('main-small-3')).setOption(option_box_3);
+    }
+
+    echarts.init(document.getElementById('main-small-3')).setOption(option_box_3);
+    setInterval("checkTime_3()", 6151);
+
+
+    // 百度地图API功能
+    var map = new BMapGL.Map("map");
+    // var point = new BMapGL.Point({$pointx},{$pointy});
+    var point = new BMapGL.Point({$county_center_pointx},{$county_center_pointy});
+    map.centerAndZoom(point, {$county_center_zoom});
+    map.setTilt(50);
+    map.enableScrollWheelZoom();
+    var bd = new BMapGL.Boundary();
+    bd.get('{$county_name}', function (rs) {
+        var count = rs.boundaries.length; //行政区域的点有多少个
+        var pointArray = [];
+        for (var i = 0; i < count; i++) {
+            var path = [];
+            str = rs.boundaries[i].replace(' ', '');
+            points = str.split(';');
+            for (var j = 0; j < points.length; j++) {
+                var lng = points[j].split(',')[0];
+                var lat = points[j].split(',')[1];
+                path.push(new BMapGL.Point(lng, lat));
+            }
+            var prism = new BMapGL.Prism(path, 300, {
+                topFillColor: '#5679ea',
+                topFillOpacity: 0.5,
+                sideFillColor: '#4b69d4',
+                sideFillOpacity: 0.6
+            });
+            map.addOverlay(prism);
+        }
+    });
+    markers = {$markers};
+    points = new Array();
+    markers.forEach((v)=>{
+        points.push(new BMapGL.Point(v['pointx'], v['pointy']));
+    });
+    marker = null;
+    points.forEach((p,k)=>{
+        console.log(p);
+        marker = new BMapGL.Marker(p);  // 创建标注
+        map.addOverlay(marker);              // 将标注添加到地图中
+        var opts = {
+            width: 200,     // 信息窗口宽度
+            height: 100,     // 信息窗口高度
+            title: "<span style='color: #444444'>"+markers[k]['servivename']+"</span>", // 信息窗口标题
+            message:  markers[k]['servivename'],
+        };
+        var infoWindow = new BMapGL.InfoWindow("<span style='color: #444444'>服务队介绍："+markers[k]['servicefunction']+"</span>", opts);  // 创建信息窗口对象
+        marker.addEventListener("click", function () {
+            map.openInfoWindow(infoWindow, p); //开启信息窗口
+        });
+    })
+
+
+
+
+</script>
+</body>
+</html>

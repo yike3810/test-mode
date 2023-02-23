@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit"/>
+    <title>坐标拾取系统</title>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/layui/css/layui.css"/>
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/layui/layui.all.js"></script>
+    <script type="text/javascript" src="__JS__/echarts.min.js"></script>
+    <!-- 引入 Vue 和 axios 的 JS 文件 -->
+    <script src="__STATIC__/js/axios.min.js"></script>
+    <script type="text/javascript"
+            src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=FnbS0ykd8irp8WdBTTrwt1Ib0fLFxLQl"></script>
+
+</head>
+<style>
+    body, html {
+        height: 100%;
+        width: 100%;
+        background: #030652 url('__STATIC__/image/screen/bg.png') no-repeat;
+        background-size: 1920px 1080px;
+        background-position: center top;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .screen-data-map {
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .screen-data-menu {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        width: 300px;
+        height: calc(100% - 60px);
+        background-color: #f4f4f4;
+        border: 1px solid rgba(100, 100, 100, 0.4);
+        box-shadow: rgba(100, 100, 100, 0.4) 3px 3px 10px 5px;
+        border-radius: 5px;
+        z-index: 999;
+    }
+
+    .screen-data-menu h2 {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 40px;
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+
+    .anchorBL {
+        display: none;
+    }
+
+    .my-form-label-style {
+        width: 60px;
+        padding: 9px 5px;
+    }
+</style>
+<body>
+
+
+<div class="screen-data-map" id="map"></div>
+<div class="screen-data-menu">
+    <h2>经纬度拾取系统</h2>
+    <hr>
+    <div class="left-center">
+        <div class="layui-form-item">
+            <label class="layui-form-label my-form-label-style">层级：</label>
+            <div class="layui-input-inline" style="width: 100px">
+                <input type="text" id="zoom" placeholder="当前层级" value="12" autocomplete="off" class="layui-input"
+                       onfocus="this.blur()">
+            </div>
+            <div class="layui-form-mid layui-word-aux"><a href="javascript:clipboard('zoom')">复制</a></div>
+        </div>
+    </div>
+    <div class="left-center">
+        <div class="layui-form-item">
+            <label class="layui-form-label my-form-label-style">经度：</label>
+            <div class="layui-input-inline" style="width: 160px">
+                <input type="text" id="pointx" placeholder="经度" autocomplete="off" class="layui-input">
+            </div>
+            <div class="layui-form-mid layui-word-aux"><a href="javascript:clipboard('pointx')">复制</a></div>
+        </div>
+    </div>
+    <div class="left-center">
+        <div class="layui-form-item">
+            <label class="layui-form-label my-form-label-style">纬度：</label>
+            <div class="layui-input-inline" style="width: 160px">
+                <input type="text" id="pointy" placeholder="纬度" autocomplete="off" class="layui-input">
+            </div>
+            <div class="layui-form-mid layui-word-aux"><a href="javascript:clipboard('pointy')">复制</a></div>
+        </div>
+    </div>
+    <hr>
+    <!--    <div class="left-center">-->
+    <!--        <div class="layui-form-item">-->
+    <!--            <div class="layui-input-inline" style="width: 200px;margin-left: 10px">-->
+    <!--                <input type="text" placeholder="输入关键字" autocomplete="off" class="layui-input">-->
+    <!--            </div>-->
+    <!--            <div class="layui-form-mid layui-word-aux" style="padding: 4px 0!important;">-->
+    <!--                <button type="button" class="layui-btn layui-btn-sm layui-btn-radius layui-btn-normal"-->
+    <!--                        style="width: 60px;">搜索-->
+    <!--                </button>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+</div>
+
+<script>
+    // 百度地图API功能
+    var map = new BMapGL.Map("map");
+    // var point = new BMapGL.Point({$pointx},{$pointy});
+    var point = new BMapGL.Point({$county_center_pointx} - 0.1, {$county_center_pointy});
+    map.centerAndZoom(point, {$county_center_zoom});
+    map.setTilt(50);
+    map.enableScrollWheelZoom();
+    var bd = new BMapGL.Boundary();
+    bd.get('{$county_name}', function (rs) {
+        var count = rs.boundaries.length; //行政区域的点有多少个
+        var pointArray = [];
+        for (var i = 0; i < count; i++) {
+            var path = [];
+            str = rs.boundaries[i].replace(' ', '');
+            points = str.split(';');
+            for (var j = 0; j < points.length; j++) {
+                var lng = points[j].split(',')[0];
+                var lat = points[j].split(',')[1];
+                path.push(new BMapGL.Point(lng, lat));
+            }
+            var prism = new BMapGL.Prism(path, 300, {
+                topFillColor: '#5679ea',
+                topFillOpacity: 0.5,
+                sideFillColor: '#4b69d4',
+                sideFillOpacity: 0.6
+            });
+            map.addOverlay(prism);
+        }
+    });
+
+    map.addEventListener("mousemove", function (e) {
+    });
+    map.addEventListener("zoomend", function (e) {
+        $('#zoom').val(parseFloat(map.getZoom().toFixed(2)));
+    });
+    var marker = null;
+    map.addEventListener("click", function (e) {
+        if (marker != null) {
+            map.removeOverlay(marker);
+        }
+        $('#pointx').val(parseFloat(e.latlng.lng.toFixed(6)));
+        $('#pointy').val(parseFloat(e.latlng.lat.toFixed(6)));
+        marker = new BMapGL.Marker(new BMapGL.Point(e.latlng['lng'], e.latlng['lat'])); // 创建点
+        map.addOverlay(marker);
+        marker.enableDragging();
+    });
+
+    function clipboard(id) {
+        var Url2 = $('#' + id).val();
+        if (Url2 === '') {
+            layer.tips('请选择经纬度后再复制！', '#' + id, {
+                tips: [2, '#FF5722'],
+                time: 2000
+            });
+            return false;
+        }
+        var oInput = document.createElement('input');
+        oInput.value = Url2;
+        document.body.appendChild(oInput);
+        oInput.select(); // 选择对象
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        oInput.className = 'oInput';
+        oInput.style.display = 'none';
+        layer.tips('复制成功！', '#' + id, {
+            tips: [2, '#009688'],
+            time: 1000
+        });
+        return true;
+    }
+
+    $('#pointx').on('input', function () {
+
+        let pointx_val = $('#pointx').val();
+        let pointy_val = $('#pointy').val();
+        let zoom_val = $('#zoom').val();
+        //
+        if (pointx_val === '' || pointy_val === '' || zoom_val === '') {
+            return false;
+        }
+        //甘肃 pointx_val > 92 && pointx_val < 109 && pointy_val > 32 && pointy_val < 43
+        //中国 pointx_val > 73 && pointx_val < 136 && pointy_val > 2 && pointy_val < 54
+        if (pointx_val > 92 && pointx_val < 109 && pointy_val > 32 && pointy_val < 43) {
+            if (marker != null) {
+                map.removeOverlay(marker);
+            }
+            var new_point = new BMapGL.Point(pointx_val, pointy_val);
+            marker = new BMapGL.Marker(new_point);  // 创建标注
+            map.addOverlay(marker);              // 将标注添加到地图中
+            marker.enableDragging();
+        }
+    });
+    $('#pointy').on('input', function () {
+
+        let pointx_val = $('#pointx').val();
+        let pointy_val = $('#pointy').val();
+        let zoom_val = $('#zoom').val();
+        //
+        if (pointx_val === '' || pointy_val === '' || zoom_val === '') {
+            return false;
+        }
+        //甘肃 pointx_val > 92 && pointx_val < 109 && pointy_val > 32 && pointy_val < 43
+        //中国 pointx_val > 73 && pointx_val < 136 && pointy_val > 2 && pointy_val < 54
+        if (pointx_val > 92 && pointx_val < 109 && pointy_val > 32 && pointy_val < 43) {
+            if (marker != null) {
+                map.removeOverlay(marker);
+            }
+            var new_point = new BMapGL.Point(pointx_val, pointy_val);
+            marker = new BMapGL.Marker(new_point);  // 创建标注
+            map.addOverlay(marker);              // 将标注添加到地图中
+            marker.enableDragging();
+        }
+    });
+
+</script>
+</body>
+</html>

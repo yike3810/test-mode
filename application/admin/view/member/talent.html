@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>招聘简历|{:config('system.title')}</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="__JS__/Public.js"></script>
+<script type="text/javascript" src="__JS__/winpop.js"></script>
+<script type="text/javascript" src="__CSS__/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#content h2 .add').click(function() {
+		popload('工作分解结构',600,380,"{:url('Jianli/jianliadd')}");
+		addDiv($('#iframe_pop'));
+		popclose();
+	});
+	$('#content #table .tr .edit').click(function(event) {
+		event.preventDefault();
+		var id=$(this).attr('href').replace(/[^0-9]/ig,"");
+		if (id=='' || isNaN(id)) {
+			wintq('ID参数不正确',3,1000,1,'');
+			return false;
+		}else {
+			popload('修改任务信息',740,480,"{:url('Jianli/jianliedit')}?id="+id);
+			addDiv($('#iframe_pop'));
+			popclose();
+		}
+	});
+	$('#content #table .tr .del').click(function(event) {
+		event.preventDefault();
+		if (!confirm('确定要删除该数据吗？')) {
+			return false;
+		}
+		var id=$(this).attr('href').replace(/[^0-9]/ig,"");
+		if (id=='' || isNaN(id)) {
+			wintq('ID参数不正确',3,1000,1,'');
+			return false;
+		}else {
+			wintq('正在删除，请稍后...',4,20000,0,'');
+			$.ajax({
+				url:"{:url('Jianli/jianli_del')}",
+				dataType:'json',
+				type:'POST',
+				data:'post=ok&id='+id,
+				success: function(data) {
+					if (data.s=='ok') {
+						wintq('删除成功',1,1500,0,'?');
+					}else {
+						wintq(data.s,3,1500,1,'');
+					}
+				}
+			});
+		}
+	});
+	$('#dely').click(function(event) {
+		event.preventDefault();
+		if (!confirm('确定要删除选择项吗？')) {
+			return false;
+		}
+		var delid='';
+		for (i=0; i<$('#table .delid').length; i++) {
+			if (!$('#table .delid').eq(i).prop('checked')==false) {
+				delid=delid+$('#table .delid').eq(i).val()+',';
+			}
+		}
+		if (delid=='') {
+			wintq('请选中后再操作',2,1500,1,'');
+		}else {
+			wintq('正在删除，请稍后...',4,20000,0,'');
+			$.ajax({
+				url:"{:url('Jianli/in_jianli_del')}",
+				dataType:'JSON',
+				type:'POST',
+				data:'delid='+delid,
+				success: function(data) {
+					if (data.s=='ok') {
+						wintq('删除成功',1,1500,0,'?');
+					}else {
+						wintq(data.s,3,1500,1,'');
+					}
+				}
+			});
+		}
+	});
+    $('#export').click(function() {
+    	var obj = {};
+    	obj.keywords 	= "{:input('param.keywords')}";
+    	obj.department  	= "{:input('param.department')}";
+    	obj.post    	= "{:input('param.post')}";
+    	obj.degree     		= "{:input('param.degree')}";
+    	obj.term     		= "{:input('param.term')}";
+		obj.school_level     		= "{:input('param.school_level')}";
+		window.location.href = "{:url('Jianli/talentexport')}?"+$.param(obj);
+	});
+});
+</script>
+</head>
+<body>
+<div id="content">
+	<h1>首页 > 招聘管理 > 招聘简历</h1>
+    <form action="{:url('Jianli/talent')}" method="post">
+    <table id="client" border="1" bordercolor="#CCCCCC" cellpadding="0" cellspacing="0" style="margin-left:0px;">
+    	<tr class="tr">
+        	<td class="left">关键词：</td>
+        	<td><input name="keywords" id="keywords" type="text" class="ctext" size="30" value="{:input('param.keywords')}"/><font></font></td>
+			<td class="left">学校层次：</td>
+        	<td>
+				 <select name="school_level" class="select">
+					<option value="">请选择</option>
+					<option value="double_first_rate" {if condition="'double_first_rate' eq $Request.param.school_level"}selected{/if}>双一流</option>
+					<option value="is_province" {if condition="'is_province' eq $Request.param.school_level"}selected{/if}>省内五校</option>
+					<option value="other" {if condition="'other' eq $Request.param.school_level"}selected{/if}>其他</option>
+				 </select>
+			</td>
+        </tr>	
+    	<tr class="tr">
+        	<td class="left">招聘部门：</td>
+        	<td>
+				 <select name="department" class="select">
+					<option value="">请选择</option>
+					{volist name="department_list" id="vo2"}
+					<option value="{$vo2.id}" {if condition="$vo2.id eq $Request.param.department"}selected{/if}>{$vo2.department_name}</option>
+					{/volist}
+				 </select>
+			</td>
+        	<td class="left">招聘岗位：</td>
+        	<td>
+				 <select name="post" class="select">
+					<option value="">请选择</option>
+					{volist name="post_list" id="vo3"}
+					<option value="{$vo3.id}" {if condition="$vo3.id eq $Request.param.post"}selected{/if}>{$vo3.post_name}</option>
+					{/volist}
+				 </select>
+			</td>
+		</tr>	
+		<tr class="tr">
+			<td class="left">学历学位：</td>
+        	<td>
+				 <select name="degree" class="select">
+					<option value="">请选择</option>
+					<option value="本科" {if condition="'本科' eq $Request.param.degree"}selected{/if}>本科</option>
+					<option value="硕士" {if condition="'硕士' eq $Request.param.degree"}selected{/if}>硕士</option>
+					<option value="博士" {if condition="'博士' eq $Request.param.degree"}selected{/if}>博士</option>
+				 </select>
+			</td>
+			<td class="left">应往届：</td>
+        	<td>
+				 <select name="term" class="select">
+					<option value="">请选择</option>
+					<option value="应届" {if condition="'应届' eq $Request.param.term"}selected{/if}>应届</option>
+					<option value="往届" {if condition="'往届' eq $Request.param.term"}selected{/if}>往届</option>
+				 </select>
+			</td>
+        </tr>
+        <tr class="tr">
+            <td class="left" colspan="6" style="text-align:center;height:40px;">
+	            <input type="submit" class="submit" value="搜索"  />
+	            <input type="button" class="submit" value="导出简历" class="export"  id="export"/>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <table id="table" border="1" bordercolor="#CCCCCC" cellpadding="0" cellspacing="0">
+    	<tr>
+        	<th><input type="checkbox" class="indel" value="del" /></th>
+        	<th>编号</th>
+			<th>姓名</th>
+			<th>性别</th>
+			<th>出生年月</th>
+			<th>籍贯</th>
+            <th>身份证号码</th>
+			<th>手机号码</th>
+			<th>求职部门</th>
+			<th>求职岗位</th>
+			<th>毕业院校</th>
+			<th>学历学位</th>
+			<th>专业名称</th>
+			<th>应/往届</th>
+			<th>邮箱地址</th>
+			<th>简历文档</th>
+			<th>提交时间</th>
+        </tr>
+        {if condition="$volist.total eq 0"}<tr class="tr"><td class="tc" colspan="11">暂无数据，等待添加～！</td></tr>{/if}
+        <!--顶级数据-->
+        {volist name="volist.data" id="vo"}
+        <tr class="tr {eq name="mod" value="1"}tr2{/eq}">
+        	<td class="tc"><input type="checkbox" class="delid" value="{$vo.id}" /></td>
+            <td class="tc">{$vo.id}</td>
+			<td class="tc">{$vo.name}</td>
+			<td class="tc">{$vo.sex}</td>
+			<td class="tc">{$vo.birthday}</td>
+			<td class="tc">{$vo.hometown}</td>
+            <td class="tc">{$vo.id_number}</td>
+			<td class="tc">{$vo.phone}</td>
+			<td class="tc">{$vo.department_name}</td>
+			<td class="tc">{$vo.post_name}</td>
+			<td class="tc">{$vo.graduated_school}</td>
+			<td class="tc">{$vo.degree}</td>
+			<td class="tc">{$vo.profession}</td>
+			<td class="tc">{$vo.term}</td>
+			<td class="tc">{$vo.email}</td>
+			<td class="tc"><a href="{:url('Jianli/down')}?id={$vo.id}" target="_blank">简历下载</a></td>
+			<td class="tc">{$vo.add_time}</td>
+        </tr>
+        {/volist}
+    </table>
+    <div id="page"><a href="javascript:;" class="selbox">全选</a><a href="javascript:;" class="anti">反选</a><a href="javascript:;" class="unselbox">全不选</a>&nbsp;&nbsp;对选中项进行&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	{:$lists->render()}</div>
+</div>
+</body>
+</html>

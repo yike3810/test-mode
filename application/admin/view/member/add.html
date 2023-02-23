@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>工作分解结构{:config('system.title')}</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+<script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="__JS__/Public.js"></script>
+<script type="text/javascript" src="__JS__/winpop.js"></script>
+<script type="text/javascript" src="__JS__/check.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.submit').click(function() {
+		var activities_name = $("#estimated_time").val();
+		var activities_name = $("#estimated_hr").val();
+		
+		if (!tcheck(estimated_time,'','请填写工时')) { return false; }
+		if (!tcheck(estimated_time,'1,10','请在10个字符以内','length')) { return false; }
+		
+		if (!tcheck(estimated_hr,'','请填写人力资源')) { return false; }
+		if (!tcheck(estimated_hr,'1,10','请在10个字符以内','length')) { return false; }
+		
+		wintq('正在处理，请稍后...',4,20000,0,'');
+		$('form').submit();
+	});
+});
+function ToUrl(x)   
+{   
+	location.href=x;
+	return false;
+}
+</script>
+</head>
+<body>
+<div id="content">
+<form action="{:url('Wbs/wbsadd_do')}" method="post" enctype="multipart/form-data">
+	<dl id="dl">
+		<dt>工作分解结构</dt>
+		<dd>
+        	<span class="dd_left">项目名称：</span>
+        	<span class="dd_right">
+			<select name="project_id" class="select">
+            		<option value="">请选择</option>
+                	{volist name="project_lists" id="vo"}
+                		<option value="{$vo.id}">{$vo.project_name}</option>
+                    {/volist}
+            </select>
+			</span>
+        </dd>
+		<dd>
+        	<span class="dd_left">任务名称：</span>
+        	<span class="dd_right">
+			<select name="task_id" class="select">
+            		<option value="">请选择</option>
+                	{volist name="task_lists" id="vo"}
+                		<option value="{$vo.id}">{$vo.task_name}</option>
+                    {/volist}
+            </select>
+			</span>
+        </dd>
+		<dd>
+        	<span class="dd_left">活动名称：</span>
+        	<span class="dd_right">
+			<select name="activities_id" class="select">
+            		<option value="">请选择</option>
+                	{volist name="activities_lists" id="vo"}
+                		<option value="{$vo.id}">{$vo.activities_name}</option>
+                    {/volist}
+            </select>
+			</span>
+        </dd>
+		<dd>
+        	<span class="dd_left">工时估算：</span>
+			<span class="dd_right"><input type="text" class="qtext" maxlength="80" name="estimated_time" id="estimated_time" value="{$result['estimated_time']}"/></span>
+        </dd>
+		<dd>
+        	<span class="dd_left">人力资源：</span>
+			<span class="dd_right"><input type="text" class="qtext" maxlength="80" name="estimated_hr" id="estimated_hr" value="{$result['estimated_hr']}"/></span>
+        </dd>
+		<dd>
+        	<span class="dd_left">其他资源：</span>
+			<span class="dd_right"><input type="text" class="qtext" maxlength="80" name="estimated_resources" id="estimated_resources" value="{$result['estimated_resources']}"/></span>
+        </dd>
+		<dd>
+        	<span class="dd_left">费用估算：</span>
+			<span class="dd_right"><input type="text" class="qtext" maxlength="80" name="estimated_cost" id="estimated_cost" value="{$result['estimated_cost']}"/></span>
+        </dd>
+		<dd>
+        	<span class="dd_left">工期：</span>
+			<span class="dd_right"><input type="text" class="qtext" maxlength="80" name="expected_days" id="expected_days" value="{$result['expected_days']}"/></span>
+        </dd>
+        <dd><input type="button" class="submit" value="提 交" /></dd>
+    </dl>
+</form>
+</div>
+</body>
+</html>

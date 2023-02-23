@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>修改入驻单位信息</title>
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="__STATIC__/layui/css/layui.css" media="all">
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="__STATIC__/ueditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="__STATIC__/ueditor/ueditor.all.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var ue = UE.getEditor('container', {
+                initialFrameWidth: '100%',
+                initialFrameHeight: 400
+            });
+            //获取内容
+            function getContent() {
+                return UE.getEditor('editor').getContent();
+            }
+        });
+    </script>
+</head>
+<body>
+<div class="layui-row" style="margin-top:25px;">
+<form class="layui-form layui-col-md10" id="activity" enctype="multipart/form-data">
+    <div class="layui-form-item">
+        <label class="layui-form-label"><i class="required">*</i>行业：</label>
+        <div class="layui-input-block" >
+            <select name="industry_id" id="industry_id" lay-filter="industry_id" lay-verify="required">
+                <option value="">请选择</option>
+                {volist name="$industry_list" id="vo"}
+                <option value="{$vo.industry_id}" {if condition="$vo.industry_id eq $result['industry_id']" }selected="selected"{/if}>{$vo.industry_name}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label"><i class="required">*</i>单位名称：</label>
+        <div class="layui-input-block">
+            <input type="text" name="department_name" value="{$result['department_name']}" id="department_name"  autocomplete="off" class="layui-input" lay-verify="required">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">单位固定电话：</label>
+        <div class="layui-input-block">
+            <input type="text" name="telephone" value="{$result['telephone']}" id="telephone"  autocomplete="off" class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item" >
+        <label class="layui-form-label"><i class="required">*</i>联系人姓名：</label>
+        <div class="layui-input-block">
+            <input type="text" name="contact" value="{$result['contact']}" id="contact"  autocomplete="off" class="layui-input" lay-verify="required">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label"><i class=""></i>主管领导：</label>
+        <div class="layui-input-block" >
+            <select name="leader_id" id="leader_id" lay-filter="leader_id" >
+                <option value="">请选择</option>
+                {volist name="$leader_list" id="vo"}
+                <option value="{$vo.leader_id}" {if condition="$vo.leader_id eq $result['leader_id']" }selected="selected"{/if}>{$vo.leader_name}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">父级单位：</label>
+        <div class="layui-input-block" >
+            <select name="parent_id" id="department" lay-filter="department"  lay-search="">
+                <option value="">请选择</option>
+                {volist name="$department_list" id="vo"}
+                <option value="{$vo.department_id}" {if condition="$vo.department_id eq $result['parent_id']" }selected="selected"{/if}>{$vo.department_name}</option>
+                {/volist}
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item" >
+        <label class="layui-form-label"><i class="required">*</i>联系人身份证号码：</label>
+        <div class="layui-input-block">
+            <input type="text" name="id_number" value="{$result['id_number']}" id="id_number"  autocomplete="off" class="layui-input" lay-verify="required|identity">
+        </div>
+    </div>
+    <div class="layui-form-item" >
+        <label class="layui-form-label" ><i class="required">*</i>联系人手机号码：</label>
+        <div class="layui-input-block">
+            <input type="text" name="phone" value="{$result['phone']}" id="phone"  autocomplete="off" class="layui-input" lay-verify="required">
+        </div>
+    </div>
+    <div class="layui-form-item" >
+        <label class="layui-form-label" >密码：</label>
+        <div class="layui-input-block">
+            <input type="text" name="member_passwd"  id="member_passwd"  placeholder="密码不填默认不修改"autocomplete="off" class="layui-input" >
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn sub" lay-submit lay-filter="sub" id="sub" >提交</button>
+            <input type="hidden" name="department_id" id="department_id" value="{$result['department_id']}">
+        </div>
+    </div>
+</form>
+</div>
+<style>
+    .layui-form-label{
+        width: 140px;
+        margin-bottom: -80px;
+    }
+    .layui-input-block {
+        margin-left:160px;
+        min-height: 36px
+    }
+    .required {
+        color: red;
+        padding-right: 5px;
+    }
+</style>
+<script src="__STATIC__/layui/layui.all.js"></script>
+<script>
+    layui.use('form', function () {
+        var form = layui.form;
+        form.render();
+        //监听提交
+        form.on('submit(sub)', function (data) {
+            console.log(data.field);
+            $.ajax({
+                url: "{:url('Department/edit_do')}",
+                dataType: 'json',
+                type: 'POST',
+                data: data.field,
+                success: function (data)
+                {
+                    if (data.s=='ok') {
+                        layer.msg("修改成功",{},function(){
+                        });
+                    } else {
+                        layer.msg("修改失败");
+                    }
+                }
+
+            });
+            return false;
+        });
+    });
+</script>
+</body>
+</html>

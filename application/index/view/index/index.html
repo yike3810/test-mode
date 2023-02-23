@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>登录 - {:config('system.title')}</title>
+    <link rel="stylesheet" type="text/css" href="__CSS__/wap/new_volunteer.css"  />
+    <link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__JS__/Public.js"></script>
+    <script type="text/javascript" src="__JS__/winpop.js"></script>
+    <script>
+        //监听事件 event参数是键盘事件监听
+        $(document).keyup(function(event){
+            //判断回车键的CODE
+            if(event.keyCode == 13){
+                // 模拟点击按钮
+                $(".button").click();
+            }
+        });
+
+        $(function() {
+            $('.button').click(function(event) {
+                event.preventDefault();
+                var username=$('#username').val();
+                var password=$('#password').val();
+                var code=$('#code').val();
+                if (!/^([a-zA-Z0-9_-]|[\u4e00-\u9fa5]){2,16}$/.test(username)) {
+                    wintq('请输入正确的用户名',2,2000,1,'');
+                    $('#username').focus();
+                    return;
+                }
+                if (password.length<6) {
+                    wintq('请输入6位数以上的密码',2,2000,1,'');
+                    $('#password').focus();
+                    return;
+                }
+                wintq('正在登录，请稍后...',4,20000,0,'');
+                $.ajax({
+                    url:"{:url('Index/login')}",
+                    dataType:"json",
+                    type:'POST',
+                    cache:false,
+                    data:'username='+username+'&password='+password+'&code='+code,
+                    success: function(data) {
+                        if (data.s=='ok') {
+                            wintq('登录成功',1,2000,0,"{:url('index/main')}");
+                        }else {
+                            $("#verify").attr('src','{:captcha_src()}?'+Math.random());
+                            wintq(data.s,3,2000,1,'');
+                        }
+                    }
+                });
+            });
+            $('#verify').attr('src','{:captcha_src()}?'+Math.random());
+            $('#verify').click(function() {
+                $(this).attr('src','{:captcha_src()}?'+Math.random());
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div id="Layer1" style="position:absolute; width:100%; height:100%; background-color: #FFFFFF; z-index:-1" >
+    <img src="__STATIC__/image/wap/new/vobc.png" height="100%" width="100%"/>
+</div>
+
+<div class="login_box">
+    <div class= "login_l_img">
+        <img src="__STATIC__/image/wap/new/vophone.png" alt="">
+    </div>
+    <div class="login">
+        <span>志愿服务队后台管理系统</span>
+        <div class="icon-img" style="margin-top: 50px">
+            <i class="icond"><img src="__STATIC__/image/wap/new/people_fill.png" alt=""></i>
+            <input name="username"  id="username" type="text" placeholder="用户名" tabindex="1">
+        </div>
+        <div class="icon-img">
+            <i class="icond"><img src="__STATIC__/image/wap/new/unlock_fill.png" alt=""></i>
+            <input name="password"  type="password" id="password"  placeholder="密码" tabindex="2" />
+        </div>
+        <div class="icon-img">
+            <i class="icond"><img src="__STATIC__/image/wap/new/yanzheng.png" alt=""></i>
+        </div>
+        <input name="code" tabindex="3" style="width:250px;margin-right: 20px;" placeholder="验证码" id="code" type="text"  value="" onfocus="this.value=''" onblur="if(this.value==''){this.value='验证码'}">
+        <img src="" alt="captcha" border="0" id="verify" width="120" height="40"/>
+        <input value="登录" style="width:82%;"  type="button" class="button" >
+    </div>
+
+</div>
+</body>
+</html>

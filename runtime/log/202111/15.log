@@ -1,0 +1,1000 @@
+---------------------------------------------------------------
+[ 2021-11-15T10:03:01+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin
+[运行时间：0.037496s] [吞吐率：26.67req/s] [内存消耗：2,332.02kb] [文件加载：88]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=6d663c3a2e904a6138571b225e583427',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-15T10:03:01+08:00 ] 0.0.0.0 GET localhost:5601/index.php/captcha.html?0.06928653392135975
+[运行时间：0.028954s] [吞吐率：34.54req/s] [内存消耗：2,170.34kb] [文件加载：80]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=6d663c3a2e904a6138571b225e583427',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  '0_06928653392135975' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\project\pointsmall\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-11-15T10:03:29+08:00 ] 0.0.0.0 POST localhost:5601/index.php/admin/index/login.html
+[运行时间：0.101127s] [吞吐率：9.89req/s] [内存消耗：3,324.48kb] [文件加载：99]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=6d663c3a2e904a6138571b225e583427',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:5601',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+  'code' => 'eenu',
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017650s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_ip` [ RunTime:0.017885s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_ip` WHERE  `Ip` = '0.0.0.0' LIMIT 1 [ RunTime:0.002706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003745s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin' LIMIT 1 [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0 LIMIT 1 [ RunTime:0.001476s ]
+[ sql ] [ SQL ] SELECT `ID`,`Username`,`Password`,`Roleid`,`Status`,`Competence`,`Loginarea`,`Logincount` FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.001507s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_user` WHERE  `Username` = 'admin'  AND `Status` = 0  AND `Password` = '10470c3b4b1fed12c3baac014be15fac67c6e815' LIMIT 1 [ RunTime:0.001650s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Loginarea`='IANA保留地址.',`Loginip`='0.0.0.0',`Logintime`='2021-11-15 10:03:29'  WHERE  (  ID = 1 ) [ RunTime:0.001617s ]
+[ sql ] [ SQL ] UPDATE `jsl_user`  SET `Logincount`=`Logincount`+1  WHERE  (  ID = 1 ) [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_loginlog` [ RunTime:0.003510s ]
+[ sql ] [ SQL ] INSERT INTO `jsl_loginlog` (`Uid` , `User` , `Description` , `Area` , `Loginip` , `Dtime`) VALUES (1 , 'admin' , '<div class=\"de1\">登录成功</div>' , 'IANA保留地址.' , '0.0.0.0' , '2021-11-15 10:03:29') [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_user` WHERE  (  leader_id = 1 ) [ RunTime:0.001291s ]
+---------------------------------------------------------------
+[ 2021-11-15T10:03:31+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/web.html
+[运行时间：0.246322s] [吞吐率：4.06req/s] [内存消耗：3,704.20kb] [文件加载：105]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'web',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=6d663c3a2e904a6138571b225e583427',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->web[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\web.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026342s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002623s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004390s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001427s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941811'  WHERE  (  Uid = 1 ) [ RunTime:0.001727s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941691' [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.003739s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid = 0 ) ORDER BY `Msort` ASC [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001728s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.003481s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001823s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001572s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001409s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001782s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001677s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001453s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001624s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001658s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001608s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001586s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001333s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001281s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.012833s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.012277s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001507s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001733s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '274' ) LIMIT 1 [ RunTime:0.001765s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '274' ) [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001627s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '29' ) [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001353s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '1' ) [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '2' ) [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '3' ) [ RunTime:0.001583s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '62' ) [ RunTime:0.001550s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001513s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '144' ) [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '64' ) [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '75' ) [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001518s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001439s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941811'  WHERE  (  Uid = 1 ) [ RunTime:0.001620s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941691' [ RunTime:0.001685s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941811'  WHERE  (  Uid = 1 ) [ RunTime:0.001540s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941691' [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001464s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941811'  WHERE  (  Uid = 1 ) [ RunTime:0.001414s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941691' [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941811'  WHERE  (  Uid = 1 ) [ RunTime:0.001561s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941691' [ RunTime:0.001565s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\cb1875549a15ea697c1a55e0379ea363.php:76]
+---------------------------------------------------------------
+[ 2021-11-15T10:03:51+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/index/main.html?module=news
+[运行时间：0.324658s] [吞吐率：3.08req/s] [内存消耗：3,694.48kb] [文件加载：105]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=6d663c3a2e904a6138571b225e583427',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/web.html',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'module' => 'news',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ F:\project\pointsmall\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\index\main.html [ array (
+  0 => 'list',
+  1 => 'volist',
+  2 => 'mod_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021991s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.007140s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003828s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001263s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941831'  WHERE  (  Uid = 1 ) [ RunTime:0.001529s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941711' [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_module` [ RunTime:0.003756s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  `Sid` = 0  AND `ID` IN (112,137,141) ORDER BY `Msort` ASC [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_module` WHERE  (  Sid > 0 ) ORDER BY `Msort` ASC [ RunTime:0.001675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_competence` [ RunTime:0.003475s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '112' ) LIMIT 1 [ RunTime:0.002424s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001284s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '107' ) LIMIT 1 [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '107' ) [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '113' ) LIMIT 1 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '120' ) LIMIT 1 [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.002208s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '302' ) LIMIT 1 [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '302' ) [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '126' ) LIMIT 1 [ RunTime:0.001751s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '1' ) LIMIT 1 [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001734s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '282' ) LIMIT 1 [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '282' ) [ RunTime:0.001691s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '286' ) LIMIT 1 [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '286' ) [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '311' ) LIMIT 1 [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '311' ) [ RunTime:0.001973s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '316' ) LIMIT 1 [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '316' ) [ RunTime:0.001563s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '108' ) LIMIT 1 [ RunTime:0.001334s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '108' ) [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '322' ) LIMIT 1 [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '322' ) [ RunTime:0.001515s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '11' ) LIMIT 1 [ RunTime:0.001592s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '11' ) [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '44' ) LIMIT 1 [ RunTime:0.001604s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '111' ) LIMIT 1 [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '111' ) [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '114' ) LIMIT 1 [ RunTime:0.001663s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001557s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '59' ) LIMIT 1 [ RunTime:0.001827s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '59' ) [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '298' ) LIMIT 1 [ RunTime:0.001316s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '298' ) [ RunTime:0.002134s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '323' ) LIMIT 1 [ RunTime:0.001255s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '323' ) [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '266' ) LIMIT 1 [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '266' ) [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '292' ) LIMIT 1 [ RunTime:0.001553s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '292' ) [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '274' ) LIMIT 1 [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '274' ) [ RunTime:0.001636s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '131' ) LIMIT 1 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '278' ) LIMIT 1 [ RunTime:0.001813s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '278' ) [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_competence` WHERE  (  ID = '109' ) LIMIT 1 [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_competence` WHERE  (  Sid = '' ) [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '112' ) [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '137' ) [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT `ID` FROM `jsl_module` WHERE  (  Sid = '141' ) [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001212s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941831'  WHERE  (  Uid = 1 ) [ RunTime:0.001350s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941711' [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001280s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941831'  WHERE  (  Uid = 1 ) [ RunTime:0.001194s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941711' [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001284s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941831'  WHERE  (  Uid = 1 ) [ RunTime:0.001310s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941711' [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001436s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941831'  WHERE  (  Uid = 1 ) [ RunTime:0.001820s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941711' [ RunTime:0.014990s ]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+[ error ] [8]未定义数组索引: id[F:\project\pointsmall\runtime\temp\9621c9c1e68b9b95a987015c655050b1.php:126]
+---------------------------------------------------------------
+[ 2021-11-15T10:03:52+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/news/tree.html
+[运行时间：0.779398s] [吞吐率：1.28req/s] [内存消耗：5,099.30kb] [文件加载：112]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'tree',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=6d663c3a2e904a6138571b225e583427',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/index/main.html?module=news',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->tree[ F:\project\pointsmall\application\admin\controller\News.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\news\tree.html [ array (
+  0 => 'subject_list',
+  1 => 'clues_tree_list',
+  2 => 'news_list',
+  3 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Declaration of app\admin\controller\News::success() should be compatible with think\Controller::success($msg = '', $url = NULL, $data = '', $wait = 3, array $header = Array)[F:\project\pointsmall\application\admin\controller\News.php:7]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ error ] [8]未定义数组索引: news_type[F:\project\pointsmall\application\admin\controller\News.php:1163]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004025s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.005956s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004306s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001380s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941831'  WHERE  (  Uid = 1 ) [ RunTime:0.001458s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941711' [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_news` [ RunTime:0.004006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_news` LIMIT 1 [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news` LIMIT 0,15 [ RunTime:0.001752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_region` [ RunTime:0.004209s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_region` LIMIT 1 [ RunTime:0.001647s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` LIMIT 0,15 [ RunTime:0.001886s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_dmenu` [ RunTime:0.004405s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001579s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001563s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001468s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001565s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001527s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001453s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001492s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001536s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001409s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT `MenuName` FROM `jsl_dmenu` WHERE  `ID` IS NULL LIMIT 1 [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  `region_id` = 29 LIMIT 1 [ RunTime:0.001532s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 1  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 29  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001477s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3878  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001686s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3878' ) LIMIT 1 [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_department` [ RunTime:0.005215s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `city` = 3878 ORDER BY `department_id` ASC [ RunTime:0.002268s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 314  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3880  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3880' ) LIMIT 1 [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3880 ORDER BY `department_id` ASC [ RunTime:0.002144s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3332  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001498s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3332' ) LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3332 ORDER BY `department_id` ASC [ RunTime:0.001893s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3333  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001587s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3333' ) LIMIT 1 [ RunTime:0.001499s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3333 ORDER BY `department_id` ASC [ RunTime:0.002394s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3334  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001896s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3334' ) LIMIT 1 [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3334 ORDER BY `department_id` ASC [ RunTime:0.002247s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3335  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3335' ) LIMIT 1 [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3335 ORDER BY `department_id` ASC [ RunTime:0.002271s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3336  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3336' ) LIMIT 1 [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3336 ORDER BY `department_id` ASC [ RunTime:0.002209s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3338  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3338' ) LIMIT 1 [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3338 ORDER BY `department_id` ASC [ RunTime:0.001809s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3339  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001581s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3339' ) LIMIT 1 [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3339 ORDER BY `department_id` ASC [ RunTime:0.002299s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3340  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3340' ) LIMIT 1 [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3340 ORDER BY `department_id` ASC [ RunTime:0.002069s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 313  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001567s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3879  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3879' ) LIMIT 1 [ RunTime:0.001352s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3879 ORDER BY `department_id` ASC [ RunTime:0.002065s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3414  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3414' ) LIMIT 1 [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3414 ORDER BY `department_id` ASC [ RunTime:0.001904s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3415  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001554s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3415' ) LIMIT 1 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3415 ORDER BY `department_id` ASC [ RunTime:0.001856s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3416  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3416' ) LIMIT 1 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3416 ORDER BY `department_id` ASC [ RunTime:0.001896s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3417  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3417' ) LIMIT 1 [ RunTime:0.001403s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3417 ORDER BY `department_id` ASC [ RunTime:0.001992s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3418  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001561s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3418' ) LIMIT 1 [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3418 ORDER BY `department_id` ASC [ RunTime:0.001837s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3419  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3419' ) LIMIT 1 [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3419 ORDER BY `department_id` ASC [ RunTime:0.002081s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3420  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3420' ) LIMIT 1 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3420 ORDER BY `department_id` ASC [ RunTime:0.001987s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3421  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3421' ) LIMIT 1 [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3421 ORDER BY `department_id` ASC [ RunTime:0.002310s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 326  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3892  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001623s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3892' ) LIMIT 1 [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3892 ORDER BY `department_id` ASC [ RunTime:0.002150s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3344  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001485s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3344' ) LIMIT 1 [ RunTime:0.001686s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3344 ORDER BY `department_id` ASC [ RunTime:0.002130s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3875  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001776s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3875' ) LIMIT 1 [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3875 ORDER BY `department_id` ASC [ RunTime:0.002177s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 325  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3891  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001805s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3891' ) LIMIT 1 [ RunTime:0.001956s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3891 ORDER BY `department_id` ASC [ RunTime:0.002264s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3395  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001436s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3395' ) LIMIT 1 [ RunTime:0.001281s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3395 ORDER BY `department_id` ASC [ RunTime:0.001944s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3394  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3394' ) LIMIT 1 [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3394 ORDER BY `department_id` ASC [ RunTime:0.002004s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3393  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3393' ) LIMIT 1 [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3393 ORDER BY `department_id` ASC [ RunTime:0.002090s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3392  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3392' ) LIMIT 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3392 ORDER BY `department_id` ASC [ RunTime:0.002099s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3391  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001758s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3391' ) LIMIT 1 [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3391 ORDER BY `department_id` ASC [ RunTime:0.001995s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3390  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001514s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3390' ) LIMIT 1 [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3390 ORDER BY `department_id` ASC [ RunTime:0.002013s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3389  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001723s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3389' ) LIMIT 1 [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3389 ORDER BY `department_id` ASC [ RunTime:0.002275s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3388  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001537s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3388' ) LIMIT 1 [ RunTime:0.001732s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3388 ORDER BY `department_id` ASC [ RunTime:0.002200s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3387  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001973s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3387' ) LIMIT 1 [ RunTime:0.001594s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3387 ORDER BY `department_id` ASC [ RunTime:0.002116s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 324  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3890  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001596s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3890' ) LIMIT 1 [ RunTime:0.001682s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3890 ORDER BY `department_id` ASC [ RunTime:0.002175s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3359  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001602s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3359' ) LIMIT 1 [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3359 ORDER BY `department_id` ASC [ RunTime:0.001951s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3361  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3361' ) LIMIT 1 [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3361 ORDER BY `department_id` ASC [ RunTime:0.001972s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3362  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3362' ) LIMIT 1 [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3362 ORDER BY `department_id` ASC [ RunTime:0.001973s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3363  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001637s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3363' ) LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3363 ORDER BY `department_id` ASC [ RunTime:0.002200s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3364  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3364' ) LIMIT 1 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3364 ORDER BY `department_id` ASC [ RunTime:0.002032s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3365  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3365' ) LIMIT 1 [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3365 ORDER BY `department_id` ASC [ RunTime:0.002173s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3801  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001595s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3801' ) LIMIT 1 [ RunTime:0.001677s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3801 ORDER BY `department_id` ASC [ RunTime:0.002155s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 323  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3889  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3889' ) LIMIT 1 [ RunTime:0.001453s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3889 ORDER BY `department_id` ASC [ RunTime:0.001975s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3345  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3345' ) LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3345 ORDER BY `department_id` ASC [ RunTime:0.002041s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3346  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001497s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3346' ) LIMIT 1 [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3346 ORDER BY `department_id` ASC [ RunTime:0.002185s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3348  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3348' ) LIMIT 1 [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3348 ORDER BY `department_id` ASC [ RunTime:0.002106s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3349  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3349' ) LIMIT 1 [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3349 ORDER BY `department_id` ASC [ RunTime:0.002209s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3350  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001609s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3350' ) LIMIT 1 [ RunTime:0.001649s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3350 ORDER BY `department_id` ASC [ RunTime:0.002101s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 322  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001880s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3888  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001673s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3888' ) LIMIT 1 [ RunTime:0.001546s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3888 ORDER BY `department_id` ASC [ RunTime:0.002274s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3423  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001660s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3423' ) LIMIT 1 [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3423 ORDER BY `department_id` ASC [ RunTime:0.002038s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3424  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001400s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3424' ) LIMIT 1 [ RunTime:0.001396s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3424 ORDER BY `department_id` ASC [ RunTime:0.002199s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3425  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3425' ) LIMIT 1 [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3425 ORDER BY `department_id` ASC [ RunTime:0.002029s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3426  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3426' ) LIMIT 1 [ RunTime:0.001171s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3426 ORDER BY `department_id` ASC [ RunTime:0.002192s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3427  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3427' ) LIMIT 1 [ RunTime:0.001539s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3427 ORDER BY `department_id` ASC [ RunTime:0.001958s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3428  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3428' ) LIMIT 1 [ RunTime:0.001283s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3428 ORDER BY `department_id` ASC [ RunTime:0.002141s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3429  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3429' ) LIMIT 1 [ RunTime:0.001396s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3429 ORDER BY `department_id` ASC [ RunTime:0.002230s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3430  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3430' ) LIMIT 1 [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3430 ORDER BY `department_id` ASC [ RunTime:0.002822s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 321  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001753s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3887  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3887' ) LIMIT 1 [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3887 ORDER BY `department_id` ASC [ RunTime:0.001938s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3375  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001648s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3375' ) LIMIT 1 [ RunTime:0.001577s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3375 ORDER BY `department_id` ASC [ RunTime:0.002193s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3376  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001676s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3376' ) LIMIT 1 [ RunTime:0.001535s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3376 ORDER BY `department_id` ASC [ RunTime:0.002396s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3377  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001807s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3377' ) LIMIT 1 [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3377 ORDER BY `department_id` ASC [ RunTime:0.001997s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3798  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3798' ) LIMIT 1 [ RunTime:0.001234s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3798 ORDER BY `department_id` ASC [ RunTime:0.001903s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 320  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001621s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3886  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001667s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3886' ) LIMIT 1 [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3886 ORDER BY `department_id` ASC [ RunTime:0.001998s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3368  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3368' ) LIMIT 1 [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3368 ORDER BY `department_id` ASC [ RunTime:0.001950s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3369  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3369' ) LIMIT 1 [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3369 ORDER BY `department_id` ASC [ RunTime:0.001942s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3370  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3370' ) LIMIT 1 [ RunTime:0.001482s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3370 ORDER BY `department_id` ASC [ RunTime:0.001737s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3371  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3371' ) LIMIT 1 [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3371 ORDER BY `department_id` ASC [ RunTime:0.001936s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3372  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001675s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3372' ) LIMIT 1 [ RunTime:0.012594s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3372 ORDER BY `department_id` ASC [ RunTime:0.002588s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3799  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001527s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3799' ) LIMIT 1 [ RunTime:0.015644s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3799 ORDER BY `department_id` ASC [ RunTime:0.002618s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 319  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001696s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3885  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001623s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3885' ) LIMIT 1 [ RunTime:0.013959s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3885 ORDER BY `department_id` ASC [ RunTime:0.002569s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3405  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001665s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3405' ) LIMIT 1 [ RunTime:0.001645s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3405 ORDER BY `department_id` ASC [ RunTime:0.002238s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3407  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001806s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3407' ) LIMIT 1 [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3407 ORDER BY `department_id` ASC [ RunTime:0.002100s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3408  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3408' ) LIMIT 1 [ RunTime:0.001534s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3408 ORDER BY `department_id` ASC [ RunTime:0.002337s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3409  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001667s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3409' ) LIMIT 1 [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3409 ORDER BY `department_id` ASC [ RunTime:0.002297s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3410  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001725s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3410' ) LIMIT 1 [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3410 ORDER BY `department_id` ASC [ RunTime:0.002350s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3411  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3411' ) LIMIT 1 [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3411 ORDER BY `department_id` ASC [ RunTime:0.002261s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3412  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001498s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3412' ) LIMIT 1 [ RunTime:0.001637s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3412 ORDER BY `department_id` ASC [ RunTime:0.001884s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3802  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001480s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3802' ) LIMIT 1 [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3802 ORDER BY `department_id` ASC [ RunTime:0.001923s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 318  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001566s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3884  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3884' ) LIMIT 1 [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3884 ORDER BY `department_id` ASC [ RunTime:0.002163s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3398  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001737s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3398' ) LIMIT 1 [ RunTime:0.001554s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3398 ORDER BY `department_id` ASC [ RunTime:0.002332s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3399  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001747s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3399' ) LIMIT 1 [ RunTime:0.001622s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3399 ORDER BY `department_id` ASC [ RunTime:0.002336s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3400  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3400' ) LIMIT 1 [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3400 ORDER BY `department_id` ASC [ RunTime:0.002178s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3401  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001785s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3401' ) LIMIT 1 [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3401 ORDER BY `department_id` ASC [ RunTime:0.002273s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3402  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3402' ) LIMIT 1 [ RunTime:0.014306s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3402 ORDER BY `department_id` ASC [ RunTime:0.002578s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3403  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001746s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3403' ) LIMIT 1 [ RunTime:0.001674s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3403 ORDER BY `department_id` ASC [ RunTime:0.002447s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3800  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001914s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3800' ) LIMIT 1 [ RunTime:0.001486s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3800 ORDER BY `department_id` ASC [ RunTime:0.002145s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 317  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3883  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001700s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3883' ) LIMIT 1 [ RunTime:0.001476s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3883 ORDER BY `department_id` ASC [ RunTime:0.002283s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3380  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001516s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3380' ) LIMIT 1 [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3380 ORDER BY `department_id` ASC [ RunTime:0.002155s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3381  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001595s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3381' ) LIMIT 1 [ RunTime:0.001352s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3381 ORDER BY `department_id` ASC [ RunTime:0.002137s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3382  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3382' ) LIMIT 1 [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3382 ORDER BY `department_id` ASC [ RunTime:0.002243s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3383  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001808s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3383' ) LIMIT 1 [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3383 ORDER BY `department_id` ASC [ RunTime:0.002289s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3384  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3384' ) LIMIT 1 [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3384 ORDER BY `department_id` ASC [ RunTime:0.002147s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3385  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3385' ) LIMIT 1 [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3385 ORDER BY `department_id` ASC [ RunTime:0.002011s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3803  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3803' ) LIMIT 1 [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3803 ORDER BY `department_id` ASC [ RunTime:0.002093s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 316  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001714s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3882  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3882' ) LIMIT 1 [ RunTime:0.001504s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3882 ORDER BY `department_id` ASC [ RunTime:0.002315s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3352  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3352' ) LIMIT 1 [ RunTime:0.001527s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3352 ORDER BY `department_id` ASC [ RunTime:0.002003s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3354  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3354' ) LIMIT 1 [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3354 ORDER BY `department_id` ASC [ RunTime:0.002287s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3355  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001605s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3355' ) LIMIT 1 [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3355 ORDER BY `department_id` ASC [ RunTime:0.001842s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3356  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3356' ) LIMIT 1 [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3356 ORDER BY `department_id` ASC [ RunTime:0.002126s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3357  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001485s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3357' ) LIMIT 1 [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3357 ORDER BY `department_id` ASC [ RunTime:0.001972s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3358  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3358' ) LIMIT 1 [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3358 ORDER BY `department_id` ASC [ RunTime:0.001804s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3796  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3796' ) LIMIT 1 [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3796 ORDER BY `department_id` ASC [ RunTime:0.002059s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 315  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3881  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001435s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3881' ) LIMIT 1 [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `district` = 3881 ORDER BY `department_id` ASC [ RunTime:0.002333s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `parent_id` = 3893  AND `region_id` <> 3876 ORDER BY `sort` ASC [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  (  region_id='3893' ) LIMIT 1 [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_department` WHERE  `city` = 3893 ORDER BY `department_id` ASC [ RunTime:0.002190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_subject` [ RunTime:0.004294s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_subject` WHERE  (  is_enable = 1 ) ORDER BY `sort` ASC [ RunTime:0.001442s ]
+---------------------------------------------------------------
+[ 2021-11-15T10:03:52+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/news/getnewslist.html?page=1&limit=15
+[运行时间：0.143679s] [吞吐率：6.96req/s] [内存消耗：4,476.57kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'news',
+    2 => 'getnewslist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu; jsl_member_id=397; jsl_key=6d663c3a2e904a6138571b225e583427',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/news/tree.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\News->getNewsList[ F:\project\pointsmall\application\admin\controller\News.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Declaration of app\admin\controller\News::success() should be compatible with think\Controller::success($msg = '', $url = NULL, $data = '', $wait = 3, array $header = Array)[F:\project\pointsmall\application\admin\controller\News.php:7]
+[ error ] [8]未定义数组索引: keywords[F:\project\pointsmall\application\common\model\News.php:967]
+[ error ] [8]未定义数组索引: publish_start_time[F:\project\pointsmall\application\common\model\News.php:970]
+[ error ] [8]未定义数组索引: publish_end_time[F:\project\pointsmall\application\common\model\News.php:973]
+[ error ] [8]未定义数组索引: department_id[F:\project\pointsmall\application\common\model\News.php:976]
+[ error ] [8]未定义数组索引: department_name[F:\project\pointsmall\application\common\model\News.php:979]
+[ error ] [8]未定义数组索引: type[F:\project\pointsmall\application\common\model\News.php:982]
+[ error ] [8]未定义数组索引: subject_id[F:\project\pointsmall\application\common\model\News.php:985]
+[ error ] [8]未定义数组索引: subject_id_str[F:\project\pointsmall\application\common\model\News.php:988]
+[ error ] [8]未定义数组索引: label_id[F:\project\pointsmall\application\common\model\News.php:991]
+[ error ] [8]未定义数组索引: label_id_str[F:\project\pointsmall\application\common\model\News.php:994]
+[ error ] [8]未定义数组索引: province[F:\project\pointsmall\application\common\model\News.php:997]
+[ error ] [8]未定义数组索引: city[F:\project\pointsmall\application\common\model\News.php:1000]
+[ error ] [8]未定义数组索引: district[F:\project\pointsmall\application\common\model\News.php:1003]
+[ error ] [8]未定义数组索引: industry_id[F:\project\pointsmall\application\common\model\News.php:1006]
+[ error ] [8]未定义数组索引: is_authority[F:\project\pointsmall\application\common\model\News.php:1009]
+[ error ] [8]未定义数组索引: department_type[F:\project\pointsmall\application\common\model\News.php:1012]
+[ error ] [8]未定义数组索引: is_not_provincial_party_committee_propaganda[F:\project\pointsmall\application\common\model\News.php:1016]
+[ error ] [8]未定义数组索引: region[F:\project\pointsmall\application\common\model\News.php:1019]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ error ] [8]未定义数组索引: current_department_id[F:\project\pointsmall\application\common\model\News.php:1068]
+[ error ] [8]未定义数组索引: current_department_role_id[F:\project\pointsmall\application\common\model\News.php:1072]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024529s ] mysql:host=172.16.2.244;port=3306;dbname=clues_test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006806s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.003979s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001464s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1636941832'  WHERE  (  Uid = 1 ) [ RunTime:0.001813s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1636941712' [ RunTime:0.001514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_region` [ RunTime:0.003777s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_region` WHERE  `region_id` IS NULL LIMIT 1 [ RunTime:0.001581s ]
+[ sql ] [ SQL ] SELECT count(*) AS t FROM ( SELECT 1 FROM jsl_news AS n 
+    	LEFT JOIN jsl_department AS d ON n.department_id = d.department_id
+    	LEFT JOIN jsl_news_subject AS s ON n.news_id = s.news_id
+    	LEFT JOIN jsl_news_label AS l ON n.news_id = l.news_id
+    	LEFT JOIN jsl_region AS pr ON n.province 	= pr.region_id
+    	LEFT JOIN jsl_region AS cr ON n.city 		= cr.region_id
+    	LEFT JOIN jsl_region AS dr ON n.district 	= dr.region_id
+    	 WHERE 1 AND n.status = 10   GROUP BY n.news_id) AS temp [ RunTime:0.004262s ]
+[ sql ] [ SQL ] SELECT n.*,d.department_name,d.is_admin,pr.region_name AS province,
+			cr.region_name AS city,dr.region_name AS district
+    	FROM jsl_news AS n 
+    	LEFT JOIN jsl_department AS d ON n.department_id = d.department_id
+    	LEFT JOIN jsl_news_subject AS s ON n.news_id = s.news_id
+    	LEFT JOIN jsl_news_label AS l ON n.news_id = l.news_id
+    	LEFT JOIN jsl_region AS pr ON n.province 	= pr.region_id
+    	LEFT JOIN jsl_region AS cr ON n.city 		= cr.region_id
+    	LEFT JOIN jsl_region AS dr ON n.district 	= dr.region_id
+    	 WHERE 1 AND n.status = 10   GROUP BY n.news_id ORDER BY  n.publish_time DESC   LIMIT 0,15 [ RunTime:0.009397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_news_choose_record` [ RunTime:0.003963s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 668  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 667  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 666  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 665  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 587  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 590  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001330s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 588  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 602  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001397s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 589  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.012343s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 656  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001887s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 636  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001529s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 615  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 614  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 604  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001600s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_news_choose_record` WHERE  `news_id` = 613  AND `department_id` IS NULL LIMIT 1 [ RunTime:0.001330s ]

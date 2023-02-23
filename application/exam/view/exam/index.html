@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>考试管理|{:config('system.title')}</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="__JS__/Public.js"></script>
+<script type="text/javascript" src="__JS__/winpop.js"></script>
+<script type="text/javascript" src="__CSS__/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="__JS__/My97DatePicker/WdatePicker.js"></script>
+<script>
+$(document).ready(function() {
+    $('#add').click(function() {
+		popload('新增考试',860,500,"{:url('Exam/add')}?parent_id={$Request.get.parent_id}");
+		addDiv($('#iframe_pop'));
+		popclose();
+	});
+	//修改考试信息
+	$('#content #table .tr .edit').click(function(event) {
+		event.preventDefault();
+		var exam_id=$(this).attr('href').replace(/[^0-9]/ig,"");
+		if (exam_id=='' || isNaN(exam_id)) {
+			wintq('ID参数不正确',3,1000,1,'');
+			return false;
+		}else {
+			popload('修改考试信息',860,500,'{:url('Exam/edit')}?exam_id='+exam_id);
+			addDiv($('#iframe_pop'));
+			popclose();
+		}
+	});
+	//删除
+	$('#content #table .tr .del').click(function(event) {
+		event.preventDefault();
+		if (!confirm('确定要删除该数据吗？')) {
+			return false;
+		}
+		var exam_id=$(this).attr('href').replace(/[^0-9]/ig,"");
+		if (exam_id=='' || isNaN(exam_id)) {
+			wintq('ID参数不正确',3,1000,1,'');
+			return false;
+		}else {
+			wintq('正在删除，请稍后...',4,20000,0,'');
+			$.ajax({
+				url:"{:url('Exam/exam_del')}",
+				dataType:'json',
+				type:'POST',
+				data:'post=ok&exam_id='+exam_id,
+				success: function(data) {
+					if (data.s=='ok') {
+						wintq('删除成功',1,1500,0,'?');
+					}else {
+						wintq(data.s,3,1500,1,'');
+					}
+				}
+			});
+		}
+	});
+	//批量删除
+	$('#dely').click(function(event) {
+		event.preventDefault();
+		if (!confirm('确定要删除选择项吗？')) {
+			return false;
+		}
+		var delid='';
+		for (i=0; i<$('#table .delid').length; i++) {
+			if (!$('#table .delid').eq(i).prop('checked')==false) {
+				delid=delid+$('#table .delid').eq(i).val()+',';
+			}
+		}
+		if (delid=='') {
+			wintq('请选中后再操作',2,1500,1,'');
+		}else {
+			wintq('正在删除，请稍后...',4,20000,0,'');
+			$.ajax({
+				url:"{:url('Exam/exam_indel')}",
+				dataType:'JSON',
+				type:'POST',
+				data:'delid='+delid,
+				success: function(data) {
+					if (data.s=='ok') {
+						wintq('删除成功',1,1500,0,'?');
+					}else {
+						wintq(data.s,3,1500,1,'');
+					}
+				}
+			});
+		}
+	});
+
+});
+</script>
+</head>
+<body>
+<div id="content">
+	<h1>首页 > 考试管理 > 全部考试</h1>
+    <form action="{:url('Exam/index')}" method="post">
+    <table id="client" border="1" bordercolor="#CCCCCC" cellpadding="0" cellspacing="0" style="margin-left:0px;">
+    	<tr class="tr">
+        	<td class="left">关键字：</td>
+        	<td colspan="5"><input name="keywords" id="keywords" type="text" class="ctext" size="30" value="{:input('param.keywords')}"/><font></font></td>
+        </tr>
+        <tr class="tr">
+            <td class="left" colspan="6" style="text-align:center;height:40px;">
+	            <input type="submit" class="submit" value="搜索"  />
+	            <input type="button" class="submit" value="添加" class="add"  id="add"/>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <table id="table" border="1" bordercolor="#CCCCCC" cellpadding="0" cellspacing="0">
+    	<tr>
+            <th>考试名称</th>
+            <th>考试类型</th>
+            <th>考试状态</th>
+            <th>考试开始时间</th>
+            <th>考试结束时间</th>
+            <th>答题时间限制（秒）</th>
+            <th>创建人</th>
+            <th>创建时间</th>
+            <th  style="width:150px;">操作</th>
+        </tr>
+   		{if condition="$exam_list.total eq 0"}<tr class="tr"><td class="tc" colspan="11">暂无数据，等待添加～！</td></tr>{/if}
+        <!--顶级数据-->
+        {volist name="exam_list.data" id="vo"}
+        <tr class="tr {eq name="mod" value="1"}tr2{/eq}">
+            <td class="tc">{$vo.exam_name}</td>
+            <td class="tc">{$exam->exam_type_array[$vo.exam_type]}</td>
+            <td class="tc">{$exam->exam_status_array[$vo.exam_status]}</td>
+            <td class="tc">{$vo.start_time}</td>
+            <td class="tc">{$vo.end_time}</td>
+            <td class="tc">{$vo.answer_time_limit}</td>
+            <td class="tc">{$vo.user_name}</td>
+            <td class="tc">{$vo.add_time}</td>
+            <td class="tc fixed_w">
+            	<a href="{:url('Question/index')}?exam_id={$vo.exam_id}"><img src="__STATIC__/image/question.png" border="0" title="考试题目管理" /></a>
+            	<a href="{$vo.exam_id}" class="edit"><img src="__STATIC__/image/edit.png" border="0" title="修改" /></a>
+	            {if condition="$vo.exam_status eq 0"}
+	            	<a href="{$vo.exam_id}" class="del"><img src="__STATIC__/image/delete.png" border="0" title="删除" /></a>
+	            {/if}
+	            <a href="{:url('Answer/index')}?exam_id={$vo.exam_id}"><img src="__STATIC__/image/exam_result.png" border="0" title="成绩&数据" /></a>
+            </td>
+        </tr>
+        {/volist}
+    </table>
+    <div id="page">{:$list->render()}</div>
+</div>
+</div>
+</body>
+</html>

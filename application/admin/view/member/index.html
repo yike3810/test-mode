@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>会员信息列表|{:config('system.title')}</title>
+<link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+<link rel="stylesheet" type="text/css" href="__CSS__/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="__JS__/Public.js"></script>
+<script type="text/javascript" src="__JS__/winpop.js"></script>
+<script type="text/javascript" src="__CSS__/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="__STATIC__/layui/css/layui.css" />
+	<script type="text/javascript" src="__STATIC__/layui/layui.all.js"></script>
+<script>
+$(document).ready(function() {
+    /*$('#content h2 .add').click(function() {
+		popload('修改志愿者添加',600,380,"{:url('Member/memberadd')}");
+		addDiv($('#iframe_pop'));
+		popclose();
+	});*/
+	$('#content #table .tr .edit').click(function(event) {
+		event.preventDefault();
+		var member_id=$(this).attr('href').replace(/[^0-9]/ig,"");
+		if (member_id=='' || isNaN(member_id)) {
+			wintq('ID参数不正确',3,1000,1,'');
+			return false;
+		}else {
+			popload('修改会员信息',600,515,"{:url('Member/memberedit')}?member_id="+member_id);
+			addDiv($('#iframe_pop'));
+			popclose();
+		}
+	});
+	$('#content #table .tr .points').click(function(event) {
+		event.preventDefault();
+		var member_id=$(this).attr('href').replace(/[^0-9]/ig,"");
+		if (member_id=='' || isNaN(member_id)) {
+			wintq('ID参数不正确',3,1000,1,'');
+			return false;
+		}else {
+			popload('个人积分明细',740,600,"{:url('Member/points_log')}?member_id="+member_id);
+			addDiv($('#iframe_pop'));
+			popclose();
+		}
+	});
+	$('#content #table .tr .del').click(function(event) {
+		event.preventDefault();
+		
+		if (!confirm('确定要删除该数据吗？')) {
+			return false;
+		}
+		var member_id=$(this).attr('href').replace(/[^0-9]/ig,"");
+		if (member_id=='' || isNaN(member_id)) {
+			wintq('ID参数不正确',3,1000,1,'');
+			return false;
+		}else {
+			wintq('正在删除，请稍后...',4,20000,0,'');
+			$.ajax({
+				url:"{:url('Member/member_del')}",
+				dataType:'json',
+				type:'POST',
+				data:'post=ok&member_id='+member_id,
+				success: function(data) {
+					if (data.s=='ok') {
+						wintq('删除成功',1,1500,0,'?');
+					}else {
+						wintq(data.s,3,1500,1,'');
+					}
+				}
+			});
+		}
+	});
+	$('#dely').click(function(event) {
+		event.preventDefault();
+		if (!confirm('确定要删除选择项吗？')) {
+			return false;
+		}
+		var delid='';
+		for (i=0; i<$('#table .delid').length; i++) {
+			if (!$('#table .delid').eq(i).prop('checked')==false) {
+				delid=delid+$('#table .delid').eq(i).val()+',';
+			}
+		}
+		if (delid=='') {
+			wintq('请选中后再操作',2,1500,1,'');
+		}else {
+			wintq('正在删除，请稍后...',4,20000,0,'');
+			$.ajax({
+				url:"{:url('Member/in_member_del')}",
+				dataType:'JSON',
+				type:'POST',
+				data:'delid='+delid,
+				success: function(data) {
+					if (data.s=='ok') {
+						wintq('删除成功',1,1500,0,'?');
+					}else {
+						wintq(data.s,3,1500,1,'');
+					}
+				}
+			});
+		}
+	});
+    $('#export').click(function() {
+    	event.preventDefault();
+    	var obj = {};
+    	obj.keywords 	= "{:input('param.keywords')}";
+    	obj.department  	= "{:input('param.department')}";
+    	obj.post    	= "{:input('param.post')}";
+    	obj.degree     		= "{:input('param.degree')}";
+    	obj.term     		= "{:input('param.term')}";
+		obj.school_level     		= "{:input('param.school_level')}";
+		window.location.href = "{:url('Member/memberexport')}?"+$.param(obj);
+		return false
+	});
+    $('.showaward').mouseover(function(){
+    	if($(this).children("input").val()!=""){
+			layer.tips($(this).children("input").val(), this, {
+				tips: [4, '#78BA32'],
+			});
+    	}
+	});
+	$('.showaward').mouseout(function(){
+		if($(this).children("input").val()!=""){
+			layer.tips($(this).children("input").val(), this, {
+				tips: [4, '#78BA32'],
+				time: 1
+			});
+		}
+	});
+});
+</script>
+</head>
+<body>
+<div id="content">
+	<h1>首页 > 志愿者管理 > 志愿者列表</h1>
+    <form action="{:url('Member/index')}" method="post">
+    <table id="client" border="1" bordercolor="#CCCCCC" cellpadding="0" cellspacing="0" style="margin-left:0px;">
+    	<tr class="tr">
+        	<td class="left">关键词：</td>
+        	<td><input name="keywords" id="keywords" type="text" class="ctext" size="30" value="{:input('param.keywords')}"/><font></font></td>
+			<td class="left">姓名：</td>
+        	<td><input name="real_name" id="real_name" type="text" class="ctext" size="30" value="{:input('param.real_name')}"/><font></font></td>
+        </tr>	
+    	<tr class="tr">
+        	<td class="left">所属部门：</td>
+        	<td>
+				 <select name="department" class="select">
+					<option value="">请选择</option>
+					{volist name="department_list" id="vo2"}
+					<option value="{$vo2.id}" {if condition="$vo2.id eq $Request.param.department"}selected{/if}>{$vo2.department_name}</option>
+					{/volist}
+				 </select>
+			</td>
+		</tr>	
+        <tr class="tr">
+            <td class="left" colspan="6" style="text-align:center;height:40px;">
+	            <input type="submit" class="submit" value="搜索"  />
+	            <input type="button" class="submit" value="导出表格" class="export"  id="export"/>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <table id="table" border="1" bordercolor="#CCCCCC" cellpadding="0" cellspacing="0">
+    	<tr>
+        	<th><input type="checkbox" class="indel" value="del" /></th>
+        	<!--<th>编号</th>-->
+			<th>会员名</th>
+			<th>真实姓名</th>
+			<th>性别</th>
+			<th>手机号码</th>
+            <th>身份证号码</th>
+			<th>注册时间</th>
+			<th>部门名称</th>
+			<th>操作</th>
+        </tr>
+        {if condition="$volist.total eq 0"}<tr class="tr"><td class="tc" colspan="11">暂无数据，等待添加～！</td></tr>{/if}
+        <!--顶级数据-->
+        {volist name="volist.data" id="vo"}
+        <tr class="tr {eq name="mod" value="1"}tr2{/eq}">
+        	<td class="tc"><input type="checkbox" class="delid" value="{$vo.member_id}" /></td>
+            <!--<td class="tc">{$vo.member_id}</td>-->
+			<td class="tc">{$vo.member_name}</td>
+			<td class="tc">{$vo.real_name}</td>
+			<td class="tc">{$vo.sex_name}</td>
+			<td class="tc">{$vo.phone}</td>
+			<td class="tc">{$vo.id_number}</td>
+			<td class="tc">{$vo.register_time}</td>
+			<td class="tc">{$vo.department_name}</td>
+            <td class="tc"></a>
+            <a href="{$vo.member_id}" class="edit"><img src="__STATIC__/image/edit.png" border="0" title="修改" /></a>
+	            <a href="{$vo.member_id}" class="del">
+	            <img src="__STATIC__/image/delete.png" border="0" title="删除" />
+	            </a>
+            </td>
+        </tr>
+        {/volist}
+    </table>
+    <div id="page"><a href="javascript:;" class="selbox">全选</a><a href="javascript:;" class="anti">反选</a><a href="javascript:;" class="unselbox">全不选</a>&nbsp;&nbsp;对选中项进行&nbsp;&nbsp;<a href="javascript:;" id="dely">删除</a>&nbsp;&nbsp;&nbsp;&nbsp;	{:$lists->render()}</div>
+</div>
+</body>
+</html>

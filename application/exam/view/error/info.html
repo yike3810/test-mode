@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
+	<!-- https://fonts.google.com/specimen/Open+Sans -->
+	<link rel="stylesheet" href="__STATIC__/css/all.min.css" />
+	<!-- https://fontawesome.com/ -->
+	<link rel="stylesheet" href="__STATIC__/css/bootstrap.min.css" />
+	<!-- https://getbootstrap.com/ -->
+	<link rel="stylesheet" href="__STATIC__/css/tooplate-style.css" />
+
+	<link rel="stylesheet" href="__STATIC__/css/zhaopin_style.css" />
+	<link rel="stylesheet" href="__STATIC__/layui/css/layui.css" />
+
+</head>
+<style>
+	/*body {*/
+	/*	min-width: 576px;*/
+	/*}*/
+
+	.layui-form-label {
+		width: 110px;
+	}
+
+	#tmVideoSection {
+		/*background:*/
+		height: 400px;
+		background: url("__STATIC__/image/5b99f77162302.jpg") #CC3300 center;
+	}
+	#title_gb{
+		line-height: 80px;
+	}
+	@media screen and (min-width: 425px) and (max-width: 590px) {
+		#title_gb{
+			font-size: 2rem;
+			line-height: 60px;
+		}
+		#tmVideoSection {
+			/*background:*/
+			height: 300px;
+			background: url("__STATIC__/image/5b99f77162304.jpg") #CC3300 center;
+		}
+	}
+	@media screen and (min-width: 380px) and (max-width: 425px) {
+		#title_gb{
+			font-size: 2rem;
+			line-height: 60px;
+		}
+		#tmVideoSection {
+			/*background:*/
+			height: 250px;
+			background: url("__STATIC__/image/5b99f77162303.jpg") #CC3300 center;
+		}
+	}
+	@media screen and (min-width: 335px) and (max-width: 380px) {
+		#title_gb{
+			font-size: 1.8rem;
+			line-height: 50px;
+		}
+		#tmVideoSection {
+			/*background:*/
+			height: 230px;
+			background: url("__STATIC__/image/5b99f77162303.jpg") #CC3300 center;
+		}
+	}
+	@media screen and (max-width: 335px) {
+		#title_gb{
+			font-size: 1.5rem;
+			line-height: 40px;
+		}
+		#tmVideoSection {
+			/*background:*/
+			height: 200px;
+			background: url("__STATIC__/image/5b99f77162303.jpg") #CC3300 center;
+		}
+	}
+</style>
+
+<body>
+<script src="__STATIC__/js/jquery-3.4.1.min.js"></script>
+<!-- Single Page Nav plugin works with this version of jQuery -->
+<script src="__STATIC__/js/jquery.singlePageNav.min.js"></script>
+<script src="__STATIC__/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="__STATIC__/js/common.js"></script>
+<script type="text/javascript" src="__STATIC__/layui/layui.all.js"></script>
+<script>
+	var  msg = "发生异常，请重试！";
+	layui.use('layer', function(){
+	var layer = layui.layer;  
+		layer.msg(msg,{time:0});
+	});     
+</script>
+</body>
+
+</html>

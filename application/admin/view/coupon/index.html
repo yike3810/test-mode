@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>树形列表|{:config('system.title')}</title>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/layui/css/layui.css"/>
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/layui/layui.all.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/axios.min.js"></script>
+</head>
+<style>
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        align-items: stretch;
+        height: 100%;
+        width: 100%;
+    }
+
+    #tree {
+        flex: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 30px;
+        height: 100%;
+        width: 220px;
+    }
+
+    #tree h2 {
+        padding: 15px;
+        font-weight: bold;
+    }
+
+    #tree h4 {
+        padding: 5px;
+        font-weight: bold;
+        background-color: #0e8f61;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    #tree h4:hover {
+        background-color: #21a774;
+    }
+
+    #tree .datelist {
+        margin-top: 20px;
+        align-self: stretch;
+        flex: none;
+        height: calc(100% - 140px);
+        overflow-y: auto;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tree .datelist div {
+        padding: 10px 30px;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        transition: all .3s;
+        font-size: 18px;
+    }
+
+    #tree .datelist div:hover {
+        background-color: #dddddd;
+    }
+
+    #tree .datelist::-webkit-scrollbar {
+        /*滚动条整体样式*/
+        width: 3px; /*高宽分别对应横竖滚动条的尺寸*/
+        height: 3px;
+    }
+
+    #tree .datelist::-webkit-scrollbar-thumb {
+        /*滚动条里面小方块*/
+        border-radius: 10px;
+        box-shadow: inset 0 0 5px rgba(29, 29, 29, 0.2);
+        background: #dedede;
+    }
+
+    #tree .datelist::-webkit-scrollbar-track {
+        /*滚动条里面轨道*/
+        box-shadow: inset 0 0 5px rgba(120, 120, 120, 0.2);
+        border-radius: 10px;
+        background: #f6f6f6;
+    }
+
+    #tree .dateactive {
+        color: #1f2a52 !important;
+        background-color: #dddddd !important;
+    }
+
+    #content {
+        border-left: 2px solid #E4E4E4;
+        flex: auto;
+    }
+    #tree .datelist div {
+        font-size: 14px;
+    }
+
+</style>
+<body>
+
+<div id="tree">
+    <h2>发放批次</h2>
+    <div class="datelist">
+        {volist name="dates" id="vo"}
+        <div data-id="{$vo.id}">{$vo.distribution_time} {$vo.coupon_name}</div>
+        {/volist}
+    </div>
+</div>
+<div id="content">
+    <form class="layui-form">
+<!--        <div class="layui-row" style="margin-top:10px;">-->
+<!--            <div class="layui-form-inline layui-col-md1">-->
+<!--                <div class="layui-input-block">-->
+<!--                    <button type="button" class="layui-btn" id="find_news" data-type="reload">检索</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <div class="layui-row" style="margin-top:0px;">
+            <table id="demo" lay-filter="test"></table>
+        </div>
+        <script type="text/html" id="toolbarDemo">
+            <div class="layui-btn-container">
+                <button type="button" class="layui-btn layui-btn-sm" id="add">发放消费券</button>
+            </div>
+        </script>
+    </form>
+</div>
+
+<script>
+    $(function () {
+        layui.use('form', function () {
+            var form = layui.form;
+            form.render();
+        });
+        function renderTable(id) {
+            layui.use(['table','form'], function () {
+                var table = layui.table;
+                var form = layui.form;
+                form.render();
+                var $ = layui.$, active = {
+                    reload: function () {
+                        //执行重载
+                        table.reload('unassigned', {
+                            page: {
+                                curr: 1 //重新从第 1 页开始
+                            }
+                            , where: {
+                                sid_sz: $('#sid_sz').val(),
+                                type: $('#type').val(),
+                            }
+                        }, 'data');
+                    }
+                };
+                $('.getid').on('click', function(){
+                    var id = $(this).data('id');
+                    // console.log(data_id)
+                    //执行重载
+                    // table.reload('news', {
+                    //     page: {
+                    //         curr: 1 //重新从第 1 页开始
+                    //     }
+                    //     ,where: {
+                    //         sid: $(this).data('title'),
+                    //     }
+                    // }, 'data');
+                });
+                $('#find_news').on('click', function () {
+                    var type = $(this).data('type');
+                    active[type] ? active[type].call(this) : '';
+                });
+                function bindTableToolbarFunction() {
+                    var table = layui.table;
+                    var id = id;
+                    $('#add').on('click',function () {
+                        //iframe层-父子操作
+                        layer.open({
+                            // id: "1",
+                            type: 2,
+                            area: ['55%', '65%'],
+                            fixed: false, //不固定
+                            maxmin: true,
+                            content: "{:url('Coupon/addcoupon')}?id="+id,
+                            cancel: function () {
+                                table.reload('unassigned', {});
+                            }
+                        });
+                    });
+                }
+                //第一个实例
+                table.render({
+                    elem: '#demo'
+                    ,toolbar: '#toolbarDemo'
+                    ,defaultToolbar: ['filter']
+                    ,url: "{:url('Coupon/getCouponList')}" //数据接口
+                    , where: {id: id}
+                    ,page: true //开启分页
+                    ,limit:15
+                    ,limits:[15,20,30,40,50,60,70,80,90]
+                    ,id:'unassigned'
+                    ,cols: [[ //表头
+                        {field: 'id', title: 'ID', minWidth:70, width:70, fixed: 'left'}
+                        // ,{field: 'log_id', title: '批次', width:60}
+                        ,{field: 'coupon_code', title: '消费券码', width:140}
+                        ,{field: 'coupon_name', title: '名称', width:110}
+                        ,{field: 'commodity', title: '适用商家', minWidth:130}
+                        ,{field: 'coupon_status', title: '消费券状态', width:100}
+                        ,{field: 'real_name', title: '领取人', width:110}
+                        ,{field: 'receive_started_at', title: '领取开始时间', width:165}
+                        ,{field: 'receive_ended_at', title: '领取结束时间', width:165}
+                        ,{field: 'use_started_at', title: '使用开始时间', width:165}
+                        ,{field: 'use_ended_at', title: '使用开始时间', width:165}
+                        // ,{field: 'operating', title: '操作', minWidth:120,toolbar: '#barDemo'}
+                    ]],
+                    done: function(res, curr, count){
+                        // 绑定表格工具栏按钮的触发事件
+                        bindTableToolbarFunction();
+                    }
+                });
+                table.on('tool(test)', function (obj) { //注：tool 是工具条事件名，test 是 table 原始容器的属性 lay-filter="对应的值"
+                    var data = obj.data; //获得当前行数据
+                    var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+                    var tr = obj.tr; //获得当前行 tr 的 DOM 对象（如果有的话）
+
+                    if (layEvent === 'edit') { //编辑
+                        var url = ("{:url('News/editcaselog')}?id=" + obj.data.id);
+                        layer.open({
+                            type: 2,
+                            title:"修改信息",
+                            area: ['55%', '55%'],
+                            fixed: false, //不固定
+                            maxmin: true,
+                            content: url,
+                            cancel: function(){
+                                table.reload('news', {});
+                            }
+                        });
+                    }else if(layEvent === 'del'){ //删除
+                        layer.confirm('确定要删除该数据吗', function(index){
+                            obj.del(); //删除对应行（tr）的DOM结构，并更新缓存
+                            layer.close(index);
+                            //向服务端发送删除指令
+                            var id	=	obj.data.id;
+                            $.ajax({
+                                url:"{:url('News/del')}",
+                                dataType:'json',
+                                type:'POST',
+                                data:'id='+id,
+                                success: function(data) {
+                                    if (data.s=='ok') {
+                                        layer.open({
+                                            title: '操作信息'
+                                            ,content: '删除成功'
+                                        });
+                                    }else {
+                                        layer.open({
+                                            title: '操作信息'
+                                            ,content: data.s
+                                        });
+                                    }
+                                }
+                            });
+                        });
+                    }
+                });
+
+
+            });
+        }
+
+        $('.datelist div').click(function () {
+            $('.datelist div').removeClass('dateactive')
+            $(this).addClass('dateactive')
+
+            renderTable($(this).attr('data-id'))
+        })
+        $('.datelist').find('div').eq(0).click()
+
+        $('#tree h4').click(function (){
+            $(this).hide();
+            $('#tree h5').show();
+        })
+        layui.use('laydate', function(){
+            var laydate = layui.laydate;
+
+            //执行一个laydate实例
+            laydate.render({
+                elem: '#addDate' //指定元素
+                ,done: function(value, date, endDate){ // 选择完毕的回调
+                    console.log(value, date, endDate)
+                    // …
+                    axios.get("{:url('News/adddate')}?date="+value)
+                        .then(function (res){
+                            layer.open({
+                                title: '提示'
+                                ,content: res.data
+                                ,end:function (){
+                                    location.reload();
+                                }
+                            });
+                        })
+                    $('#tree h5').hide();
+                    $('#tree h4').show();
+                }
+            });
+        });
+
+
+    })
+</script>
+<script type="text/html" id="barDemo">
+<!--    <a class="layui-btn layui-btn-xs" lay-event="edit">修改</a>-->
+<!--    <a class="layui-btn layui-btn-xs" lay-event="del">删除</a>-->
+</script>
+
+</body>
+</html>

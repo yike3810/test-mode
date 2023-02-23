@@ -1,0 +1,227 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:74:"F:\project\pointsmall\public/../application/admin\view\loginlog\index.html";i:1640144822;}*/ ?>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>树形列表|<?php echo config('system.title'); ?></title>
+    <link rel="stylesheet" type="text/css" href="/static/css/content.css"  />
+    <link rel="stylesheet" type="text/css" href="/static/css/public.css"  />
+    <link rel="stylesheet" type="text/css" href="/static/layui/css/layui.css"  />
+    <script type="text/javascript" src="/static/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/static/layui/layui.all.js"></script>
+    <style>
+        .detail_news:hover{
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-row">
+        <div class="layui-col-md12">
+            <form class="layui-form">
+                <div class="layui-row" style="margin-top:20px;" >
+                    <div class="layui-form-inline layui-col-md3">
+                        <label class="layui-form-label">关键词</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="keywords" id="keywords" placeholder="请输入" autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-inline layui-col-md3">
+                        <label class="layui-form-label time-form-label">登录时间</label>
+                        <div class="layui-input-block dform-label">
+                            <input type="text" name="publish_time1" id="publish_time1" placeholder="开始 " autocomplete="off" class="layui-input ">
+                        </div>
+                    </div>
+                    <div class="layui-form-inline layui-col-md3">
+                        <label class="layui-form-label cform-label">到</label>
+                        <div class="layui-input-block dform-label">
+                            <input type="text" name="publish_time2" id="publish_time2" placeholder=" 结束" autocomplete="off" class="layui-input timeinput">
+                        </div>
+                    </div>
+                    <div class="layui-form-inline layui-col-md3">
+                        <div class="layui-input-block">
+                            <button type="button" class="layui-btn" id="find_news" data-type="reload">检索</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <table id="demo" lay-filter="test"></table>
+        </div>
+    </div>
+    <script>
+        layui.use('laydate', function(){
+            var laydate = layui.laydate;
+
+            //时间选择器
+            laydate.render({
+                elem: '#publish_time1'
+                ,type: 'datetime'
+            });
+        });
+        layui.use('laydate', function(){
+            var laydate = layui.laydate;
+
+            //时间选择器
+            laydate.render({
+                elem: '#publish_time2'
+                ,type: 'datetime'
+            });
+        });
+        layui.use('table', function(){
+            var table = layui.table;
+            var $ = layui.$, active = {
+                reload: function(){
+                    //执行重载
+                    table.reload('loginlog', {
+                        page: {
+                            curr: 1 //重新从第 1 页开始
+                        }
+                        ,where: {
+                            keywords: $('#keywords').val(),
+                            publish_time1: $('#publish_time1').val(),
+                            publish_time2: $('#publish_time2').val(),
+                        }
+                    }, 'data');
+                }
+            };
+            $('#find_news').on('click', function(){
+                var type = $(this).data('type');
+                active[type] ? active[type].call(this) : '';
+            });
+
+            //第一个实例
+            table.render({
+                elem: '#demo'
+                ,url: "<?php echo url('Loginlog/getLoginlog_List'); ?>" //数据接口
+                ,page: true //开启分页
+                ,limit:15
+                ,limits:[15,20,30,40,50,60,70,80,90]
+                ,id:'loginlog'
+                ,cols: [[ //表头
+                    {field: 'ID', title: '编号', minWidth:80, width:100,}
+                    ,{field: 'Username', title: '用户名', width:200, }
+                    ,{field: 'User', title: '登录用户', width:300}
+                    ,{field: 'Description', title: '说明', width:380}
+                    ,{field: 'Loginip', title: '登录IP', width:200, }
+                    ,{field: 'Dtime', title: '登录时间', width:250, }
+                    ,{field: 'operating1', title: '操作', minWidth:150,toolbar: '#barDemo'}
+                ]]
+            });
+            table.on('tool(test)', function(obj){ //注：tool 是工具条事件名，test 是 table 原始容器的属性 lay-filter="对应的值"
+                var data = obj.data; //获得当前行数据
+                var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+                var tr = obj.tr; //获得当前行 tr 的 DOM 对象（如果有的话）
+
+                if(layEvent === 'detail'){ //查看
+                    console.log(obj.data);
+                    if(obj.data.type==1){
+                        var url = "<?php echo url('News/detail'); ?>?id="+obj.data.news_id;
+                    }else if(obj.data.type==2){
+                        var url = "<?php echo url('News/detailimage'); ?>?id="+obj.data.news_id;
+                    }else if(obj.data.type==3){
+                        var url = "<?php echo url('News/detailvideo'); ?>?id="+obj.data.news_id;
+                    }else if(obj.data.type==4) {
+                        var url = "<?php echo url('News/detailurl'); ?>?id="+obj.data.news_id;
+                    }
+                    layer.open({
+                        type: 2,
+                        title:'新闻线索',
+                        area: ['80%', '90%'],
+                        fixed: false, //不固定
+                        maxmin: true,
+                        content: url,
+                        cancel: function(){
+                            table.reload('news', {});
+                        }
+                    });
+                } else if(layEvent === 'tijiao'){
+                    layer.confirm('确定要提交该稿件吗？', function(index) {
+                        var id = obj.data.id;
+                    });
+                }else if(layEvent === 'cancle'){
+                    layer.confirm('确定要取消重点线索吗？', function(index){
+                        var news_id	=	obj.data.news_id;
+                        $.ajax({
+                            url:"<?php echo url('News/cancle'); ?>",
+                            dataType:'json',
+                            type:'POST',
+                            data:'news_id='+news_id,
+                            success: function(data) {
+                                if (data.s=='ok') {
+                                    layer.open({
+                                        title: '操作信息'
+                                        ,content: '取消重点线索成功'
+                                    });
+                                    table.reload('news', {});
+                                }else {
+                                    layer.open({
+                                        title: '操作信息'
+                                        ,content: '取消重点线索失败'
+                                    });
+                                }
+                            }
+                        });
+                    });
+                }else if (layEvent === 'del') {
+                    layer.confirm('确定要删除该数据吗？', function (index) {
+                        var ID = obj.data.ID;
+                        $.ajax({
+                            url: "<?php echo url('Loginlog/del'); ?>",
+                            dataType: 'json',
+                            type: 'POST',
+                            data: 'ID=' + ID,
+                            success: function (data) {
+                                console.log(data)
+                                if (data.s == 'ok') {
+                                    layer.open({
+                                        title: '操作信息'
+                                        , content: '删除成功'
+                                    });
+                                    table.reload('loginlog', {});
+                                } else {
+                                    layer.open({
+                                        title: '操作信息'
+                                        , content: data.s
+                                    });
+                                }
+                            }
+                        });
+                    });
+                }
+
+            });
+        });
+        function ToUrl(x)
+        {
+            if(x==1){
+                var url = "<?php echo url('News/add'); ?>";
+            }else if(x==2){
+                var url = "<?php echo url('News/addimage'); ?>";
+            }else if(x==3){
+                var url = "<?php echo url('News/addvideo'); ?>";
+            }else if(x==4){
+                var url = "<?php echo url('News/addurl'); ?>";
+            }
+            location.href=url;
+            return false;
+        }
+    </script>
+    <script type="text/html" id="barDemo_t">
+        <a class="detail_news" lay-event="detail">{{d.title}}</a>
+    </script>
+    <script type="text/html" id="barDemo">
+        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+    </script>
+    <script type="text/html" id="imageTpl">
+        {{#  if(d.image !='' ){ }}
+        <img style="width:56px;height:31px;" src="/uploads/news/{{ d.image }}" />
+        {{# } else{ }}
+
+        {{#  } }}
+    </script>
+</div>
+</body>
+</html>

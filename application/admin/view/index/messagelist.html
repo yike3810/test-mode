@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>消息中心|{:config('system.title')}</title>
+    <link rel="stylesheet" type="text/css" href="__CSS__/content.css"  />
+    <link rel="stylesheet" type="text/css" href="__CSS__/public.css"  />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/layui/css/layui.css"  />
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__STATIC__/layui/layui.all.js"></script>
+</head>
+<body>
+<div class="layui-fluid">
+    <div class="layui-col-md12" style="margin-top:20px;">
+    </div>
+    <div class="layui-row">
+        <div style="">
+            <script type="text/html" id="toolbarDemo">
+            </script>
+            <table id="demo" lay-filter="test"></table>
+        </div>
+    </div>
+    <script>
+        layui.use('table', function(){
+            var table = layui.table;
+
+            //第一个实例
+            table.render({
+                elem: '#demo'
+                ,toolbar: '#toolbarDemo'
+                ,defaultToolbar: ['filter']
+                ,url: "{:url('Index/GetmessageList')}" //数据接口
+                ,page: true //开启分页
+                ,limit:15
+                ,limits:[15,20,30,40,50,60,70,80,90]
+                ,id:'news'
+                ,cols: [[ //表头
+                    {field: 'message_id', title: 'ID', minWidth:25,fixed: 'left'}
+                    ,{field: 'type_name', title: '分类名称', minWidth:130}
+                    ,{field: 'message_type', title: '消息类型', minWidth:130}
+                    ,{field: 'message_title', title: '消息标题', minWidth:250}
+                    ,{field: 'message_content', title: '消息内容', minWidth:450}
+                    ,{field: 'department_name', title: '接收部门', minWidth:250}
+                    ,{field: 'send_time', title: '发送时间', minWidth:250}
+                    ,{field: 'is_read', title: '是否已读', minWidth:150}
+                ]],
+                done: function(res, curr, count){
+                    // 绑定表格工具栏按钮的触发事件
+                    // bindTableToolbarFunction();
+                }
+            });
+            // table.on('tool(test)', function(obj){ //注：tool 是工具条事件名，test 是 table 原始容器的属性 lay-filter="对应的值"
+            //     var data = obj.data; //获得当前行数据
+            //     var layEvent = obj.event; //获得 lay-event 对应的值（也可以是表头的 event 参数对应的值）
+            //     var tr = obj.tr; //获得当前行 tr 的 DOM 对象（如果有的话）
+            // });
+        });
+
+        // function bindTableToolbarFunction() {
+        //     var table = layui.table;
+        //     $('#add').on("click",function() {
+        //         //iframe层-父子操作
+        //         layer.open({
+        //             type: 2,
+        //             area: ['90%', '90%'],
+        //             fixed: false, //不固定
+        //             maxmin: true,
+        //             content: "{:url('News/add')}?sid=",
+        //             cancel: function(){
+        //                 table.reload('news', {});
+        //             }
+        //         });
+        //     });
+        //     $('#add_image').on("click",function() {
+        //         //iframe层-父子操作
+        //         layer.open({
+        //             type: 2,
+        //             area: ['90%', '90%'],
+        //             fixed: false, //不固定
+        //             maxmin: true,
+        //             content: "{:url('News/addimage')}?sid=",
+        //             cancel: function(){
+        //                 table.reload('news', {});
+        //             }
+        //         });
+        //     });
+        //     $('#add_video').on("click",function() {
+        //         //iframe层-父子操作
+        //         layer.open({
+        //             type: 2,
+        //             area: ['90%', '90%'],
+        //             fixed: false, //不固定
+        //             maxmin: true,
+        //             content: "{:url('News/addvideo')}?sid=",
+        //             cancel: function(){
+        //                 table.reload('news', {});
+        //             }
+        //         });
+        //     });
+        // }
+    </script>
+    <script type="text/html" id="imageTpl">
+        {{#  if(d.image !='' ){ }}
+        <img style="width:56px;height:31px;" src="__ROOT__/uploads/news/{{ d.image }}" />
+        {{# } else{ }}
+
+        {{#  } }}
+    </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+---------------------------------------------------------------
+[ 2022-07-16T12:17:25+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/order/getpendinglist.html?page=1&limit=15
+[运行时间：1.088396s] [吞吐率：0.92req/s] [内存消耗：3,794.50kb] [文件加载：103]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'getpendinglist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Idea-fe1231b2=d7211e51-7df7-4b16-be35-6e2db2213af4; PHPSESSID=s1ov740sbd5p47t5dasucu1rpi',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/order/pending.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Order->getpendinglist[ F:\project\pointsmall\application\admin\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015334s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.006079s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002787s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.004254s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001547s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1657945045'  WHERE  (  Uid = 1 ) [ RunTime:0.001682s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1657944925' [ RunTime:0.001444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order` [ RunTime:0.004708s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_order` WHERE  `order_status` = 0 LIMIT 1 [ RunTime:0.001638s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_order` WHERE  `order_status` = 0 ORDER BY `order_id` ASC LIMIT 0,15 [ RunTime:0.001782s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_order_goods` [ RunTime:0.003993s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.002141s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '35' ) LIMIT 1 [ RunTime:0.001373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_member` [ RunTime:0.003247s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_region` [ RunTime:0.003004s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001421s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '36' ) LIMIT 1 [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001353s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '37' ) LIMIT 1 [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '38' ) LIMIT 1 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001657s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001717s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '112' ) LIMIT 1 [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001423s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001531s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001372s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '113' ) LIMIT 1 [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001527s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '114' ) LIMIT 1 [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001512s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '115' ) LIMIT 1 [ RunTime:0.001678s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '116' ) LIMIT 1 [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '116' ) LIMIT 1 [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001284s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '117' ) LIMIT 1 [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '117' ) LIMIT 1 [ RunTime:0.001352s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '118' ) LIMIT 1 [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '118' ) LIMIT 1 [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001249s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '119' ) LIMIT 1 [ RunTime:0.001411s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '119' ) LIMIT 1 [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001324s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '120' ) LIMIT 1 [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '120' ) LIMIT 1 [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '121' ) LIMIT 1 [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '121' ) LIMIT 1 [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT `goods_name` FROM `jsl_order_goods` WHERE  (  order_id = '122' ) LIMIT 1 [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT `goods_num` FROM `jsl_order_goods` WHERE  (  order_id = '122' ) LIMIT 1 [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT `phone` FROM `jsl_member` WHERE  `member_id` = 395 LIMIT 1 [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='28' AND region_type='1' ) LIMIT 1 [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='448' AND region_type='2' ) LIMIT 1 [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT `region_name` FROM `jsl_region` WHERE  (  region_id='4774' AND region_type='3' ) LIMIT 1 [ RunTime:0.001261s ]

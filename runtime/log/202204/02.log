@@ -1,0 +1,120 @@
+---------------------------------------------------------------
+[ 2022-04-02T10:44:22+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/user/useradd.html?ID=
+[运行时间：0.838056s] [吞吐率：1.19req/s] [内存消耗：3,505.09kb] [文件加载：101]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'useradd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/user/index.html',
+  'sec-fetch-dest' => 'iframe',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'ID' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->useradd[ F:\project\pointsmall\application\admin\controller\User.php ]
+[ info ] [ VIEW ] F:\project\pointsmall\public/../application/admin\view\user\add.html [ array (
+  0 => 'volist',
+  1 => 'user_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021834s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.004357s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002695s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.012604s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648867462'  WHERE  (  Uid = 1 ) [ RunTime:0.002807s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648867342' [ RunTime:0.001703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_role` [ RunTime:0.002583s ]
+[ sql ] [ SQL ] SELECT `ID`,`Rolename`,`Status` FROM `jsl_role` WHERE  (  Status=0 ) [ RunTime:0.001684s ]
+[ sql ] [ SQL ] SELECT `ID`,`Username`,`Status` FROM `jsl_user` WHERE  (  Status=0 ) [ RunTime:0.001736s ]
+---------------------------------------------------------------
+[ 2022-04-02T10:44:27+08:00 ] 0.0.0.0 GET localhost:5601/index.php/admin/user/getuser_list.html?page=1&limit=15
+[运行时间：0.117658s] [吞吐率：8.50req/s] [内存消耗：3,413.76kb] [文件加载：100]
+[ info ] [ LANG ] F:\project\pointsmall\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'getuser_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Phpstorm-221d8a55=3070f4be-a28e-4f38-8ced-98b71dc79863; PHPSESSID=3mf64ull9lsobhghr8qf3ev8tu',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:5601/index.php/admin/user/index.html',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '" Not A;Brand";v="99", "Chromium";v="99", "Google Chrome";v="99"',
+  'connection' => 'close',
+  'host' => 'localhost:5601',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 18000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\User->getUser_list[ F:\project\pointsmall\application\admin\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027085s ] mysql:host=172.16.2.244;port=3306;dbname=points-mall-test;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_user` [ RunTime:0.003508s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` WHERE  (  ID = 1 ) LIMIT 1 [ RunTime:0.002274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_statis` [ RunTime:0.002459s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_statis` WHERE  (  Uid = 1 ) LIMIT 1 [ RunTime:0.001395s ]
+[ sql ] [ SQL ] UPDATE `jsl_statis`  SET `Dtime`='1648867467'  WHERE  (  Uid = 1 ) [ RunTime:0.012201s ]
+[ sql ] [ SQL ] DELETE FROM `jsl_statis`    WHERE  `Dtime` < '1648867347' [ RunTime:0.001667s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `jsl_user` LIMIT 1 [ RunTime:0.002086s ]
+[ sql ] [ SQL ] SELECT * FROM `jsl_user` LIMIT 0,15 [ RunTime:0.001796s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jsl_role` [ RunTime:0.002494s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='1' ) LIMIT 1 [ RunTime:0.002048s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='1' ) LIMIT 1 [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='1' ) LIMIT 1 [ RunTime:0.001273s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='17' ) LIMIT 1 [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='17' ) LIMIT 1 [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='17' ) LIMIT 1 [ RunTime:0.001174s ]
+[ sql ] [ SQL ] SELECT `Rolename` FROM `jsl_role` WHERE  (  ID='17' ) LIMIT 1 [ RunTime:0.001325s ]

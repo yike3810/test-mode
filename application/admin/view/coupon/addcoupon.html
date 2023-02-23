@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>发放消费券</title>
+    <link rel="stylesheet" type="text/css" href="__CSS__/content.css"/>
+    <link rel="stylesheet" type="text/css" href="__CSS__/public.css"/>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/layui/css/layui.css"/>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/layui-v2.6.8/css/layui.css"/>
+    <script type="text/javascript" src="__JS__/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="__JS__/Public.js"></script>
+    <script type="text/javascript" src="__JS__/winpop.js"></script>
+    <script type="text/javascript" src="__JS__/check.js"></script>
+    <script type="text/javascript" src="__STATIC__/layui-v2.6.8/layui.js"></script>
+    <script type="text/javascript" src="__STATIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="__STATIC__/ueditor/ueditor.all.js"></script>
+    <script src="__STATIC__/js/xm-select.js" type="text/javascript" charset="utf-8"></script>
+
+
+</head>
+<style>
+    .layui-table img {
+        max-width: 100%;
+    }
+
+    .layui-table td, .layui-table th {
+        text-align: center;
+    }
+    .layui-form-selected dl {
+        display: block;
+        z-index: 9999;
+    }
+    .hidden{
+        display: none
+    }
+    .layui-form-label {
+        width: 140px;
+        margin-bottom: -80px;
+    }
+    .layui-form-label  {
+        width: 140px;
+        margin-bottom: -80px;
+    }
+
+    .layui-input-block {
+        margin-left: 160px;
+        width: 60%;
+        min-height: 36px
+    }
+
+    .layui-input-inline {
+        margin-left: 160px;
+        min-height: 36px
+    }
+
+    .required {
+        color: red;
+        padding-right: 5px;
+    }
+</style>
+
+<body>
+<div class="layui-row" style="margin-top:25px;">
+    <form class="layui-form layui-col-md10" id="activity" enctype="multipart/form-data">
+        <div class="layui-form-item">
+            <label class="layui-form-label"><i class="required">*</i>消费券名称：</label>
+            <div class="layui-input-block">
+                <input type="text" name="coupon_name" required lay-verify="required" value=""
+                       autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label"><i class="required">*</i>发放规则：</label>
+            <div class="layui-input-block">
+                <label class="layui-form-label" style="padding-left:0px;width:20px">满</label>
+                <input  style="width:100px;margin-left:30px"
+                        type="num" name="threshold" required lay-verify="required" value="" autocomplete="off" class="layui-input">
+                <label class="layui-form-label" style="padding-left:0px;width:20px">减</label>
+                <input  style="width:100px;margin-left:30px"
+                        type="num" name="amount" required lay-verify="required" value="" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label"><i class="required">*</i>发放数量：</label>
+            <div class="layui-input-block">
+                <input type="text" name="coupon_num" required lay-verify="required" value=""
+                       autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form" >
+            <div class="layui-form-item">
+                <label class="layui-form-label"><i class="required">*</i>适用商家：</label>
+                <div class="layui-input-block">
+                    <div id="div-task_team"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label"><i class="required">*</i>领取开始时间：</label>
+            <div class=" layui-input-inline">
+                <input type="text" name="receive_started_at" id="receive_started_at" placeholder="领取开始时间" autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label"><i class="required">*</i>领取结束时间：</label>
+            <div class=" layui-input-inline">
+                <input type="text" name="receive_ended_at" id="receive_ended_at" placeholder="领取结束时间" autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label"><i class="required">*</i>使用开始时间：</label>
+            <div class=" layui-input-inline">
+                <input type="text" name="use_started_at" id="use_started_at" placeholder="使用开始时间" autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label"><i class="required">*</i>使用结束时间：</label>
+            <div class=" layui-input-inline">
+                <input type="text" name="use_ended_at" id="use_ended_at" placeholder="使用结束时间" autocomplete="off"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn sub" lay-submit lay-filter="sub" id="sub" style="margin-left: 20px">发放</button>
+                <input type="hidden" id="task_team_sel" name="task_team_sel" value="">
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    layui.use(['form', 'upload', 'element', 'laydate'], function () {
+        var form = layui.form , laydate = layui.laydate;
+
+        laydate.render({
+            elem: '#receive_started_at'
+            ,type: 'datetime'
+        });
+        laydate.render({
+            elem: '#receive_ended_at'
+            ,type: 'datetime'
+        });
+        laydate.render({
+            elem: '#use_started_at'
+            ,type: 'datetime'
+        });
+        laydate.render({
+            elem: '#use_ended_at'
+            ,type: 'datetime'
+        });
+
+        var task_team_arr;
+        var id = "";
+        //ajax 请求 json数据，动态赋值到下拉多选框
+        $.ajax({
+            type: 'get',
+            url: "{:url('Coupon/getItemData')}" ,
+            data: {'id': id},
+            dataType: 'json',
+            async: false,
+            success: function (e) {
+                task_team_arr = xmSelect.render({
+                    el: '#div-task_team',
+                    data: e.data
+                });
+            }
+        });
+
+        function save_task() {
+            //拼接存储 已选择的选项
+            var str_task_team = task_team_arr.getValue('value').join(',');
+            $("#task_team_sel").val(str_task_team);
+        }
+        //监听提交
+        form.on('submit(sub)', function (data) {
+            // $("#image_info2").val(array);
+            var str_task_team = task_team_arr.getValue('value').join(',');
+            $("#task_team_sel").val(str_task_team);
+            $.ajax({
+                url: "{:url('addcoupon_do')}",
+                dataType: 'json',
+                type: 'POST',
+                data: data.field,
+                success: function (data) {
+                    if (data.s == 'ok') {
+                        layer.msg("发放成功", {}, function () {
+                            var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引
+                            parent.location.reload();
+                            parent.layer.close(index); //再执行关闭
+                        });
+                    }
+                }
+
+            });
+            return false;
+        });
+
+    });
+</script>
+</body>
+</html>
